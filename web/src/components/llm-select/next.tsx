@@ -3,7 +3,6 @@ import { useComposeLlmOptionsByModelTypes } from '@/hooks/llm-hooks';
 import * as SelectPrimitive from '@radix-ui/react-select';
 import { forwardRef, memo, useState } from 'react';
 import { LlmSettingFieldItems } from '../llm-setting-items/next';
-import { SelectWithSearch } from '../originui/select-with-search';
 import { Popover, PopoverContent, PopoverTrigger } from '../ui/popover';
 import { Select, SelectTrigger, SelectValue } from '../ui/select';
 
@@ -13,25 +12,19 @@ interface IProps {
   onInitialValue?: (value: string, option: any) => void;
   onChange?: (value: string) => void;
   disabled?: boolean;
+  filter?: string;
 }
 
 const NextInnerLLMSelect = forwardRef<
   React.ElementRef<typeof SelectPrimitive.Trigger>,
   IProps
->(({ value, disabled, onChange }, ref) => {
+>(({ value, disabled, filter }, ref) => {
   const [isPopoverOpen, setIsPopoverOpen] = useState(false);
-  const modelOptions = useComposeLlmOptionsByModelTypes([
-    LlmModelType.Chat,
-    LlmModelType.Image2text,
-  ]);
-
-  return (
-    <SelectWithSearch
-      options={modelOptions}
-      value={value}
-      onChange={onChange}
-    ></SelectWithSearch>
-  );
+  const modelTypes =
+    filter === 'all' || filter === undefined
+      ? [LlmModelType.Chat, LlmModelType.Image2text]
+      : [filter as LlmModelType];
+  const modelOptions = useComposeLlmOptionsByModelTypes(modelTypes);
 
   return (
     <Select disabled={disabled} value={value}>
@@ -54,7 +47,7 @@ const NextInnerLLMSelect = forwardRef<
           </SelectTrigger>
         </PopoverTrigger>
         <PopoverContent side={'left'}>
-          <LlmSettingFieldItems></LlmSettingFieldItems>
+          <LlmSettingFieldItems options={modelOptions}></LlmSettingFieldItems>
         </PopoverContent>
       </Popover>
     </Select>

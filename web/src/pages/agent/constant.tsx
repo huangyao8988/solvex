@@ -265,6 +265,8 @@ export const initialRetrievalValues = {
   empty_response: '',
   ...initialSimilarityThresholdValue,
   ...initialKeywordsSimilarityWeightValue,
+  use_kg: false,
+  cross_languages: [],
   outputs: {
     formalized_content: {
       type: 'string',
@@ -319,7 +321,12 @@ export const initialCategorizeValues = {
   query: AgentGlobals.SysQuery,
   parameter: ModelVariableType.Precise,
   message_history_window_size: 1,
-  category_description: {},
+  items: [],
+  outputs: {
+    category_name: {
+      type: 'string',
+    },
+  },
 };
 
 export const initialMessageValues = {
@@ -334,7 +341,17 @@ export const initialKeywordExtractValues = {
 export const initialDuckValues = {
   top_n: 10,
   channel: Channel.Text,
-  ...initialQueryBaseValues,
+  query: AgentGlobals.SysQuery,
+  outputs: {
+    formalized_content: {
+      value: '',
+      type: 'string',
+    },
+    json: {
+      value: [],
+      type: 'Array<Object>',
+    },
+  },
 };
 
 export const initialBaiduValues = {
@@ -345,27 +362,56 @@ export const initialBaiduValues = {
 export const initialWikipediaValues = {
   top_n: 10,
   language: 'en',
-  ...initialQueryBaseValues,
+  query: AgentGlobals.SysQuery,
+  outputs: {
+    formalized_content: {
+      value: '',
+      type: 'string',
+    },
+  },
 };
 
 export const initialPubMedValues = {
-  top_n: 10,
+  top_n: 12,
   email: '',
-  ...initialQueryBaseValues,
+  query: AgentGlobals.SysQuery,
+  outputs: {
+    formalized_content: {
+      value: '',
+      type: 'string',
+    },
+  },
 };
 
 export const initialArXivValues = {
-  top_n: 10,
+  top_n: 12,
   sort_by: 'relevance',
-  ...initialQueryBaseValues,
+  query: AgentGlobals.SysQuery,
+  outputs: {
+    formalized_content: {
+      value: '',
+      type: 'string',
+    },
+  },
 };
 
 export const initialGoogleValues = {
-  top_n: 10,
-  api_key: 'YOUR_API_KEY (obtained from https://serpapi.com/manage-api-key)',
-  country: 'cn',
+  q: AgentGlobals.SysQuery,
+  start: 0,
+  num: 12,
+  api_key: '',
+  country: 'us',
   language: 'en',
-  ...initialQueryBaseValues,
+  outputs: {
+    formalized_content: {
+      value: '',
+      type: 'string',
+    },
+    json: {
+      value: [],
+      type: 'Array<Object>',
+    },
+  },
 };
 
 export const initialBingValues = {
@@ -379,10 +425,22 @@ export const initialBingValues = {
 };
 
 export const initialGoogleScholarValues = {
-  top_n: 5,
+  top_n: 12,
   sort_by: 'relevance',
   patents: true,
-  ...initialQueryBaseValues,
+  query: AgentGlobals.SysQuery,
+  year_low: undefined,
+  year_high: undefined,
+  outputs: {
+    formalized_content: {
+      value: '',
+      type: 'string',
+    },
+    json: {
+      value: [],
+      type: 'Array<Object>',
+    },
+  },
 };
 
 export const initialDeepLValues = {
@@ -392,7 +450,17 @@ export const initialDeepLValues = {
 
 export const initialGithubValues = {
   top_n: 5,
-  ...initialQueryBaseValues,
+  query: AgentGlobals.SysQuery,
+  outputs: {
+    formalized_content: {
+      value: '',
+      type: 'string',
+    },
+    json: {
+      value: [],
+      type: 'Array<Object>',
+    },
+  },
 };
 
 export const initialBaiduFanyiValues = {
@@ -439,19 +507,31 @@ export const initialSwitchValues = {
 export const initialWenCaiValues = {
   top_n: 20,
   query_type: 'stock',
-  ...initialQueryBaseValues,
+  query: AgentGlobals.SysQuery,
+  outputs: {
+    report: {
+      value: '',
+      type: 'string',
+    },
+  },
 };
 
 export const initialAkShareValues = { top_n: 10, ...initialQueryBaseValues };
 
 export const initialYahooFinanceValues = {
+  stock_code: '',
   info: true,
   history: false,
   financials: false,
   balance_sheet: false,
   cash_flow_statement: false,
   news: true,
-  ...initialQueryBaseValues,
+  outputs: {
+    report: {
+      value: '',
+      type: 'string',
+    },
+  },
 };
 
 export const initialJin10Values = {
@@ -482,7 +562,7 @@ export const initialCrawlerValues = {
 };
 
 export const initialInvokeValues = {
-  url: 'http://',
+  url: '',
   method: 'GET',
   timeout: 60,
   headers: `{
@@ -490,8 +570,15 @@ export const initialInvokeValues = {
   "Cache-Control": "no-cache",
   "Connection": "keep-alive"
 }`,
-  proxy: 'http://',
+  proxy: '',
   clean_html: false,
+  variables: [],
+  outputs: {
+    result: {
+      value: '',
+      type: 'string',
+    },
+  },
 };
 
 export const initialTemplateValues = {
@@ -501,7 +588,7 @@ export const initialTemplateValues = {
 
 export const initialEmailValues = {
   smtp_server: '',
-  smtp_port: 587,
+  smtp_port: 465,
   email: '',
   password: '',
   sender_name: '',
@@ -509,6 +596,12 @@ export const initialEmailValues = {
   cc_email: '',
   subject: '',
   content: '',
+  outputs: {
+    success: {
+      value: true,
+      type: 'boolean',
+    },
+  },
 };
 
 export const initialIterationValues = {
@@ -551,19 +644,20 @@ export const initialAgentValues = {
   max_rounds: 5,
   exception_method: null,
   exception_comment: '',
-  exception_goto: '',
+  exception_goto: [],
+  exception_default_value: '',
   tools: [],
   mcp: [],
   outputs: {
-    structured_output: {
-      // topic: {
-      //   type: 'string',
-      //   description:
-      //     'default:general. The category of the search.news is useful for retrieving real-time updates, particularly about politics, sports, and major current events covered by mainstream media sources. general is for broader, more general-purpose searches that may include a wide range of sources.',
-      //   enum: ['general', 'news'],
-      //   default: 'general',
-      // },
-    },
+    // structured_output: {
+    //   topic: {
+    //     type: 'string',
+    //     description:
+    //       'default:general. The category of the search.news is useful for retrieving real-time updates, particularly about politics, sports, and major current events covered by mainstream media sources. general is for broader, more general-purpose searches that may include a wide range of sources.',
+    //     enum: ['general', 'news'],
+    //     default: 'general',
+    //   },
+    // },
     content: {
       type: 'string',
       value: '',
@@ -575,6 +669,7 @@ export const initialUserFillUpValues = {
   enable_tips: true,
   tips: '',
   inputs: [],
+  outputs: {},
 };
 
 export enum StringTransformMethod {
@@ -752,6 +847,7 @@ export const RestrictedUpstreamMap = {
   [Operator.TavilyExtract]: [Operator.Begin],
   [Operator.StringTransform]: [Operator.Begin],
   [Operator.UserFillUp]: [Operator.Begin],
+  [Operator.Tool]: [Operator.Begin],
 };
 
 export const NodeMap = {
@@ -786,9 +882,9 @@ export const NodeMap = {
   [Operator.TuShare]: 'ragNode',
   [Operator.Note]: 'noteNode',
   [Operator.Crawler]: 'ragNode',
-  [Operator.Invoke]: 'invokeNode',
+  [Operator.Invoke]: 'ragNode',
   [Operator.Template]: 'templateNode',
-  [Operator.Email]: 'emailNode',
+  [Operator.Email]: 'ragNode',
   [Operator.Iteration]: 'group',
   [Operator.IterationStart]: 'iterationStartNode',
   [Operator.Code]: 'ragNode',
@@ -828,6 +924,7 @@ export const NoDebugOperatorsList = [
   Operator.RewriteQuestion,
   Operator.Switch,
   Operator.Iteration,
+  Operator.UserFillUp,
 ];
 
 export enum NodeHandleId {
@@ -836,6 +933,7 @@ export enum NodeHandleId {
   Tool = 'tool',
   AgentTop = 'agentTop',
   AgentBottom = 'agentBottom',
+  AgentException = 'agentException',
 }
 
 export enum VariableType {

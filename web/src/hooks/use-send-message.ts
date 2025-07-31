@@ -20,6 +20,7 @@ export enum MessageEventType {
 export interface IAnswerEvent<T> {
   event: MessageEventType;
   message_id: string;
+  session_id: string;
   created_at: number;
   task_id: string;
   data: T;
@@ -29,6 +30,8 @@ export interface INodeData {
   inputs: Record<string, any>;
   outputs: Record<string, any>;
   component_id: string;
+  component_name: string;
+  component_type: string;
   error: null | string;
   elapsed_time: number;
   created_at: number;
