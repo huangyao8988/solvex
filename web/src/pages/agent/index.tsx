@@ -18,7 +18,6 @@ import {
 import { SharedFrom } from '@/constants/chat';
 import { useSetModalState } from '@/hooks/common-hooks';
 import { useNavigatePage } from '@/hooks/logic-hooks/navigate-hooks';
-import { useFetchUserInfo } from '@/hooks/user-setting-hooks';
 import { ReactFlowProvider } from '@xyflow/react';
 import {
   ChevronDown,
@@ -37,16 +36,15 @@ import AgentCanvas from './canvas';
 import EmbedDialog from './embed-dialog';
 import { useHandleExportOrImportJsonFile } from './hooks/use-export-json';
 import { useFetchDataOnMount } from './hooks/use-fetch-data';
-import {
-  useGetBeginNodeDataInputs,
-  useGetBeginNodeDataQueryIsSafe,
-} from './hooks/use-get-begin-query';
+import { useGetBeginNodeDataInputs } from './hooks/use-get-begin-query';
 import {
   useSaveGraph,
   useSaveGraphBeforeOpeningDebugDrawer,
+  useWatchAgentChange,
 } from './hooks/use-save-graph';
 import { useShowEmbedModal } from './hooks/use-show-dialog';
 import { UploadAgentDialog } from './upload-agent-dialog';
+import { useAgentHistoryManager } from './use-agent-history-manager';
 import { VersionDialog } from './version-dialog';
 
 function AgentDropdownMenuItem({
@@ -69,9 +67,7 @@ export default function Agent() {
     showModal: showChatDrawer,
   } = useSetModalState();
   const { t } = useTranslation();
-  const { data: userInfo } = useFetchUserInfo();
-
-  // const openDocument = useOpenDocument();
+  useAgentHistoryManager();
   const {
     handleExportJson,
     handleImportJson,
@@ -99,24 +95,29 @@ export default function Agent() {
   const { showEmbedModal, hideEmbedModal, embedVisible, beta } =
     useShowEmbedModal();
   const { navigateToAgentLogs } = useNavigatePage();
-  const isBeginNodeDataQuerySafe = useGetBeginNodeDataQueryIsSafe();
+  const time = useWatchAgentChange(chatDrawerVisible);
 
   return (
     <section className="h-full">
       <PageHeader>
-        <Breadcrumb>
-          <BreadcrumbList>
-            <BreadcrumbItem>
-              <BreadcrumbLink onClick={navigateToAgentList}>
-                Agent
-              </BreadcrumbLink>
-            </BreadcrumbItem>
-            <BreadcrumbSeparator />
-            <BreadcrumbItem>
-              <BreadcrumbPage>{agentDetail.title}</BreadcrumbPage>
-            </BreadcrumbItem>
-          </BreadcrumbList>
-        </Breadcrumb>
+        <section>
+          <Breadcrumb>
+            <BreadcrumbList>
+              <BreadcrumbItem>
+                <BreadcrumbLink onClick={navigateToAgentList}>
+                  Agent
+                </BreadcrumbLink>
+              </BreadcrumbItem>
+              <BreadcrumbSeparator />
+              <BreadcrumbItem>
+                <BreadcrumbPage>{agentDetail.title}</BreadcrumbPage>
+              </BreadcrumbItem>
+            </BreadcrumbList>
+          </Breadcrumb>
+          <div className="text-xs text-text-sub-title translate-y-3">
+            {t('flow.autosaved')} {time}
+          </div>
+        </section>
         <div className="flex items-center gap-5">
           <ButtonLoading
             variant={'secondary'}
@@ -165,13 +166,7 @@ export default function Agent() {
               {location.hostname !== 'demo.ragflow.io' && (
                 <>
                   <DropdownMenuSeparator />
-                  <AgentDropdownMenuItem
-                    onClick={showEmbedModal}
-                    disabled={
-                      !isBeginNodeDataQuerySafe ||
-                      userInfo.nickname !== agentDetail.nickname
-                    }
-                  >
+                  <AgentDropdownMenuItem onClick={showEmbedModal}>
                     <ScreenShare />
                     {t('common.embedIntoSite')}
                   </AgentDropdownMenuItem>

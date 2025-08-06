@@ -10,6 +10,7 @@ import { DSL, IFlow, IFlowTemplate } from '@/interfaces/database/flow';
 import { IDebugSingleRequestBody } from '@/interfaces/request/agent';
 import i18n from '@/locales/config';
 import { BeginId } from '@/pages/agent/constant';
+import { IInputs } from '@/pages/agent/interface';
 import { useGetSharedChatSearchParams } from '@/pages/chat/shared-hooks';
 import agentService, {
   fetchAgentLogsByCanvasId,
@@ -46,6 +47,7 @@ export const enum AgentApiAction {
   FetchVersionList = 'fetchVersionList',
   FetchVersion = 'fetchVersion',
   FetchAgentAvatar = 'fetchAgentAvatar',
+  FetchExternalAgentInputs = 'fetchExternalAgentInputs',
 }
 
 export const EmptyDsl = {
@@ -264,7 +266,7 @@ export const useResetAgent = () => {
   return { data, loading, resetAgent: mutateAsync };
 };
 
-export const useSetAgent = () => {
+export const useSetAgent = (showMessage: boolean = true) => {
   const queryClient = useQueryClient();
   const {
     data,
@@ -280,9 +282,11 @@ export const useSetAgent = () => {
     }) => {
       const { data = {} } = await agentService.setCanvas(params);
       if (data.code === 0) {
-        message.success(
-          i18n.t(`message.${params?.id ? 'modified' : 'created'}`),
-        );
+        if (showMessage) {
+          message.success(
+            i18n.t(`message.${params?.id ? 'modified' : 'created'}`),
+          );
+        }
         queryClient.invalidateQueries({
           queryKey: [AgentApiAction.FetchAgentList],
         });
@@ -583,4 +587,29 @@ export const useFetchAgentLog = (searchParams: IAgentLogsRequest) => {
   });
 
   return { data, loading };
+};
+
+export const useFetchExternalAgentInputs = () => {
+  const { sharedId } = useGetSharedChatSearchParams();
+
+  const {
+    data,
+    isFetching: loading,
+    refetch,
+  } = useQuery<IInputs>({
+    queryKey: [AgentApiAction.FetchExternalAgentInputs],
+    initialData: {} as IInputs,
+    refetchOnReconnect: false,
+    refetchOnMount: false,
+    refetchOnWindowFocus: false,
+    gcTime: 0,
+    enabled: !!sharedId,
+    queryFn: async () => {
+      const { data } = await agentService.fetchExternalAgentInputs(sharedId!);
+
+      return data?.data ?? {};
+    },
+  });
+
+  return { data, loading, refetch };
 };

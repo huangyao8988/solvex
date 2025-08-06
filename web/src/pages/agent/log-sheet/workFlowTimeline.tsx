@@ -1,3 +1,4 @@
+import HightLightMarkdown from '@/components/highlight-markdown';
 import {
   Timeline,
   TimelineContent,
@@ -20,7 +21,8 @@ import {
 } from '@/hooks/use-send-message';
 import { ITraceData } from '@/interfaces/database/agent';
 import { cn } from '@/lib/utils';
-import { get } from 'lodash';
+import { t } from 'i18next';
+import { get, isEmpty, isEqual, uniqWith } from 'lodash';
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import JsonView from 'react18-json-view';
 import { Operator } from '../constant';
@@ -30,7 +32,11 @@ import ToolTimelineItem from './toolTimelineItem';
 type LogFlowTimelineProps = Pick<
   ReturnType<typeof useCacheChatLog>,
   'currentEventListWithoutMessage' | 'currentMessageId'
-> & { canvasId?: string };
+> & {
+  canvasId?: string;
+  sendLoading: boolean;
+  isShare?: boolean;
+};
 export function JsonViewer({
   data,
   title,
@@ -45,11 +51,50 @@ export function JsonViewer({
         src={data}
         displaySize
         collapseStringsAfterLength={100000000000}
-        className="w-full h-[200px] break-words overflow-auto p-2 bg-slate-800"
+        className="w-full h-[200px] break-words overflow-auto scrollbar-auto p-2 bg-muted"
       />
     </section>
   );
 }
+export const typeMap = {
+  begin: t('flow.logTimeline.begin'),
+  agent: t('flow.logTimeline.agent'),
+  retrieval: t('flow.logTimeline.retrieval'),
+  message: t('flow.logTimeline.message'),
+  awaitResponse: t('flow.logTimeline.awaitResponse'),
+  switch: t('flow.logTimeline.switch'),
+  iteration: t('flow.logTimeline.iteration'),
+  categorize: t('flow.logTimeline.categorize'),
+  code: t('flow.logTimeline.code'),
+  textProcessing: t('flow.logTimeline.textProcessing'),
+  tavilySearch: t('flow.logTimeline.tavilySearch'),
+  tavilyExtract: t('flow.logTimeline.tavilyExtract'),
+  exeSQL: t('flow.logTimeline.exeSQL'),
+  google: t('flow.logTimeline.google'),
+  duckDuckGo: t('flow.logTimeline.google'),
+  wikipedia: t('flow.logTimeline.wikipedia'),
+  googleScholar: t('flow.logTimeline.googleScholar'),
+  arXiv: t('flow.logTimeline.googleScholar'),
+  pubMed: t('flow.logTimeline.googleScholar'),
+  gitHub: t('flow.logTimeline.gitHub'),
+  email: t('flow.logTimeline.email'),
+  httpRequest: t('flow.logTimeline.httpRequest'),
+  wenCai: t('flow.logTimeline.wenCai'),
+  yahooFinance: t('flow.logTimeline.yahooFinance'),
+  userFillUp: t('flow.logTimeline.userFillUp'),
+};
+export const toLowerCaseStringAndDeleteChar = (
+  str: string,
+  char: string = '_',
+) => str.toLowerCase().replace(/ /g, '').replaceAll(char, '');
+
+// Convert all keys in typeMap to lowercase and output the new typeMap
+export const typeMapLowerCase = Object.fromEntries(
+  Object.entries(typeMap).map(([key, value]) => [
+    toLowerCaseStringAndDeleteChar(key),
+    value,
+  ]),
+);
 
 function getInputsOrOutputs(
   nodeEventList: INodeData[],
@@ -61,12 +106,14 @@ function getInputsOrOutputs(
     return inputsOrOutputs[0] || {};
   }
 
-  return inputsOrOutputs;
+  return uniqWith(inputsOrOutputs, isEqual); // TODO: Violence should not be used to
 }
 export const WorkFlowTimeline = ({
   currentEventListWithoutMessage,
   currentMessageId,
   canvasId,
+  sendLoading,
+  isShare,
 }: LogFlowTimelineProps) => {
   // const getNode = useGraphStore((state) => state.getNode);
   const [isStopFetchTrace, setISStopFetchTrace] = useState(false);
@@ -79,31 +126,20 @@ export const WorkFlowTimeline = ({
   useEffect(() => {
     setMessageId(currentMessageId);
   }, [currentMessageId, setMessageId]);
-  // const getNodeName = useCallback(
-  //   (nodeId: string) => {
-  //     if ('begin' === nodeId) return t('flow.begin');
-  //     return getNode(nodeId)?.data.name;
-  //   },
-  //   [getNode],
-  // );
-  // const getNodeById = useCallback(
-  //   (nodeId: string) => {
-  //     const data = currentEventListWithoutMessage
-  //       .map((x) => x.data)
-  //       .filter((x) => x.component_id === nodeId);
-  //     if ('begin' === nodeId) return t('flow.begin');
-  //     if (data && data.length) {
-  //       return data[0];
-  //     }
-  //     return {};
-  //   },
-  //   [currentEventListWithoutMessage],
-  // );
+  const getNodeName = (nodeId: string) => {
+    if ('begin' === nodeId) return t('flow.begin');
+    return nodeId;
+  };
+
+  useEffect(() => {
+    setISStopFetchTrace(!sendLoading);
+  }, [sendLoading]);
+
   const startedNodeList = useMemo(() => {
     const finish = currentEventListWithoutMessage?.some(
       (item) => item.event === MessageEventType.WorkflowFinished,
     );
-    setISStopFetchTrace(finish);
+    setISStopFetchTrace(finish || !sendLoading);
     const duplicateList = currentEventListWithoutMessage?.filter(
       (x) => x.event === MessageEventType.NodeStarted,
     ) as INodeEvent[];
@@ -115,7 +151,7 @@ export const WorkFlowTimeline = ({
       }
       return pre;
     }, []);
-  }, [currentEventListWithoutMessage]);
+  }, [currentEventListWithoutMessage, sendLoading]);
 
   const hasTrace = useCallback(
     (componentId: string) => {
@@ -155,6 +191,7 @@ export const WorkFlowTimeline = ({
     },
     [currentEventListWithoutMessage],
   );
+
   return (
     <Timeline>
       {startedNodeList?.map((x, idx) => {
@@ -198,7 +235,8 @@ export const WorkFlowTimeline = ({
                       <div
                         className={cn('rounded-full w-6 h-6', {
                           ' border-muted-foreground border-2 border-t-transparent animate-spin ':
-                            !finishNodeIds.includes(x.data.component_id),
+                            !finishNodeIds.includes(x.data.component_id) &&
+                            sendLoading,
                         })}
                       ></div>
                     </div>
@@ -212,40 +250,71 @@ export const WorkFlowTimeline = ({
                 </TimelineIndicator>
               </TimelineHeader>
               <TimelineContent className="text-foreground  rounded-lg border  mb-5">
-                <section key={idx}>
+                <section key={'content_' + idx}>
                   <Accordion
                     type="single"
                     collapsible
                     className="bg-background-card px-3"
                   >
                     <AccordionItem value={idx.toString()}>
-                      <AccordionTrigger>
+                      <AccordionTrigger
+                        hideDownIcon={isShare && !x.data?.thoughts}
+                      >
                         <div className="flex gap-2 items-center">
-                          <span>{x.data?.component_name}</span>
+                          <span>
+                            {!isShare && getNodeName(x.data?.component_name)}
+                            {isShare &&
+                              (typeMapLowerCase[
+                                toLowerCaseStringAndDeleteChar(
+                                  nodeLabel,
+                                ) as keyof typeof typeMap
+                              ] ??
+                                nodeLabel)}
+                          </span>
                           <span className="text-text-sub-title text-xs">
                             {x.data.elapsed_time?.toString().slice(0, 6)}
                           </span>
                           <span
                             className={cn(
-                              'border-background  -end-1 -top-1 size-2 rounded-full border-2 bg-dot-green',
-                              { 'text-dot-green': x.data.error === null },
-                              { 'text-dot-red': x.data.error !== null },
+                              'border-background  -end-1 -top-1 size-2 rounded-full',
+                              { 'bg-dot-green': isEmpty(x.data.error) },
+                              { 'bg-dot-red': !isEmpty(x.data.error) },
                             )}
                           >
                             <span className="sr-only">Online</span>
                           </span>
                         </div>
                       </AccordionTrigger>
-                      <AccordionContent>
-                        <div className="space-y-2">
-                          <JsonViewer data={inputs} title="Input"></JsonViewer>
+                      {!isShare && (
+                        <AccordionContent>
+                          <div className="space-y-2">
+                            {!isShare && (
+                              <>
+                                <JsonViewer
+                                  data={inputs}
+                                  title="Input"
+                                ></JsonViewer>
 
-                          <JsonViewer
-                            data={outputs}
-                            title={'Output'}
-                          ></JsonViewer>
-                        </div>
-                      </AccordionContent>
+                                <JsonViewer
+                                  data={outputs}
+                                  title={'Output'}
+                                ></JsonViewer>
+                              </>
+                            )}
+                          </div>
+                        </AccordionContent>
+                      )}
+                      {isShare && x.data?.thoughts && (
+                        <AccordionContent>
+                          <div className="space-y-2">
+                            <div className="w-full h-[200px] break-words overflow-auto scrollbar-auto p-2 bg-muted">
+                              <HightLightMarkdown>
+                                {x.data.thoughts || ''}
+                              </HightLightMarkdown>
+                            </div>
+                          </div>
+                        </AccordionContent>
+                      )}
                     </AccordionItem>
                   </Accordion>
                 </section>
@@ -253,7 +322,10 @@ export const WorkFlowTimeline = ({
             </TimelineItem>
             {hasTrace(x.data.component_id) && (
               <ToolTimelineItem
+                key={'tool_' + idx}
                 tools={filterTrace(x.data.component_id)}
+                sendLoading={sendLoading}
+                isShare={isShare}
               ></ToolTimelineItem>
             )}
           </>

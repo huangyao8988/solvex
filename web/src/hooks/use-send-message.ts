@@ -1,3 +1,4 @@
+import message from '@/components/ui/message';
 import { Authorization } from '@/constants/authorization';
 import { IReferenceObject } from '@/interfaces/database/chat';
 import { BeginQuery } from '@/pages/agent/interface';
@@ -35,6 +36,7 @@ export interface INodeData {
   error: null | string;
   elapsed_time: number;
   created_at: number;
+  thoughts: string;
 }
 
 export interface IInputData {
@@ -136,6 +138,9 @@ export const useSendMessageBySSE = (url: string = api.completeConversation) => {
               const val = JSON.parse(value?.data || '');
 
               console.info('data:', val);
+              if (val.code === 500) {
+                message.error(val.message);
+              }
 
               setAnswerList((list) => {
                 const nextList = [...list];

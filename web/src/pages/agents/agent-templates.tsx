@@ -11,11 +11,11 @@ import { useSetModalState } from '@/hooks/common-hooks';
 import { useNavigatePage } from '@/hooks/logic-hooks/navigate-hooks';
 import { useFetchAgentTemplates, useSetAgent } from '@/hooks/use-agent-request';
 import { IFlowTemplate } from '@/interfaces/database/flow';
-import { useCallback, useEffect, useState } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { CreateAgentDialog } from './create-agent-dialog';
 import { TemplateCard } from './template-card';
-import { SideBar } from './template-sidebar';
+import { MenuItemKey, SideBar } from './template-sidebar';
 
 export default function AgentTemplates() {
   const { navigateToAgentList } = useNavigatePage();
@@ -23,7 +23,9 @@ export default function AgentTemplates() {
   const list = useFetchAgentTemplates();
   const { loading, setAgent } = useSetAgent();
   const [templateList, setTemplateList] = useState<IFlowTemplate[]>([]);
-
+  const [selectMenuItem, setSelectMenuItem] = useState<string>(
+    MenuItemKey.Recommended,
+  );
   useEffect(() => {
     setTemplateList(list);
   }, [list]);
@@ -68,13 +70,19 @@ export default function AgentTemplates() {
     ],
   );
   const handleSiderBarChange = (keyword: string) => {
-    const tempList = list.filter(
-      (item, index) =>
-        item.title.toLocaleLowerCase().includes(keyword?.toLocaleLowerCase()) ||
-        index === 0,
-    );
-    setTemplateList(tempList);
+    setSelectMenuItem(keyword);
   };
+
+  const tempListFilter = useMemo(() => {
+    if (!selectMenuItem) {
+      return templateList;
+    }
+    return templateList.filter(
+      (item, index) =>
+        item.canvas_type?.toLocaleLowerCase() ===
+          selectMenuItem?.toLocaleLowerCase() || index === 0,
+    );
+  }, [selectMenuItem, templateList]);
   return (
     <section>
       <PageHeader>
@@ -93,11 +101,14 @@ export default function AgentTemplates() {
         </Breadcrumb>
       </PageHeader>
       <div className="flex flex-1 h-dvh">
-        <SideBar change={handleSiderBarChange}></SideBar>
+        <SideBar
+          change={handleSiderBarChange}
+          selected={selectMenuItem}
+        ></SideBar>
 
-        <main className="flex-1 bg-muted/50 h-dvh">
+        <main className="flex-1 bg-text-title-invert/50 h-dvh">
           <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 max-h-[94vh] overflow-auto px-8 pt-8">
-            {templateList?.map((x, index) => {
+            {tempListFilter?.map((x, index) => {
               return (
                 <TemplateCard
                   isCreate={index === 0}

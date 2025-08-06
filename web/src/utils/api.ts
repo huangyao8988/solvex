@@ -1,4 +1,5 @@
 let api_host = `/v1`;
+const ExternalApi = `/api`;
 
 export { api_host };
 
@@ -107,6 +108,9 @@ export default {
   completeExternalConversation: `${api_host}/api/completion`,
   uploadAndParseExternal: `${api_host}/api/document/upload_and_parse`,
 
+  // next chat
+  listNextDialog: `${api_host}/dialog/next`,
+
   // file manager
   listFile: `${api_host}/file/list`,
   uploadFile: `${api_host}/file/upload`,
@@ -155,6 +159,8 @@ export default {
   uploadAgentFile: (id?: string) => `${api_host}/canvas/upload/${id}`,
   fetchAgentLogs: (canvasId: string) =>
     `${api_host}/canvas/${canvasId}/sessions`,
+  fetchExternalAgentInputs: (canvasId: string) =>
+    `${ExternalApi}${api_host}/agentbots/${canvasId}/inputs`,
 
   // mcp server
   listMcpServer: `${api_host}/mcp_server/list`,

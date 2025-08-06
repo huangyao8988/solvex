@@ -49,11 +49,12 @@ class LLMToolPluginCallSession(ToolCallSession):
 
     def tool_call(self, name: str, arguments: dict[str, Any]) -> Any:
         assert name in self.tools_map, f"LLM tool {name} does not exist"
-        self.callback(name, arguments, " running ...")
         if isinstance(self.tools_map[name], MCPToolCallSession):
             resp = self.tools_map[name].tool_call(name, arguments, 60)
         else:
             resp = self.tools_map[name].invoke(**arguments)
+
+        self.callback(name, arguments, resp)
         return resp
 
     def get_tool_obj(self, name):
@@ -165,3 +166,6 @@ class ToolBase(ComponentBase):
             })
         self._canvas.add_refernce(chunks, aggs)
         self.set_output("formalized_content", "\n".join(kb_prompt({"chunks": chunks, "doc_aggs": aggs}, 200000, True)))
+
+    def thoughts(self) -> str:
+        return self._canvas.get_component_name(self._id) + " is running..."
