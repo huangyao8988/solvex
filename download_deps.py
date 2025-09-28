@@ -16,6 +16,8 @@ import nltk
 import os
 import urllib.request
 import argparse
+# 在文件顶部导入requests库
+import requests
 
 def get_urls(use_china_mirrors=False) -> Union[str, list[str]]:
     if use_china_mirrors:
@@ -46,6 +48,10 @@ repos = [
     "BAAI/bge-large-zh-v1.5",
     "maidalun1020/bce-embedding-base_v1",
 ]
+
+# 在download_model函数前，设置全局超时（单位：秒）
+# 这里设置连接超时10秒，读取超时300秒（5分钟）
+requests.adapters.DEFAULT_TIMEOUT = (10, 300)
 
 def download_model(repo_id):
     local_dir = os.path.abspath(os.path.join("huggingface.co", repo_id))
