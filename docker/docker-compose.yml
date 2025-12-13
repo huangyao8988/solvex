@@ -43,6 +43,10 @@ services:
       - ./service_conf.yaml.template:/ragflow/conf/service_conf.yaml.template
       - ./entrypoint.sh:/ragflow/entrypoint.sh
     env_file: .env
+    environment:
+      PIP_INDEX_URL: "https://pypi.tuna.tsinghua.edu.cn/simple"
+      PIP_DEFAULT_TIMEOUT: "1000"
+      PIP_RETRIES: "1000"
     networks:
       - ragflow
     restart: unless-stopped
@@ -92,6 +96,10 @@ services:
       - ./service_conf.yaml.template:/ragflow/conf/service_conf.yaml.template
       - ./entrypoint.sh:/ragflow/entrypoint.sh
     env_file: .env
+    environment:
+      PIP_INDEX_URL: "https://pypi.tuna.tsinghua.edu.cn/simple"
+      PIP_DEFAULT_TIMEOUT: "1000"
+      PIP_RETRIES: "1000"
     networks:
       - ragflow
     restart: unless-stopped
