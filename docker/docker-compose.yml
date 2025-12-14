@@ -42,14 +42,19 @@ services:
       - ../history_data_agent:/ragflow/history_data_agent
       - ./service_conf.yaml.template:/ragflow/conf/service_conf.yaml.template
       - ./entrypoint.sh:/ragflow/entrypoint.sh
+      # 新增缓存目录挂载（使用 .env 中定义的路径）
+      - ${CACHE_DIR_PIP}:/tmp/pip-cache
+      - ${CACHE_DIR_PIP_WHEELS}:/tmp/pip-wheels
+      - ${CACHE_DIR_UV}:/tmp/uv-cache
+      - ${CACHE_DIR_APT}:/var/cache/apt  # APT缓存（如果有apt-get安装）
     env_file: .env
-    environment:
-      PIP_INDEX_URL: "https://pypi.tuna.tsinghua.edu.cn/simple"
-      PIP_DEFAULT_TIMEOUT: "1000"
-      PIP_RETRIES: "1000"
-      UV_INDEX_URL: "https://pypi.tuna.tsinghua.edu.cn/simple"  # 国内镜像源
-      UV_HTTP_TIMEOUT: "1000"  # 超时时间300秒
-      UV_HTTP_RETRY: "1000"     # 重试次数10次
+    #environment:
+    #  PIP_INDEX_URL: "https://pypi.tuna.tsinghua.edu.cn/simple"
+    #  PIP_DEFAULT_TIMEOUT: "1000"
+    #  PIP_RETRIES: "1000"
+    #  UV_INDEX_URL: "https://pypi.tuna.tsinghua.edu.cn/simple"  # 国内镜像源
+    #  UV_HTTP_TIMEOUT: "1000"  # 超时时间300秒
+    #  UV_HTTP_RETRY: "1000"     # 重试次数10次
     networks:
       - ragflow
     restart: unless-stopped
@@ -98,14 +103,19 @@ services:
       - ../history_data_agent:/ragflow/history_data_agent
       - ./service_conf.yaml.template:/ragflow/conf/service_conf.yaml.template
       - ./entrypoint.sh:/ragflow/entrypoint.sh
+      # 新增缓存目录挂载（使用 .env 中定义的路径）
+      - ${CACHE_DIR_PIP}:/tmp/pip-cache
+      - ${CACHE_DIR_PIP_WHEELS}:/tmp/pip-wheels
+      - ${CACHE_DIR_UV}:/tmp/uv-cache
+      - ${CACHE_DIR_APT}:/var/cache/apt  # APT缓存（如果有apt-get安装）
     env_file: .env
-    environment:
-      PIP_INDEX_URL: "https://pypi.tuna.tsinghua.edu.cn/simple"
-      PIP_DEFAULT_TIMEOUT: "1000"
-      PIP_RETRIES: "1000"
-      UV_INDEX_URL: "https://pypi.tuna.tsinghua.edu.cn/simple"  # 国内镜像源
-      UV_HTTP_TIMEOUT: "1000"  # 超时时间300秒
-      UV_HTTP_RETRY: "1000"     # 重试次数10次
+    #environment:
+    #  PIP_INDEX_URL: "https://pypi.tuna.tsinghua.edu.cn/simple"
+    #  PIP_DEFAULT_TIMEOUT: "1000"
+    #  PIP_RETRIES: "1000"
+    #  UV_INDEX_URL: "https://pypi.tuna.tsinghua.edu.cn/simple"  # 国内镜像源
+    #  UV_HTTP_TIMEOUT: "1000"  # 超时时间300秒
+    #  UV_HTTP_RETRY: "1000"     # 重试次数10次
     networks:
       - ragflow
     restart: unless-stopped
