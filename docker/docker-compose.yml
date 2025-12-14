@@ -47,6 +47,9 @@ services:
       PIP_INDEX_URL: "https://pypi.tuna.tsinghua.edu.cn/simple"
       PIP_DEFAULT_TIMEOUT: "1000"
       PIP_RETRIES: "1000"
+      UV_INDEX_URL: "https://pypi.tuna.tsinghua.edu.cn/simple"  # 国内镜像源
+      UV_HTTP_TIMEOUT: "1000"  # 超时时间300秒
+      UV_HTTP_RETRY: "1000"     # 重试次数10次
     networks:
       - ragflow
     restart: unless-stopped
@@ -100,6 +103,9 @@ services:
       PIP_INDEX_URL: "https://pypi.tuna.tsinghua.edu.cn/simple"
       PIP_DEFAULT_TIMEOUT: "1000"
       PIP_RETRIES: "1000"
+      UV_INDEX_URL: "https://pypi.tuna.tsinghua.edu.cn/simple"  # 国内镜像源
+      UV_HTTP_TIMEOUT: "1000"  # 超时时间300秒
+      UV_HTTP_RETRY: "1000"     # 重试次数10次
     networks:
       - ragflow
     restart: unless-stopped
