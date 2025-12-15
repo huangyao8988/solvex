@@ -198,7 +198,7 @@ function ensure_docling() {
     python3 -c 'import pip' >/dev/null 2>&1 || python3 -m ensurepip --upgrade || true
     DOCLING_PIN="${DOCLING_VERSION:-==2.58.0}"
     python3 -c "import importlib.util,sys; sys.exit(0 if importlib.util.find_spec('docling') else 1)" \
-      || python3 -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple "docling${DOCLING_PIN}"
+      || python3 -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple --extra-index-url https://pypi.org/simple --no-cache-dir "docling${DOCLING_PIN}"
 }
 
 function ensure_mineru() {
@@ -225,7 +225,7 @@ function ensure_mineru() {
         [[ -d "${venv_dir}" ]] || uv venv "${venv_dir}"
 
         source "${venv_dir}/bin/activate"
-        uv pip install -U "mineru[core]" -i https://mirrors.aliyun.com/pypi/simple
+        uv pip install -U "mineru[core]" -i https://mirrors.aliyun.com/pypi/simple --extra-index-url https://pypi.org/simple
         deactivate
     )
     export MINERU_EXECUTABLE="${exe}"
