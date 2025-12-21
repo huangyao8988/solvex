@@ -10,9 +10,9 @@ from langfuse import get_client, observe
 # ==================== 配置区域 ====================
 # 请务必在运行前设置以下环境变量
 # Langfuse 配置 (用于获取数据集和发送Trace)
-LANGFUSE_SECRET_KEY = os.getenv("LANGFUSE_SECRET_KEY")
-LANGFUSE_PUBLIC_KEY = os.getenv("LANGFUSE_PUBLIC_KEY")
-LANGFUSE_HOST = os.getenv("LANGFUSE_HOST", "https://cloud.langfuse.com") # 或你的自托管地址
+#LANGFUSE_SECRET_KEY = os.getenv("LANGFUSE_SECRET_KEY")
+#LANGFUSE_PUBLIC_KEY = os.getenv("LANGFUSE_PUBLIC_KEY")
+#LANGFUSE_HOST = os.getenv("LANGFUSE_HOST", "https://cloud.langfuse.com") # 或你的自托管地址
 
 # RAGFlow 配置 (用于API调用)
 RAGFLOW_API_BASE = os.getenv("RAGFLOW_API_BASE") # 例如: http://your-ragflow-server:port
@@ -21,14 +21,14 @@ RAGFLOW_CHAT_ID = os.getenv("RAGFLOW_CHAT_ID") # 你在RAGFlow创建的聊天助
 
 # 实验配置
 DATASET_NAME = "test05"  # 你可以修改为你想测试的任何数据集名称
-EXPERIMENT_RUN_NAME = "ragflow_experiment_run_01" # 本次实验运行的名称，用于在Langfuse UI中标识
+EXPERIMENT_RUN_NAME = "ragflow_experiment_run_02" # 本次实验运行的名称，用于在Langfuse UI中标识
 # ==================== 配置结束 ====================
 
 def validate_environment():
     """检查必要的环境变量是否已设置。"""
     required_env_vars = {
-        "LANGFUSE_SECRET_KEY": LANGFUSE_SECRET_KEY,
-        "LANGFUSE_PUBLIC_KEY": LANGFUSE_PUBLIC_KEY,
+    #    "LANGFUSE_SECRET_KEY": LANGFUSE_SECRET_KEY,
+    #    "LANGFUSE_PUBLIC_KEY": LANGFUSE_PUBLIC_KEY,
         "RAGFLOW_API_BASE": RAGFLOW_API_BASE,
         "RAGFLOW_API_KEY": RAGFLOW_API_KEY,
         "RAGFLOW_CHAT_ID": RAGFLOW_CHAT_ID,
@@ -83,11 +83,13 @@ def run_experiment_on_dataset(dataset_name: str, experiment_run_name: str):
     循环遍历每个数据集项，执行被观察的函数，并将Trace链接到数据集运行。
     """
     print(f"开始实验运行 '{experiment_run_name}'，使用数据集: {dataset_name}")
-    langfuse_client = get_client(
-        secret_key=LANGFUSE_SECRET_KEY,
-        public_key=LANGFUSE_PUBLIC_KEY,
-        host=LANGFUSE_HOST
-    )
+    #langfuse_client = get_client(
+    #    secret_key=LANGFUSE_SECRET_KEY,
+    #    public_key=LANGFUSE_PUBLIC_KEY,
+    #    host=LANGFUSE_HOST
+    #)
+    # 直接调用 get_client()，它会自动从环境变量中读取配置
+    langfuse_client = get_client()
 
     # 1. 从Langfuse获取数据集
     try:
