@@ -23,7 +23,7 @@ RAGFLOW_CHAT_ID = os.getenv("RAGFLOW_CHAT_ID")  # 你在RAGFlow创建的聊天�
 
 # 实验配置
 DATASET_NAME = "test05"  # 你可以修改为你想测试的任何数据集名称
-EXPERIMENT_RUN_NAME = "ragflow_converse_experiment_05"  # 本次实验运行的名称，用于在Langfuse UI中标识
+EXPERIMENT_RUN_NAME = "ragflow_converse_experiment_06"  # 本次实验运行的名称，用于在Langfuse UI中标识
 # ==================== 配置结束 ====================
 
 
@@ -345,14 +345,14 @@ def run_experiment_on_dataset(dataset_name: str, experiment_run_name: str):
                             print(f"    - {doc['doc_name']}: {doc['count']} 个片段")
                 
                 # 这里可以添加评估逻辑，将answer与item.expected_output比较
-                if hasattr(item, 'expected_output') and item.expected_output:
+                #if hasattr(item, 'expected_output') and item.expected_output:
                     # 简单的字符串包含检查（可根据需要扩展为更复杂的评估）
-                    expected_lower = str(item.expected_output).lower()
-                    answer_lower = answer.lower()
-                    if expected_lower in answer_lower:
-                        print(f"  ✓ 答案包含预期内容")
-                    else:
-                        print(f"  ⚠ 答案可能未包含所有预期内容")
+                #    expected_lower = str(item.expected_output).lower()
+                #    answer_lower = answer.lower()
+                #    if expected_lower in answer_lower:
+                #        print(f"  ✓ 答案包含预期内容")
+                #    else:
+                #        print(f"  ⚠ 答案可能未包含所有预期内容")
                         
         except Exception as e:
             print(f"  处理数据项 {item.id} 时发生错误: {e}")
@@ -408,12 +408,14 @@ if __name__ == "__main__":
         exit(1)
 
     # 可选：先测试两轮对话
-    print("=== 先执行测试对话 ===")
-    test_response = test_two_round_conversation()
+    #print("=== 先执行测试对话 ===")
+    #test_response = test_two_round_conversation()
     
-    if test_response:
-        print("测试成功，开始执行实验...\n")
+    #if test_response:
+    #    print("测试成功，开始执行实验...\n")
         # 运行实验
-        run_experiment_on_dataset(DATASET_NAME, EXPERIMENT_RUN_NAME)
-    else:
-        print("测试失败，请检查配置和网络连接")
+    #    run_experiment_on_dataset(DATASET_NAME, EXPERIMENT_RUN_NAME)
+    #else:
+    #    print("测试失败，请检查配置和网络连接")
+
+    run_experiment_on_dataset(DATASET_NAME, EXPERIMENT_RUN_NAME)
