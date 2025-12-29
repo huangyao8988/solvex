@@ -23,7 +23,7 @@ RAGFLOW_CHAT_ID = os.getenv("RAGFLOW_CHAT_ID")  # 你在RAGFlow创建的聊天�
 
 # 实验配置
 DATASET_NAME = "test05"  # 你可以修改为你想测试的任何数据集名称
-EXPERIMENT_RUN_NAME = "ragflow_converse_experiment_06"  # 本次实验运行的名称，用于在Langfuse UI中标识
+EXPERIMENT_RUN_NAME = "ragflow_converse_experiment_07"  # 本次实验运行的名称，用于在Langfuse UI中标识
 # ==================== 配置结束 ====================
 
 
