@@ -1,0 +1,19 @@
+{
+  "keywords_transportation_standards": [
+    {
+      "id": "kts-001",
+      "category": "定义与分类",
+      "keywords": [
+        "交通信息基础数据元 定义",
+        "道路交通信息服务 术语"
+      ]
+    },
+    {
+      "id": "kts-002",
+      "category": "技术参数与指标",
+      "keywords": [
+        "电子收费 专用短程通信 技术要求"
+      ]
+    }
+  ]
+}
