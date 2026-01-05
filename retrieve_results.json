@@ -1,0 +1,4787 @@
+{
+  "code": 0,
+  "data": {
+    "chunks": [
+      {
+        "content": "\n- Visual Type: Flowchart / System Architecture Diagram  \n- Title: (None explicitly present)  \n- Axes / Legends / Labels:  \n  - Components labeled:  \n    - \"交通运输行政执法综合信息系统（省级）\" (Transportation Administrative Law Enforcement Comprehensive Information System - Provincial Level)  \n    - \"交通运输行政执法综合信息系统（部级）\" (Transportation Administrative Law Enforcement Comprehensive Information System - Ministry Level)  \n    - \"文件服务器\" (File Server)  \n    - \"交换服务接口\" (Exchange Service Interface)  \n    - \"文件接口\" (File Interface)  \n    - \"交换接口\" (Exchange Interface)  \n    - \"交通运输数据资源交换共享与开放应用平台\" (Transportation Data Resource Exchange, Sharing, and Open Application Platform)  \n  - Arrows indicate directional data flow between components.  \n- Data Points: (No numerical or quantitative data points; all elements are textual labels representing system components and interfaces.)  \n- Trends / Insights:  \n  - The diagram illustrates a bidirectional data exchange architecture between provincial and ministry-level transportation law enforcement information systems.  \n  - Data flows through two primary pathways:  \n    1. File-based exchange via \"文件服务器\" (File Server) using \"文件接口\" (File Interface).  \n    2. Service-based exchange via \"交换服务接口\" (Exchange Service Interface) using \"交换接口\" (Exchange Interface).  \n  - Both pathways connect to the central \"交通运输数据资源交换共享与开放应用平台\" (Transportation Data Resource Exchange, Sharing, and Open Application Platform), indicating its role as an intermediary for data integration and sharing.  \n  - The structure suggests a hierarchical and standardized data-sharing framework across administrative levels (provincial and ministry).  \n- Captions / Annotations: (None explicitly present beyond component labels and interface names.)图1　数据交换架构\n文件接口\n文件服务器\n文件接口\n文件接口\n文件服务器\n文件接口\n交通\n交通\n交通\n运输\n行政\n据给销\n交通运输数据资源\n执法\n交通运输数据资源\n综理\n交换共享与开放\n综理\n交换共享与开放\n应用平台\n应用平台\n（省\n(部\n（省\n级）\n级)\n级）\n交换服务接口\n交换服务接口",
+        "content_ltks": "visual type flowchart system architectur diagram titl none explicitli present ax legend label compon label 交通运输 行政 执法 综合 信息系统 省级 transport administr law enforc comprehens inform system provinci level 交通运输 行政 执法 综合 信息系统 部级 transport administr law enforc comprehens inform system ministri level 文件 服务器 file server 交换 服务 接口 exchang servic interfac 文件 接口 file interfac 交换 接口 exchang interfac 交通运输 数据 资源 交换 共享 与 开放 应用 平台 transport dataresourc exchang share and open applic platform arrow indic direct dataflow between compon datapoint no numer or quantit datapoint all element are textual label repres system compon and interfac trend insight the diagram illustra bidirect dataexchang architectur between provinci and ministri level transport law enforc inform system dataflow through two primari pathway 1 file base exchang via 文件 服务器 file server use 文件 接口 file interfac 2 servic base exchang via 交换 服务 接口 exchang servic interfac use 交换 接口 exchang interfac both pathway connect to the central 交通运输 数据 资源 交换 共享 与 开放 应用 平台 transport dataresourc exchang share and open applic platform indic it role aan intermediari for data integrand share the structur suggest a hierarch and standard data share framework across administr level provinci and ministri caption annot none explicitli present beyond compon label and interfac name 图 1 数据交换 架构 文件 接口 文件 服务器 文件 接口 文件 接口 文件 服务器 文件 接口 交通 交通 交通 运输 行政 据 给 销 交通运输 数据 资源 执法 交通运输 数据 资源 综 理 交换 共享 与 开放 综 理 交换 共享 与 开放 应用 平台 应用 平台 省 部 省 级 级 级 交换 服务 接口 交换 服务 接口",
+        "dataset_id": "7ebd0a808e2711f0a685620ff33f7526",
+        "doc_type_kwd": "image",
+        "document_id": "d02d95e28e2711f0bdfa620ff33f7526",
+        "document_keyword": "197_已解密.pdf",
+        "highlight": "服务接口exchang servic interfac文件接口file interfac <em>交换</em>接口exchang interfac <em>交通运输</em> <em>数据</em> <em>资源</em> <em>交换</em>共享与开放应用平台...服务接口exchang servic interfac use <em>交换</em>接口exchang interfac both pathway connect to the central <em>交通运输</em> <em>数据</em>...<em>资源</em> <em>交换</em>共享与开放应用平台transport dataresourc exchang share and open applic platform indic it role aan intermediari...explicitli present beyond compon label and interfac name图1数据交换架构文件接口文件服务器文件接口文件接口文件服务器文件接口<em>交通</em>...<em>交通</em> <em>交通</em> <em>运输</em>行政据给销 <em>交通运输</em> <em>数据</em> <em>资源</em>执法<em>交通运输</em> <em>数据</em> <em>资源</em>综理 <em>交换</em>共享与开放综理<em>交换</em>共享与开放应用平台应用平台省部省级级级<em>交换</em>",
+        "id": "8a8db6e4c54cdb1b",
+        "image_id": "7ebd0a808e2711f0a685620ff33f7526-8a8db6e4c54cdb1b",
+        "important_keywords": [],
+        "positions": [
+          [
+            5,
+            83,
+            511,
+            318,
+            521
+          ]
+        ],
+        "similarity": 0.8213444705010831,
+        "term_similarity": 0.9072785867891673,
+        "vector_similarity": 0.6208315324955536
+      },
+      {
+        "content": "\n- Visual Type: Flowchart / Diagram  \n- Title: None  \n- Axes / Legends / Labels:  \n  - The diagram includes labeled components and directional arrows indicating data flow.  \n  - Components are labeled with Chinese text, including:  \n    - \"交通运输行政执法综合管理系统（省级）\" (Transportation Administrative Law Enforcement Comprehensive Management System - Provincial Level)  \n    - \"交通运输行政执法综合管理系统（部级）\" (Transportation Administrative Law Enforcement Comprehensive Management System - Ministry Level)  \n    - \"文件服务器\" (File Server)  \n    - \"交换服务接口\" (Exchange Service Interface)  \n    - \"文件接口\" (File Interface)  \n    - \"交换接口\" (Exchange Interface)  \n    - \"交通运输数据资源交换共享与开放应用平台\" (Transportation Data Resource Exchange, Sharing, and Open Application Platform)  \n  - Arrows indicate bidirectional communication between components.  \n\n- Data Points:  \n  - No numerical data points are present.  \n  - The diagram illustrates a structured system architecture involving multiple interconnected systems and interfaces.  \n  - Key elements include two instances of the provincial-level system, one ministry-level system, two file servers, two exchange service interfaces, and two application platforms.  \n\n- Trends / Insights:  \n  - The diagram depicts a symmetrical, mirrored architecture suggesting redundancy or replication for reliability.  \n  - Data flows through both file and exchange interfaces between the provincial and ministry-level systems via shared platforms and servers.  \n  - The central role of the \"交通运输数据资源交换共享与开放应用平台\" indicates it serves as a core hub for data sharing and interoperability between different levels of administrative systems.  \n  - The use of both \"文件接口\" (file interface) and \"交换服务接口\" (exchange service interface) suggests dual mechanisms for data transmission—file-based and service-based.  \n\n- Captions / Annotations:  \n  - No additional captions, footnotes, or annotations are present in the image.  \n  - All information is conveyed through labeled components and directional arrows.图1　数据交换架构\n文件接口\n文件服务器\n文件接口\n文件接口\n文件服务器\n文件接口\n交通\n交通\n交通\n运输\n行政\n据给销\n交通运输数据资源\n执法\n交通运输数据资源\n综理\n交换共享与开放\n综理\n交换共享与开放\n应用平台\n应用平台\n（省\n(部\n（省\n级）\n级)\n级）\n交换服务接口\n交换服务接口",
+        "content_ltks": "visual type flowchart diagram titl none ax legend label the diagram includ label compon and direct arrow indic dataflow compon are label with chines text includ 交通运输 行政 执法 综合 管理系统 省级 transport administr law enforc comprehens manag system provinci level 交通运输 行政 执法 综合 管理系统 部级 transport administr law enforc comprehens manag system ministri level 文件 服务器 file server 交换 服务 接口 exchang servic interfac 文件 接口 file interfac 交换 接口 exchang interfac 交通运输 数据 资源 交换 共享 与 开放 应用 平台 transport dataresourc exchang share and open applic platform arrow indic bidirect commun between compon datapoint no numer datapoint are present the diagram illustra structur system architectur involv multipl interconnect system and interfac key element includ two instanc of the provinci level system one ministri level system two file server two exchang servic interfac and two applic platform trend insight the diagram depict asymmetr mirror architectur suggest redund or replic for reliabl dataflow through both file and exchang interfac between the provinci and ministri level system via share platform and server the central role of the 交通运输 数据 资源 交换 共享 与 开放 应用 平台 indic it serfa a core hub for data share and interoper between differ level of administr system the useof both 文件 接口 file interfac and 交换 服务 接口 exchang servic interfac suggest dual mechan for data transmiss file base and servic base caption annot no addit caption footnot or annot are present in the imag all inform is convey through label compon and direct arrow 图 1 数据交换 架构 文件 接口 文件 服务器 文件 接口 文件 接口 文件 服务器 文件 接口 交通 交通 交通 运输 行政 据 给 销 交通运输 数据 资源 执法 交通运输 数据 资源 综 理 交换 共享 与 开放 综 理 交换 共享 与 开放 应用 平台 应用 平台 省 部 省 级 级 级 交换 服务 接口 交换 服务 接口",
+        "dataset_id": "54887ce6975411f0851bb6a7ca88af7c",
+        "doc_type_kwd": "image",
+        "document_id": "95dd4406975411f0b3aeb6a7ca88af7c",
+        "document_keyword": "186_已解密.pdf",
+        "highlight": "服务接口exchang servic interfac文件接口file interfac <em>交换</em>接口exchang interfac <em>交通运输</em> <em>数据</em> <em>资源</em> <em>交换</em>共享与开放应用平台...<em>数据</em> <em>资源</em> <em>交换</em>共享与开放应用平台indic it serfa a core hub for data share and interoper between differ level of...inform is convey through label compon and direct arrow图1数据交换架构文件接口文件服务器文件接口文件接口文件服务器文件接口<em>交通</em>...<em>交通</em> <em>交通</em> <em>运输</em>行政据给销 <em>交通运输</em> <em>数据</em> <em>资源</em>执法<em>交通运输</em> <em>数据</em> <em>资源</em>综理 <em>交换</em>共享与开放综理<em>交换</em>共享与开放应用平台应用平台省部省级级级<em>交换</em>...服务接口<em>交换</em>服务接口",
+        "id": "dd6787a00fe2af91",
+        "image_id": "54887ce6975411f0851bb6a7ca88af7c-dd6787a00fe2af91",
+        "important_keywords": [],
+        "positions": [
+          [
+            5,
+            83,
+            511,
+            318,
+            521
+          ]
+        ],
+        "similarity": 0.8190109165820789,
+        "term_similarity": 0.9072785867891673,
+        "vector_similarity": 0.6130530194322061
+      },
+      {
+        "content": "中华人民共和国交通运输行业标准JT/T 1415.2—2022交通运输数据资源交换与共享第2部分：通用技术要求Transportation data exchanging and sharing-Part 2 : General technical requirements中华人民共和国交通运输部发布JT /T 1415. 2—2022目　次　前言引言1　范围2　规范性引用文件3　术语和定义……4　资源共享要求5　交换要求6　日志要求7　环境要求…8　数据安全要求附录A(资料性)　基础环境设备参考配置参考文献……JT /T 1415. 2—2022前　　言本文件按照GB /T 1. 1—2020《标准化工作导则第1 部分:标准化文件的结构和起草规则》的规定起草。本文件是JT /T 1415《交通运输数据资源交换与共享》的第2 部分。JT /T 1415 已经发布了以下部分:第部分总体架构—1 :;—第部分通用技术要求第2 部分:格与;3 :数据式接口—请——注意本文件的某些内容可能涉。及专利本文件的发布机构不承担识别专利的责任。本文件由交通运输信息通信及导航标准。化技术委员会提出并归口本文件起草单位交通运输部科学研究院长城计算软件与系统。、机有限公司、贵州省交通运输厅、贵州银智科技发展有:限公司。本文件主要起草人郭明多李洪囤杨艳芳黄莉莉曹剑东、陈博、段成民、刘娜、田璐、郭亚茹、",
+        "content_ltks": "中华人民共和国 交通运输 行业标准 jtt 1415 2 2022 交通运输 数据 资源 交换 与 共享 第 2 部分 通用 技术 要求 transport dataexchang and share part 2 gener technic requir 中华人民共和国 交通运输 部 发布 jtt 1415 2 2022 目 次 前言 引言 1 范围 2 规范性 引用 文件 3 术语 和 定义 4 资源共享 要求 5 交换 要求 6 日志 要求 7 环境 要求 8 数据安全 要求 附录 a 资料性 基础 环境设备 参考 配置 参考文献 jtt 1415 2 2022 前 言 本 文件 按照 gbt 11 2020 标准化 工作 导 则 第1 部分 标准化 文件 的 结构 和 起草 规则 的 规定 起草 本 文件 是 jtt 1415 交通运输 数据 资源 交换 与 共享 的 第 2 部分 jtt 1415 已经 发布 了 以下 部分 第 部分 总体 架构 1 第 部分 通用 技术 要求 第 2 部分 格 与 3 数据 式 接口 请 注意 本 文件 的 某些 内容 可能 涉 及 专利 本 文件 的 发布 机构 不 承担 识别 专利 的 责任 本 文件 由 交通运输 信息 通信 及 导航 标准 化 技术 委员会 提出 并 归口 本 文件 起草 单位 交通 运输 部 科学 研究院 长城 计算 软件 与 系统 机 有限公司 贵州省 交通运输 厅 贵州 银 智科技 发展 有 限 公司 本 文件 主要 起草人 郭 明 多 李 洪 囤 杨 艳 芳 黄 莉莉 曹 剑 东 陈 博 段 成 民 刘 娜 田 璐 郭 亚 茹",
+        "dataset_id": "54887ce6975411f0851bb6a7ca88af7c",
+        "doc_type_kwd": "",
+        "document_id": "94fccca0975411f0b3aeb6a7ca88af7c",
+        "document_keyword": "113_已解密.pdf",
+        "highlight": "中华人民共和国<em>交通运输</em>行业标准jtt 1415 2 2022 <em>交通运输</em> <em>数据</em> <em>资源</em> <em>交换</em>与共享第 2部分通用技术要求transport dataexchang and share...资源共享要求5 <em>交换</em>要求6日志要求7环境要求8数据安全要求附录a资料性基础环境设备参考配置参考文献jtt 1415 2 2022前言本文件按照gbt...11 2020标准化工作导则第1部分标准化文件的结构和起草规则的规定起草本文件是 jtt 1415 <em>交通运输</em> <em>数据</em> <em>资源</em> <em>交换</em>与共享的第2部分jtt...1415已经发布了以下部分第部分总体架构1第部分通用技术要求第 2部分格与3 <em>数据</em>式接口请注意本文件的某些内容可能涉及专利本文件...的发布机构不承担识别专利的责任本文件由 <em>交通运输</em>信息通信及导航标准化技术委员会提出并归口本文件起草单位<em>交通</em> <em>运输</em>部科学研究院长城计算软件",
+        "id": "7d5ca7c2c419d11c",
+        "image_id": "54887ce6975411f0851bb6a7ca88af7c-7d5ca7c2c419d11c",
+        "important_keywords": [],
+        "positions": [
+          [
+            1,
+            60,
+            535,
+            132,
+            153
+          ],
+          [
+            1,
+            401,
+            876,
+            177,
+            192
+          ],
+          [
+            1,
+            121,
+            596,
+            339,
+            360
+          ],
+          [
+            1,
+            156,
+            631,
+            369,
+            393
+          ],
+          [
+            1,
+            104,
+            579,
+            784,
+            800
+          ],
+          [
+            2,
+            432,
+            907,
+            57,
+            69
+          ],
+          [
+            2,
+            63,
+            539,
+            218,
+            230
+          ],
+          [
+            2,
+            63,
+            539,
+            239,
+            251
+          ],
+          [
+            2,
+            62,
+            538,
+            322,
+            336
+          ],
+          [
+            2,
+            64,
+            540,
+            364,
+            378
+          ],
+          [
+            3,
+            66,
+            541,
+            57,
+            69
+          ],
+          [
+            3,
+            87,
+            563,
+            154,
+            166
+          ],
+          [
+            3,
+            87,
+            563,
+            186,
+            199
+          ],
+          [
+            3,
+            107,
+            582,
+            218,
+            230
+          ],
+          [
+            3,
+            105,
+            580,
+            234,
+            246
+          ],
+          [
+            3,
+            107,
+            582,
+            249,
+            261
+          ],
+          [
+            3,
+            88,
+            564,
+            265,
+            277
+          ],
+          [
+            3,
+            87,
+            563,
+            281,
+            293
+          ],
+          [
+            3,
+            87,
+            563,
+            297,
+            309
+          ],
+          [
+            3,
+            67,
+            542,
+            313,
+            324
+          ],
+          [
+            3,
+            87,
+            562,
+            326,
+            341
+          ]
+        ],
+        "similarity": 0.8132503238316782,
+        "term_similarity": 0.9072785867891673,
+        "vector_similarity": 0.5938510435975373
+      },
+      {
+        "content": "中华人民共和国交通运输行业标准JT/T 1415.2—2022交通运输数据资源交换与共享第2部分：通用技术要求Transportation data exchanging and sharing-Part 2 : General technical requirements中华人民共和国交通运输部发布JT /T 1415. 2—2022目　次　前言引言1　范围2　规范性引用文件3　术语和定义……4　资源共享要求5　交换要求6　日志要求7　环境要求…8　数据安全要求附录A(资料性)　基础环境设备参考配置参考文献……JT /T 1415. 2—2022前　　言本文件按照GB /T 1. 1—2020《标准化工作导则第1 部分:标准化文件的结构和起草规则》的规定起草。本文件是JT /T 1415《交通运输数据资源交换与共享》的第2 部分。JT /T 1415 已经发布了以下部分:第部分总体架构—1 :;—第部分通用技术要求第2 部分:格与;3 :数据式接口—请——注意本文件的某些内容可能涉。及专利本文件的发布机构不承担识别专利的责任。本文件由交通运输信息通信及导航标准。化技术委员会提出并归口本文件起草单位交通运输部科学研究院长城计算软件与系统。、机有限公司、贵州省交通运输厅、贵州银智科技发展有:限公司。本文件主要起草人郭明多李洪囤杨艳芳黄莉莉曹剑东、陈博、段成民、刘娜、田璐、郭亚茹、",
+        "content_ltks": "中华人民共和国 交通运输 行业标准 jtt 1415 2 2022 交通运输 数据 资源 交换 与 共享 第 2 部分 通用 技术 要求 transport dataexchang and share part 2 gener technic requir 中华人民共和国 交通运输 部 发布 jtt 1415 2 2022 目 次 前言 引言 1 范围 2 规范性 引用 文件 3 术语 和 定义 4 资源共享 要求 5 交换 要求 6 日志 要求 7 环境 要求 8 数据安全 要求 附录 a 资料性 基础 环境设备 参考 配置 参考文献 jtt 1415 2 2022 前 言 本 文件 按照 gbt 11 2020 标准化 工作 导 则 第1 部分 标准化 文件 的 结构 和 起草 规则 的 规定 起草 本 文件 是 jtt 1415 交通运输 数据 资源 交换 与 共享 的 第 2 部分 jtt 1415 已经 发布 了 以下 部分 第 部分 总体 架构 1 第 部分 通用 技术 要求 第 2 部分 格 与 3 数据 式 接口 请 注意 本 文件 的 某些 内容 可能 涉 及 专利 本 文件 的 发布 机构 不 承担 识别 专利 的 责任 本 文件 由 交通运输 信息 通信 及 导航 标准 化 技术 委员会 提出 并 归口 本 文件 起草 单位 交通 运输 部 科学 研究院 长城 计算 软件 与 系统 机 有限公司 贵州省 交通运输 厅 贵州 银 智科技 发展 有 限 公司 本 文件 主要 起草人 郭 明 多 李 洪 囤 杨 艳 芳 黄 莉莉 曹 剑 东 陈 博 段 成 民 刘 娜 田 璐 郭 亚 茹",
+        "dataset_id": "7ebd0a808e2711f0a685620ff33f7526",
+        "doc_type_kwd": "",
+        "document_id": "d353a7de8e2711f0bdfa620ff33f7526",
+        "document_keyword": "200_已解密.pdf",
+        "highlight": "中华人民共和国<em>交通运输</em>行业标准jtt 1415 2 2022 <em>交通运输</em> <em>数据</em> <em>资源</em> <em>交换</em>与共享第 2部分通用技术要求transport dataexchang and share...资源共享要求5 <em>交换</em>要求6日志要求7环境要求8数据安全要求附录a资料性基础环境设备参考配置参考文献jtt 1415 2 2022前言本文件按照gbt...11 2020标准化工作导则第1部分标准化文件的结构和起草规则的规定起草本文件是 jtt 1415 <em>交通运输</em> <em>数据</em> <em>资源</em> <em>交换</em>与共享的第2部分jtt...1415已经发布了以下部分第部分总体架构1第部分通用技术要求第 2部分格与3 <em>数据</em>式接口请注意本文件的某些内容可能涉及专利本文件...的发布机构不承担识别专利的责任本文件由 <em>交通运输</em>信息通信及导航标准化技术委员会提出并归口本文件起草单位<em>交通</em> <em>运输</em>部科学研究院长城计算软件",
+        "id": "154f6385242fbe11",
+        "image_id": "7ebd0a808e2711f0a685620ff33f7526-154f6385242fbe11",
+        "important_keywords": [],
+        "positions": [
+          [
+            1,
+            60,
+            535,
+            132,
+            153
+          ],
+          [
+            1,
+            401,
+            876,
+            177,
+            192
+          ],
+          [
+            1,
+            121,
+            596,
+            339,
+            360
+          ],
+          [
+            1,
+            156,
+            631,
+            369,
+            393
+          ],
+          [
+            1,
+            104,
+            579,
+            784,
+            800
+          ],
+          [
+            2,
+            432,
+            907,
+            57,
+            69
+          ],
+          [
+            2,
+            63,
+            539,
+            218,
+            230
+          ],
+          [
+            2,
+            63,
+            539,
+            239,
+            251
+          ],
+          [
+            2,
+            62,
+            538,
+            322,
+            336
+          ],
+          [
+            2,
+            64,
+            540,
+            364,
+            378
+          ],
+          [
+            3,
+            66,
+            541,
+            57,
+            69
+          ],
+          [
+            3,
+            87,
+            563,
+            154,
+            166
+          ],
+          [
+            3,
+            87,
+            563,
+            186,
+            199
+          ],
+          [
+            3,
+            107,
+            582,
+            218,
+            230
+          ],
+          [
+            3,
+            105,
+            580,
+            234,
+            246
+          ],
+          [
+            3,
+            107,
+            582,
+            249,
+            261
+          ],
+          [
+            3,
+            88,
+            564,
+            265,
+            277
+          ],
+          [
+            3,
+            87,
+            563,
+            281,
+            293
+          ],
+          [
+            3,
+            87,
+            563,
+            297,
+            309
+          ],
+          [
+            3,
+            67,
+            542,
+            313,
+            324
+          ],
+          [
+            3,
+            87,
+            562,
+            326,
+            341
+          ]
+        ],
+        "similarity": 0.8128429010834141,
+        "term_similarity": 0.9072785867891673,
+        "vector_similarity": 0.5924929677699902
+      },
+      {
+        "content": "ICS 35.240.60R 07备案号：中华人民共和国交通运输行业标准JT /T 1049.4—2016道路运政管理信息系统第4部分：跨省数据交换Road transport administration management information systemPart 4 : Inter-provincial data exchangeUT中华人民共和国交通运输部发布JT /T 1049.4—2016目次前言...1范围·….前言……………………1 范围2 规范性引用文件3 缩略语……………4 跨省数据交换接口… 4. 1 数据交换实时 4. 2 数据交换文件接口45 跨省数据交换接口6 5. 1 业务类型及业 5. 2 经营业户信息…… 5. 3 营运车辆信息 5. 4 从业人员信…… 5. 5 营运线路信息交换……………… 5. 6 执法信息交换…… 5. 7 道路运输管…… 5. 8 协查通报与发函…… 5. 9 文件传输接口…………6 道路运政跨省业务内容…………………JT /T 1049.4—2016前言前-第1部分:总体技术要求;道路运政管理信息JT /T 第1049部《分总体技术要求；———第1 部分：数据资源———第2 部分：数据资源目录———第3 部分：跨省数据交换———第4 部分：省级业务系统；接口。—本——部分为5 ：的第部分本部分按照JT /T 1049 4 给出。的规则起草。本部分由交通GB 运/输T 1部. 1运—输20服09 务司提出本部分由全国道路运输标准化技术委。员会（SAC /TC 521）归口。",
+        "content_ltks": "ic 35 240 60r 07 备案号 中华人民共和国 交通运输 行业标准 jtt 1049 4 2016 道路 运 政 管理信息系统 第 4 部分 跨省 数据交换 road transport administr manag inform systempart 4 interprovinci data exchangeut 中华人民共和国 交通运输 部 发布 jtt 1049 4 2016 目次 前言 1 范围 前言 1 范围 2 规范性 引用 文件 3 缩略语 4 跨省 数据交换 接口 4 1 数据交换 实时 42 数据 交换文件 接口 45 跨省 数据交换 接口 65 1 业务 类型 及 业 52 经营 业户 信息 53 营运 车辆 信息 54 从业人员 信 55 营运 线路 信息 交换 56 执法 信息 交换 57 道路 运输 管 58 协查通报 与 发函 59 文件传输 接口 6 道路 运 政 跨省 业务 内容 jtt 1049 4 2016 前言 前 第1 部分 总体 技术 要求 道路 运 政 管理 信息 jtt 第 1049 部 分 总体 技术 要求 第1 部分 数据 资源 第 2 部分 数据 资源 目录 第 3 部分 跨省 数据交换 第 4 部分 省级 业务 系统 接口 本 部分 为 5 的 第 部分 本 部分 按照 jtt 1049 4 给出 的 规则 起草 本部 分由 交通 gb 运 输 t 1 部 1 运 输 20 服 09 务 司 提出 本部 分由 全国 道路 运输 标准化 技术 委 员 会 sac tc 521 归口",
+        "dataset_id": "7ebd0a808e2711f0a685620ff33f7526",
+        "doc_type_kwd": "",
+        "document_id": "cffa9b068e2711f0bdfa620ff33f7526",
+        "document_keyword": "273_已解密.pdf",
+        "highlight": "ic 35 240 60r 07备案号中华人民共和国<em>交通运输</em>行业标准jtt 1049 4 2016道路运政管理信息系统第 4部分跨省数据交换road transport administr...manag inform systempart 4 interprovinci data exchangeut中华人民共和国<em>交通运输</em>部发布jtt 1049 4 2016目次前言1范围...业户信息53营运车辆信息54从业人员信 55营运线路信息<em>交换</em> 56执法信息<em>交换</em> 57道路运输管 58协查通报与发函59文件传输接口6道路运政跨省...业务内容jtt 1049 4 2016前言前第1部分总体技术要求道路运政管理信息jtt第1049部分总体技术要求第1部分<em>数据</em> <em>资源</em>第2部分<em>数据</em>...<em>资源</em>目录第 3部分跨省数据交换第 4部分省级业务系统接口本部分为 5的第部分本部分按照jtt 1049 4给出的规则起草本部分由交通gb运",
+        "id": "24359b89e6eb95df",
+        "image_id": "7ebd0a808e2711f0a685620ff33f7526-24359b89e6eb95df",
+        "important_keywords": [],
+        "positions": [
+          [
+            1,
+            63,
+            538,
+            129,
+            150
+          ],
+          [
+            1,
+            401,
+            877,
+            173,
+            188
+          ],
+          [
+            1,
+            160,
+            636,
+            368,
+            389
+          ],
+          [
+            1,
+            184,
+            660,
+            434,
+            449
+          ],
+          [
+            1,
+            105,
+            581,
+            780,
+            798
+          ],
+          [
+            2,
+            428,
+            904,
+            58,
+            69
+          ],
+          [
+            2,
+            63,
+            539,
+            239,
+            251
+          ],
+          [
+            2,
+            74,
+            550,
+            259,
+            271
+          ],
+          [
+            2,
+            74,
+            550,
+            281,
+            292
+          ],
+          [
+            2,
+            63,
+            539,
+            302,
+            314
+          ],
+          [
+            2,
+            74,
+            550,
+            325,
+            333
+          ],
+          [
+            2,
+            74,
+            550,
+            346,
+            356
+          ],
+          [
+            2,
+            74,
+            550,
+            365,
+            377
+          ],
+          [
+            2,
+            74,
+            550,
+            387,
+            396
+          ],
+          [
+            2,
+            75,
+            551,
+            407,
+            419
+          ],
+          [
+            2,
+            74,
+            550,
+            428,
+            440
+          ],
+          [
+            2,
+            74,
+            550,
+            449,
+            460
+          ],
+          [
+            2,
+            74,
+            550,
+            470,
+            481
+          ],
+          [
+            2,
+            74,
+            550,
+            491,
+            502
+          ],
+          [
+            2,
+            63,
+            539,
+            512,
+            523
+          ],
+          [
+            2,
+            66,
+            542,
+            533,
+            544
+          ],
+          [
+            2,
+            66,
+            542,
+            554,
+            565
+          ],
+          [
+            3,
+            65,
+            541,
+            58,
+            69
+          ],
+          [
+            3,
+            105,
+            581,
+            169,
+            184
+          ],
+          [
+            3,
+            107,
+            583,
+            202,
+            214
+          ],
+          [
+            3,
+            105,
+            581,
+            216,
+            231
+          ],
+          [
+            3,
+            106,
+            582,
+            234,
+            246
+          ],
+          [
+            3,
+            87,
+            563,
+            250,
+            262
+          ],
+          [
+            3,
+            87,
+            563,
+            264,
+            277
+          ],
+          [
+            3,
+            87,
+            563,
+            281,
+            293
+          ],
+          [
+            3,
+            87,
+            563,
+            297,
+            309
+          ],
+          [
+            3,
+            87,
+            563,
+            313,
+            325
+          ],
+          [
+            3,
+            86,
+            562,
+            328,
+            341
+          ]
+        ],
+        "similarity": 0.810848268679267,
+        "term_similarity": 0.9072785867891673,
+        "vector_similarity": 0.5858441930894996
+      },
+      {
+        "content": "中华人民共和国交通运输行业标准JT /T 1415. 3—2022交通运输数据资源交换与共享第3 部分:数据格式与接口Transportation data exchanging and sharing—Part 3:Data format and interface中华人民共和国交通运输部发布JT /T 1415. 3—2022次前言引言1　范围……2　规范性引用文件3　术语和定义、缩略语…4　资源共享要求5　资源交换要求附录A(资料性)　结构化数据文件内容示例附录B(规范性)　控制文件和应答文件格式参考文献……JT /T 1415. 3—2022前　　言本文件按照GB /T 1. 1—2020《标准化工作导则　第1 部分:标准化文件的结构和起草规则》的规定起草。本文件是JT /T 1415《交通运输数据资源交换与共享》的第3 部分。JT /T 1415 已经发布了以下部分:第部分总体架构—1 :;—第部分通用技术要求第2 部分:格与;3 :数据式接口。—请——注意本文件的某些内容可能涉及专利本文件的发布机构不承担识别专利的责任。本文件由交通运输信息通信及导航标准。化技术委员会提出并归口本文件起草单位交通运输部科学研究院长城计算软件与系统。、机有限公司、贵州省交通运输厅、贵州银智科技发展有:限公司。本文件主要起草人郭明多李洪囤杨艳芳黄莉莉曹剑东、陈博、段成民、刘娜、田璐、郭亚茹、",
+        "content_ltks": "中华人民共和国 交通运输 行业标准 jtt 1415 3 2022 交通运输 数据 资源 交换 与 共享 第 3 部分 数据格式 与 接口 transport dataexchang and share part 3 data format and interfac 中华人民共和国 交通运输 部 发布 jtt 1415 3 2022 次 前言 引言 1 范围 2 规范性 引用 文件 3 术语 和 定义 缩略语 4 资源共享 要求 5 资源 交换 要求 附录 a 资料性 结构化 数据文件 内容 示例 附录 b 规范性 控制 文件 和 应答 文件格式 参考文献 jtt 1415 3 2022 前 言 本 文件 按照 gbt 11 2020 标准化 工作 导 则 第1 部分 标准化 文件 的 结构 和 起草 规则 的 规定 起草 本 文件 是 jtt 1415 交通运输 数据 资源 交换 与 共享 的 第 3 部分 jtt 1415 已经 发布 了 以下 部分 第 部分 总体 架构 1 第 部分 通用 技术 要求 第 2 部分 格 与 3 数据 式 接口 请 注意 本 文件 的 某些 内容 可能 涉及 专利 本 文件 的 发布 机构 不 承担 识别 专利 的 责任 本 文件 由 交通运输 信息 通信 及 导航 标准 化 技术 委员会 提出 并 归口 本 文件 起草 单位 交通 运输 部 科学 研究院 长城 计算 软件 与 系统 机 有限公司 贵州省 交通运输 厅 贵州 银 智科技 发展 有 限 公司 本 文件 主要 起草人 郭 明 多 李 洪 囤 杨 艳 芳 黄 莉莉 曹 剑 东 陈 博 段 成 民 刘 娜 田 璐 郭 亚 茹",
+        "dataset_id": "7ebd0a808e2711f0a685620ff33f7526",
+        "doc_type_kwd": "",
+        "document_id": "d356b2808e2711f0bdfa620ff33f7526",
+        "document_keyword": "201_已解密.pdf",
+        "highlight": "中华人民共和国<em>交通运输</em>行业标准jtt 1415 3 2022 <em>交通运输</em> <em>数据</em> <em>资源</em> <em>交换</em>与共享第 3部分数据格式与接口transport dataexchang and share...缩略语4资源共享要求5 <em>资源</em> <em>交换</em>要求附录a资料性结构化数据文件内容示例附录b规范性控制文件和应答文件格式参考文献jtt 1415 3 2022前言本...文件按照gbt 11 2020标准化工作导则第1部分标准化文件的结构和起草规则的规定起草本文件是 jtt 1415 <em>交通运输</em> <em>数据</em> <em>资源</em> <em>交换</em>与共享的...第3部分jtt 1415已经发布了以下部分第部分总体架构1第部分通用技术要求第 2部分格与3 <em>数据</em>式接口请注意本文件的某些内容可能涉及...专利本文件的发布机构不承担识别专利的责任本文件由 <em>交通运输</em>信息通信及导航标准化技术委员会提出并归口本文件起草单位<em>交通</em> <em>运输</em>部科学研究院",
+        "id": "f6cc5bd826db900a",
+        "image_id": "7ebd0a808e2711f0a685620ff33f7526-f6cc5bd826db900a",
+        "important_keywords": [],
+        "positions": [
+          [
+            1,
+            60,
+            537,
+            130,
+            151
+          ],
+          [
+            1,
+            402,
+            879,
+            178,
+            190
+          ],
+          [
+            1,
+            121,
+            598,
+            336,
+            359
+          ],
+          [
+            1,
+            143,
+            620,
+            370,
+            391
+          ],
+          [
+            1,
+            196,
+            673,
+            440,
+            452
+          ],
+          [
+            1,
+            103,
+            580,
+            783,
+            801
+          ],
+          [
+            2,
+            432,
+            909,
+            57,
+            69
+          ],
+          [
+            2,
+            62,
+            538,
+            216,
+            231
+          ],
+          [
+            2,
+            64,
+            541,
+            239,
+            251
+          ],
+          [
+            2,
+            66,
+            543,
+            302,
+            314
+          ],
+          [
+            2,
+            66,
+            543,
+            323,
+            335
+          ],
+          [
+            3,
+            66,
+            543,
+            57,
+            69
+          ],
+          [
+            3,
+            87,
+            564,
+            154,
+            166
+          ],
+          [
+            3,
+            87,
+            564,
+            186,
+            199
+          ],
+          [
+            3,
+            107,
+            584,
+            218,
+            230
+          ],
+          [
+            3,
+            105,
+            582,
+            234,
+            246
+          ],
+          [
+            3,
+            107,
+            584,
+            250,
+            262
+          ],
+          [
+            3,
+            88,
+            565,
+            265,
+            277
+          ],
+          [
+            3,
+            87,
+            564,
+            281,
+            293
+          ],
+          [
+            3,
+            87,
+            564,
+            297,
+            309
+          ],
+          [
+            3,
+            67,
+            544,
+            313,
+            324
+          ],
+          [
+            3,
+            87,
+            563,
+            326,
+            341
+          ]
+        ],
+        "similarity": 0.8101881249381896,
+        "term_similarity": 0.9072785867891673,
+        "vector_similarity": 0.5836437139525752
+      },
+      {
+        "content": "中华人民共和国交通运输行业标准JT /T 1415. 3—2022交通运输数据资源交换与共享第3 部分:数据格式与接口Transportation data exchanging and sharing—Part 3:Data format and interface中华人民共和国交通运输部发布JT /T 1415. 3—2022次前言引言1　范围……2　规范性引用文件3　术语和定义、缩略语…4　资源共享要求5　资源交换要求附录A(资料性)　结构化数据文件内容示例附录B(规范性)　控制文件和应答文件格式参考文献……JT /T 1415. 3—2022前　　言本文件按照GB /T 1. 1—2020《标准化工作导则　第1 部分:标准化文件的结构和起草规则》的规定起草。本文件是JT /T 1415《交通运输数据资源交换与共享》的第3 部分。JT /T 1415 已经发布了以下部分:第部分总体架构—1 :;—第部分通用技术要求第2 部分:格与;3 :数据式接口。—请——注意本文件的某些内容可能涉及专利本文件的发布机构不承担识别专利的责任。本文件由交通运输信息通信及导航标准。化技术委员会提出并归口本文件起草单位交通运输部科学研究院长城计算软件与系统。、机有限公司、贵州省交通运输厅、贵州银智科技发展有:限公司。本文件主要起草人郭明多李洪囤杨艳芳黄莉莉曹剑东、陈博、段成民、刘娜、田璐、郭亚茹、",
+        "content_ltks": "中华人民共和国 交通运输 行业标准 jtt 1415 3 2022 交通运输 数据 资源 交换 与 共享 第 3 部分 数据格式 与 接口 transport dataexchang and share part 3 data format and interfac 中华人民共和国 交通运输 部 发布 jtt 1415 3 2022 次 前言 引言 1 范围 2 规范性 引用 文件 3 术语 和 定义 缩略语 4 资源共享 要求 5 资源 交换 要求 附录 a 资料性 结构化 数据文件 内容 示例 附录 b 规范性 控制 文件 和 应答 文件格式 参考文献 jtt 1415 3 2022 前 言 本 文件 按照 gbt 11 2020 标准化 工作 导 则 第1 部分 标准化 文件 的 结构 和 起草 规则 的 规定 起草 本 文件 是 jtt 1415 交通运输 数据 资源 交换 与 共享 的 第 3 部分 jtt 1415 已经 发布 了 以下 部分 第 部分 总体 架构 1 第 部分 通用 技术 要求 第 2 部分 格 与 3 数据 式 接口 请 注意 本 文件 的 某些 内容 可能 涉及 专利 本 文件 的 发布 机构 不 承担 识别 专利 的 责任 本 文件 由 交通运输 信息 通信 及 导航 标准 化 技术 委员会 提出 并 归口 本 文件 起草 单位 交通 运输 部 科学 研究院 长城 计算 软件 与 系统 机 有限公司 贵州省 交通运输 厅 贵州 银 智科技 发展 有 限 公司 本 文件 主要 起草人 郭 明 多 李 洪 囤 杨 艳 芳 黄 莉莉 曹 剑 东 陈 博 段 成 民 刘 娜 田 璐 郭 亚 茹",
+        "dataset_id": "54887ce6975411f0851bb6a7ca88af7c",
+        "doc_type_kwd": "",
+        "document_id": "95008d68975411f0b3aeb6a7ca88af7c",
+        "document_keyword": "114_已解密.pdf",
+        "highlight": "中华人民共和国<em>交通运输</em>行业标准jtt 1415 3 2022 <em>交通运输</em> <em>数据</em> <em>资源</em> <em>交换</em>与共享第 3部分数据格式与接口transport dataexchang and share...缩略语4资源共享要求5 <em>资源</em> <em>交换</em>要求附录a资料性结构化数据文件内容示例附录b规范性控制文件和应答文件格式参考文献jtt 1415 3 2022前言本...文件按照gbt 11 2020标准化工作导则第1部分标准化文件的结构和起草规则的规定起草本文件是 jtt 1415 <em>交通运输</em> <em>数据</em> <em>资源</em> <em>交换</em>与共享的...第3部分jtt 1415已经发布了以下部分第部分总体架构1第部分通用技术要求第 2部分格与3 <em>数据</em>式接口请注意本文件的某些内容可能涉及...专利本文件的发布机构不承担识别专利的责任本文件由 <em>交通运输</em>信息通信及导航标准化技术委员会提出并归口本文件起草单位<em>交通</em> <em>运输</em>部科学研究院",
+        "id": "528070d0717f4e3b",
+        "image_id": "54887ce6975411f0851bb6a7ca88af7c-528070d0717f4e3b",
+        "important_keywords": [],
+        "positions": [
+          [
+            1,
+            60,
+            537,
+            130,
+            151
+          ],
+          [
+            1,
+            402,
+            879,
+            178,
+            190
+          ],
+          [
+            1,
+            121,
+            598,
+            336,
+            359
+          ],
+          [
+            1,
+            143,
+            620,
+            370,
+            391
+          ],
+          [
+            1,
+            196,
+            673,
+            440,
+            452
+          ],
+          [
+            1,
+            103,
+            580,
+            783,
+            801
+          ],
+          [
+            2,
+            432,
+            909,
+            57,
+            69
+          ],
+          [
+            2,
+            62,
+            538,
+            216,
+            231
+          ],
+          [
+            2,
+            64,
+            541,
+            239,
+            251
+          ],
+          [
+            2,
+            66,
+            543,
+            302,
+            314
+          ],
+          [
+            2,
+            66,
+            543,
+            323,
+            335
+          ],
+          [
+            3,
+            66,
+            543,
+            57,
+            69
+          ],
+          [
+            3,
+            87,
+            564,
+            154,
+            166
+          ],
+          [
+            3,
+            87,
+            564,
+            186,
+            199
+          ],
+          [
+            3,
+            107,
+            584,
+            218,
+            230
+          ],
+          [
+            3,
+            105,
+            582,
+            234,
+            246
+          ],
+          [
+            3,
+            107,
+            584,
+            250,
+            262
+          ],
+          [
+            3,
+            88,
+            565,
+            265,
+            277
+          ],
+          [
+            3,
+            87,
+            564,
+            281,
+            293
+          ],
+          [
+            3,
+            87,
+            564,
+            297,
+            309
+          ],
+          [
+            3,
+            67,
+            544,
+            313,
+            324
+          ],
+          [
+            3,
+            87,
+            563,
+            326,
+            341
+          ]
+        ],
+        "similarity": 0.8098003944400606,
+        "term_similarity": 0.9072785867891673,
+        "vector_similarity": 0.5823512789588119
+      },
+      {
+        "content": "中华人民共和国交通运输行业标准JT/T 1415.1—2022交通运输数据资源交换与共享第1部分：总体架构Transportation data exchanging and sharingPart 1 :Overall framework中华人民共和国交通运输部发布JT /T 1415. 1—2022目　　次前言引言　1　范围2　规范性引用文件3　术语和定义…4　体系架构5　功能架构6　业务架构7　资源提供与使用方式参考文献……JT /T 1415. 1—2022前　　言本文件按照GB /T 1. 1—2020《标准化工作导则　第1 部分:标准化文件的结构和起草规则》的规定起草。本文件是JT /T 1415《交通运输数据资源交换与共享》的第1 部分。JT /T 1415 已经发布了以下部分:第部分总体架构—1 :;—第部分通用技术要求第2 部分:格与;3 :数据式接口。—请——注意本文件的某些内容可能涉及专利本文件的发布机构不承担识别专利的责任。本文件由交通运输信息通信及导航标准。化技术委员会提出并归口本文件起草单位交通运输部科学研究院长城计算软件与系统。、机有限公司、贵州省交通运输厅、贵州银智科技发展有:限公司。本文件主要起草人郭明多杨艳芳李洪囤黄莉莉曹剑东、陈博、段成民、刘娜、田璐、郭亚茹、张莉周雷尚华田仁薪:王、张、李、康、、、、、杨波、君、冰冰、政达、厚荣。",
+        "content_ltks": "中华人民共和国 交通运输 行业标准 jtt 1415 1 2022 交通运输 数据 资源 交换 与 共享 第1 部分 总体 架构 transport dataexchang and sharingpart 1 overal framework 中华人民共和国 交通运输 部 发布 jtt 1415 1 2022 目 次 前言 引言 1 范围 2 规范性 引用 文件 3 术语 和 定义 4 体系 架构 5 功能 架构 6 业务 架构 7 资源 提供 与 使用 方式 参考文献 jtt 1415 1 2022 前 言 本 文件 按照 gbt 11 2020 标准化 工作 导 则 第1 部分 标准化 文件 的 结构 和 起草 规则 的 规定 起草 本 文件 是 jtt 1415 交通运输 数据 资源 交换 与 共享 的 第1 部分 jtt 1415 已经 发布 了 以下 部分 第 部分 总体 架构 1 第 部分 通用 技术 要求 第 2 部分 格 与 3 数据 式 接口 请 注意 本 文件 的 某些 内容 可能 涉及 专利 本 文件 的 发布 机构 不 承担 识别 专利 的 责任 本 文件 由 交通运输 信息 通信 及 导航 标准 化 技术 委员会 提出 并 归口 本 文件 起草 单位 交通 运输 部 科学 研究院 长城 计算 软件 与 系统 机 有限公司 贵州省 交通运输 厅 贵州 银 智科技 发展 有 限 公司 本 文件 主要 起草人 郭 明 多 杨 艳 芳 李 洪 囤 黄 莉莉 曹 剑 东 陈 博 段 成 民 刘 娜 田 璐 郭 亚 茹 张 莉 周 雷尚 华 田 仁 薪 王 张 李 康 杨 波 君 冰冰 政 达 厚 荣",
+        "dataset_id": "54887ce6975411f0851bb6a7ca88af7c",
+        "doc_type_kwd": "",
+        "document_id": "94f914a2975411f0b3aeb6a7ca88af7c",
+        "document_keyword": "112_已解密.pdf",
+        "highlight": "中华人民共和国<em>交通运输</em>行业标准jtt 1415 1 2022 <em>交通运输</em> <em>数据</em> <em>资源</em> <em>交换</em>与共享第1部分总体架构transport dataexchang and sharingpart...功能架构6业务架构7 <em>资源</em>提供与使用方式参考文献jtt 1415 1 2022前言本文件按照gbt 11 2020标准化工作导则第1部分标准化文件的...结构和起草规则的规定起草本文件是 jtt 1415 <em>交通运输</em> <em>数据</em> <em>资源</em> <em>交换</em>与共享的第1部分jtt 1415已经发布了以下部分第部分总体架构1第部分...通用技术要求第 2部分格与3 <em>数据</em>式接口请注意本文件的某些内容可能涉及专利本文件的发布机构不承担识别专利的责任本文件由 <em>交通运输</em>信息...通信及导航标准化技术委员会提出并归口本文件起草单位<em>交通</em> <em>运输</em>部科学研究院长城计算软件与系统机有限公司贵州省<em>交通运输</em>厅贵州银智科技发展有",
+        "id": "2f6d55346f5b838f",
+        "image_id": "54887ce6975411f0851bb6a7ca88af7c-2f6d55346f5b838f",
+        "important_keywords": [],
+        "positions": [
+          [
+            1,
+            60,
+            535,
+            130,
+            151
+          ],
+          [
+            1,
+            401,
+            876,
+            175,
+            190
+          ],
+          [
+            1,
+            122,
+            597,
+            337,
+            358
+          ],
+          [
+            1,
+            183,
+            658,
+            369,
+            393
+          ],
+          [
+            1,
+            103,
+            579,
+            782,
+            800
+          ],
+          [
+            2,
+            432,
+            907,
+            56,
+            68
+          ],
+          [
+            2,
+            63,
+            538,
+            216,
+            231
+          ],
+          [
+            2,
+            63,
+            539,
+            239,
+            251
+          ],
+          [
+            2,
+            63,
+            539,
+            323,
+            336
+          ],
+          [
+            3,
+            66,
+            541,
+            57,
+            69
+          ],
+          [
+            3,
+            87,
+            563,
+            154,
+            166
+          ],
+          [
+            3,
+            87,
+            563,
+            186,
+            199
+          ],
+          [
+            3,
+            107,
+            582,
+            218,
+            230
+          ],
+          [
+            3,
+            105,
+            580,
+            234,
+            246
+          ],
+          [
+            3,
+            107,
+            582,
+            250,
+            262
+          ],
+          [
+            3,
+            88,
+            564,
+            265,
+            278
+          ],
+          [
+            3,
+            87,
+            563,
+            281,
+            293
+          ],
+          [
+            3,
+            87,
+            563,
+            296,
+            308
+          ],
+          [
+            3,
+            67,
+            542,
+            313,
+            324
+          ],
+          [
+            3,
+            87,
+            562,
+            326,
+            341
+          ],
+          [
+            3,
+            67,
+            542,
+            344,
+            357
+          ]
+        ],
+        "similarity": 0.8080705041721614,
+        "term_similarity": 0.9072785867891673,
+        "vector_similarity": 0.5765849780658148
+      },
+      {
+        "content": "中华人民共和国交通运输行业标准JT/T 1415.1—2022交通运输数据资源交换与共享第1部分：总体架构Transportation data exchanging and sharingPart 1 :Overall framework中华人民共和国交通运输部发布JT /T 1415. 1—2022目　　次前言引言　1　范围2　规范性引用文件3　术语和定义…4　体系架构5　功能架构6　业务架构7　资源提供与使用方式参考文献……JT /T 1415. 1—2022前　　言本文件按照GB /T 1. 1—2020《标准化工作导则　第1 部分:标准化文件的结构和起草规则》的规定起草。本文件是JT /T 1415《交通运输数据资源交换与共享》的第1 部分。JT /T 1415 已经发布了以下部分:第部分总体架构—1 :;—第部分通用技术要求第2 部分:格与;3 :数据式接口。—请——注意本文件的某些内容可能涉及专利本文件的发布机构不承担识别专利的责任。本文件由交通运输信息通信及导航标准。化技术委员会提出并归口本文件起草单位交通运输部科学研究院长城计算软件与系统。、机有限公司、贵州省交通运输厅、贵州银智科技发展有:限公司。本文件主要起草人郭明多杨艳芳李洪囤黄莉莉曹剑东、陈博、段成民、刘娜、田璐、郭亚茹、张莉周雷尚华田仁薪:王、张、李、康、、、、、杨波、君、冰冰、政达、厚荣。",
+        "content_ltks": "中华人民共和国 交通运输 行业标准 jtt 1415 1 2022 交通运输 数据 资源 交换 与 共享 第1 部分 总体 架构 transport dataexchang and sharingpart 1 overal framework 中华人民共和国 交通运输 部 发布 jtt 1415 1 2022 目 次 前言 引言 1 范围 2 规范性 引用 文件 3 术语 和 定义 4 体系 架构 5 功能 架构 6 业务 架构 7 资源 提供 与 使用 方式 参考文献 jtt 1415 1 2022 前 言 本 文件 按照 gbt 11 2020 标准化 工作 导 则 第1 部分 标准化 文件 的 结构 和 起草 规则 的 规定 起草 本 文件 是 jtt 1415 交通运输 数据 资源 交换 与 共享 的 第1 部分 jtt 1415 已经 发布 了 以下 部分 第 部分 总体 架构 1 第 部分 通用 技术 要求 第 2 部分 格 与 3 数据 式 接口 请 注意 本 文件 的 某些 内容 可能 涉及 专利 本 文件 的 发布 机构 不 承担 识别 专利 的 责任 本 文件 由 交通运输 信息 通信 及 导航 标准 化 技术 委员会 提出 并 归口 本 文件 起草 单位 交通 运输 部 科学 研究院 长城 计算 软件 与 系统 机 有限公司 贵州省 交通运输 厅 贵州 银 智科技 发展 有 限 公司 本 文件 主要 起草人 郭 明 多 杨 艳 芳 李 洪 囤 黄 莉莉 曹 剑 东 陈 博 段 成 民 刘 娜 田 璐 郭 亚 茹 张 莉 周 雷尚 华 田 仁 薪 王 张 李 康 杨 波 君 冰冰 政 达 厚 荣",
+        "dataset_id": "7ebd0a808e2711f0a685620ff33f7526",
+        "doc_type_kwd": "",
+        "document_id": "d350ce1a8e2711f0bdfa620ff33f7526",
+        "document_keyword": "199_已解密.pdf",
+        "highlight": "中华人民共和国<em>交通运输</em>行业标准jtt 1415 1 2022 <em>交通运输</em> <em>数据</em> <em>资源</em> <em>交换</em>与共享第1部分总体架构transport dataexchang and sharingpart...功能架构6业务架构7 <em>资源</em>提供与使用方式参考文献jtt 1415 1 2022前言本文件按照gbt 11 2020标准化工作导则第1部分标准化文件的...结构和起草规则的规定起草本文件是 jtt 1415 <em>交通运输</em> <em>数据</em> <em>资源</em> <em>交换</em>与共享的第1部分jtt 1415已经发布了以下部分第部分总体架构1第部分...通用技术要求第 2部分格与3 <em>数据</em>式接口请注意本文件的某些内容可能涉及专利本文件的发布机构不承担识别专利的责任本文件由 <em>交通运输</em>信息...通信及导航标准化技术委员会提出并归口本文件起草单位<em>交通</em> <em>运输</em>部科学研究院长城计算软件与系统机有限公司贵州省<em>交通运输</em>厅贵州银智科技发展有",
+        "id": "d6b8d68b17450b0a",
+        "image_id": "7ebd0a808e2711f0a685620ff33f7526-d6b8d68b17450b0a",
+        "important_keywords": [],
+        "positions": [
+          [
+            1,
+            60,
+            535,
+            130,
+            151
+          ],
+          [
+            1,
+            401,
+            876,
+            175,
+            190
+          ],
+          [
+            1,
+            122,
+            597,
+            337,
+            358
+          ],
+          [
+            1,
+            183,
+            658,
+            369,
+            393
+          ],
+          [
+            1,
+            103,
+            579,
+            782,
+            800
+          ],
+          [
+            2,
+            432,
+            907,
+            56,
+            68
+          ],
+          [
+            2,
+            63,
+            538,
+            216,
+            231
+          ],
+          [
+            2,
+            63,
+            539,
+            239,
+            251
+          ],
+          [
+            2,
+            63,
+            539,
+            323,
+            336
+          ],
+          [
+            3,
+            66,
+            541,
+            57,
+            69
+          ],
+          [
+            3,
+            87,
+            563,
+            154,
+            166
+          ],
+          [
+            3,
+            87,
+            563,
+            186,
+            199
+          ],
+          [
+            3,
+            107,
+            582,
+            218,
+            230
+          ],
+          [
+            3,
+            105,
+            580,
+            234,
+            246
+          ],
+          [
+            3,
+            107,
+            582,
+            250,
+            262
+          ],
+          [
+            3,
+            88,
+            564,
+            265,
+            278
+          ],
+          [
+            3,
+            87,
+            563,
+            281,
+            293
+          ],
+          [
+            3,
+            87,
+            563,
+            296,
+            308
+          ],
+          [
+            3,
+            67,
+            542,
+            313,
+            324
+          ],
+          [
+            3,
+            87,
+            562,
+            326,
+            341
+          ],
+          [
+            3,
+            67,
+            542,
+            344,
+            357
+          ]
+        ],
+        "similarity": 0.8074252525368844,
+        "term_similarity": 0.9072785867891673,
+        "vector_similarity": 0.5744341392815577
+      },
+      {
+        "content": "JT /T 697. 8—2014　　8 :JT /T 747. 5　交通运输信息资源目录体系　第5 部分:标识符编码规则道路运政管理信息系统第2 部分:数据资源采集接口JT /T 1049. 2—2016　交通运输执法管理信息数　据元JT /T 1075—2016　JT /T 1402　交通运输行政执法基础装备配备及技术要求3　术语和定义、缩略语3. 1　术语和定义本文件没有需要界定的术语和定义。3. 2　缩略语下列缩略语适用于本文件。CDATA:字符数据(Character Data)HTTP:超文本传输协议(Hyper Text Transfer Protocol)JSON:JavaScript 对象标记(JavaScript Object Notation)MP4:动态图像专家组(Moving Picture Experts Group 4)便携式文档格式PDF:安全文件传输协(议Portable Document Format)ransfer Protocol)SFTP:(Secure File TSSL:安全套接层(Secure Sockets Layer)最小长度为比特的可变长度字符编码t Unicode Transformation Format)UTF-8:8 (8-biXML:可扩展标记语言(Extensible Markup Language)4　总体要求4. 1　架构4. 1. 1　部省间数据交换全国交通运输行政执法综合管理信息系统以下简称部级执法系统与各省级交通运输行政执法综合管理信息系统以下简称省级执法系统(通过交通“运输数据资源交”)换共享与开放应用平台以下简称交换共享平台(提供的“交换服务接口和”)文件服务器现部省间数据交交(”)实换。部省间数据换架构应符“合图1 的规定。4. 1. 2　省际间数据交换",
+        "content_ltks": "jtt 697 8 2014 8 jtt 747 5 交通运输 信息 资源 目录 体系 第 5 部分 标识符 编码 规则 道路 运 政 管理信息系统 第 2 部分 数据 资源 采集 接口 jtt 1049 2 2016 交通运输 执法 管理 信息 数 据 元 jtt 1075 2016 jtt 1402 交通运输 行政 执法 基础 装备 配备 及 技术 要求 3 术语 和 定义 缩略语 31 术语 和定 义本 文件 没有 需要 界定 的 术语 和 定义 32 缩略语 下列 缩略语 适用 于 本 文件 cdata 字符 数据 charact data http 超文本 传输 协议 hypertext transfer protocol json javascript 对象 标记 javascript object notat mp4 动态 图像 专家组 move pictur expert group 4 便携式 文档 格式 pdf 安全 文件传输 协 议 portabl document format ransfer protocol sftp secur file tssl 安全套 接 层 secur socket layer 最小 长度 为 比特 的 可变 长度 字符 编码 t unicod transform format utf 88 8 bixml 可 扩展 标记 语言 extens markup languag 4 总体 要求 4 1 架构 4 11 部 省 间 数据交换 全国 交通运输 行政 执法 综合 管理信息系统 以下 简称 部级 执法 系统 与 各 省级 交通运输 行政 执法 综合 管理信息系统 以下 简称 省级 执法 系统 通过 交通 运输 数据 资源 交 换 共享 与 开放 应用 平台 以下 简称 交换 共享 平台 提供 的 交换 服务 接口 和 文件 服务器 现 部 省 间 数据 交交 实 换 部 省 间 数据 换 架构 应 符 合 图 1 的 规定 4 12 省际 间 数据交换",
+        "dataset_id": "7ebd0a808e2711f0a685620ff33f7526",
+        "doc_type_kwd": "",
+        "document_id": "d02d95e28e2711f0bdfa620ff33f7526",
+        "document_keyword": "197_已解密.pdf",
+        "highlight": "jtt 697 8 2014 8 jtt 747 5 <em>交通运输</em>信息<em>资源</em>目录体系第 5部分标识符编码规则道路运政管理信息系统第 2部分<em>数据</em> <em>资源</em>采集接口jtt 1049...2 2016 <em>交通运输</em>执法管理信息数据元 jtt 1075 2016 jtt 1402 <em>交通运输</em>行政执法基础装备配备及技术要求3术语和定义缩略语31术语和定...transform format utf 88 8 bixml可扩展标记语言extens markup languag 4总体要求4 1架构4 11部省间数据交换全国<em>交通运输</em>...行政执法综合管理信息系统以下简称部级执法系统与各省级<em>交通运输</em>行政执法综合管理信息系统以下简称省级执法系统通过<em>交通</em> <em>运输</em> <em>数据</em> <em>资源</em>交换共享与开放...应用平台以下简称<em>交换</em>共享平台提供的 <em>交换</em>服务接口和文件服务器现部省间<em>数据</em>交交实换部省间 <em>数据</em>换架构应符合图1的规定4 12省际间",
+        "id": "3c5752cad6d6bd87",
+        "image_id": "7ebd0a808e2711f0a685620ff33f7526-3c5752cad6d6bd87",
+        "important_keywords": [],
+        "positions": [
+          [
+            4,
+            86,
+            549,
+            505,
+            517
+          ],
+          [
+            4,
+            86,
+            549,
+            521,
+            532
+          ],
+          [
+            4,
+            86,
+            548,
+            536,
+            548
+          ],
+          [
+            4,
+            86,
+            549,
+            552,
+            564
+          ],
+          [
+            4,
+            64,
+            527,
+            584,
+            595
+          ],
+          [
+            4,
+            64,
+            527,
+            611,
+            623
+          ],
+          [
+            4,
+            88,
+            551,
+            635,
+            646
+          ],
+          [
+            4,
+            64,
+            527,
+            657,
+            670
+          ],
+          [
+            4,
+            88,
+            551,
+            682,
+            694
+          ],
+          [
+            4,
+            86,
+            548,
+            712,
+            727
+          ],
+          [
+            4,
+            87,
+            550,
+            730,
+            743
+          ],
+          [
+            4,
+            88,
+            551,
+            746,
+            758
+          ],
+          [
+            5,
+            87,
+            550,
+            85,
+            97
+          ],
+          [
+            5,
+            87,
+            550,
+            101,
+            113
+          ],
+          [
+            5,
+            87,
+            550,
+            116,
+            129
+          ],
+          [
+            5,
+            87,
+            550,
+            131,
+            144
+          ],
+          [
+            5,
+            86,
+            548,
+            145,
+            160
+          ],
+          [
+            5,
+            63,
+            526,
+            204,
+            219
+          ],
+          [
+            5,
+            65,
+            528,
+            229,
+            240
+          ],
+          [
+            5,
+            88,
+            551,
+            252,
+            265
+          ],
+          [
+            5,
+            66,
+            529,
+            268,
+            280
+          ],
+          [
+            5,
+            68,
+            531,
+            284,
+            296
+          ],
+          [
+            5,
+            66,
+            529,
+            300,
+            312
+          ],
+          [
+            5,
+            64,
+            527,
+            552,
+            564
+          ]
+        ],
+        "similarity": 0.8054841559434988,
+        "term_similarity": 0.9072785867891673,
+        "vector_similarity": 0.5679638173036057
+      },
+      {
+        "content": "JT /T 697. 8—2014　　8 :JT /T 747. 5　交通运输信息资源目录体系　第5 部分:标识符编码规则道路运政管理信息系统第2 部分:数据资源采集接口JT /T 1049. 2—2016　交通运输执法管理信息数　据元JT /T 1075—2016　JT /T 1402　交通运输行政执法基础装备配备及技术要求3　术语和定义、缩略语3. 1　术语和定义本文件没有需要界定的术语和定义。3. 2　缩略语下列缩略语适用于本文件。CDATA:字符数据(Character Data)HTTP:超文本传输协议(Hyper Text Transfer Protocol)JSON:JavaScript 对象标记(JavaScript Object Notation)MP4:动态图像专家组(Moving Picture Experts Group 4)便携式文档格式PDF:安全文件传输协(议Portable Document Format)ransfer Protocol)SFTP:(Secure File TSSL:安全套接层(Secure Sockets Layer)最小长度为比特的可变长度字符编码t Unicode Transformation Format)UTF-8:8 (8-biXML:可扩展标记语言(Extensible Markup Language)4　总体要求4. 1　架构4. 1. 1　部省间数据交换全国交通运输行政执法综合管理信息系统以下简称部级执法系统与各省级交通运输行政执法综合管理信息系统以下简称省级执法系统(通过交通“运输数据资源交”)换共享与开放应用平台以下简称交换共享平台(提供的“交换服务接口和”)文件服务器现部省间数据交交(”)实换。部省间数据换架构应符“合图1 的规定。4. 1. 2　省际间数据交换",
+        "content_ltks": "jtt 697 8 2014 8 jtt 747 5 交通运输 信息 资源 目录 体系 第 5 部分 标识符 编码 规则 道路 运 政 管理信息系统 第 2 部分 数据 资源 采集 接口 jtt 1049 2 2016 交通运输 执法 管理 信息 数 据 元 jtt 1075 2016 jtt 1402 交通运输 行政 执法 基础 装备 配备 及 技术 要求 3 术语 和 定义 缩略语 31 术语 和定 义本 文件 没有 需要 界定 的 术语 和 定义 32 缩略语 下列 缩略语 适用 于 本 文件 cdata 字符 数据 charact data http 超文本 传输 协议 hypertext transfer protocol json javascript 对象 标记 javascript object notat mp4 动态 图像 专家组 move pictur expert group 4 便携式 文档 格式 pdf 安全 文件传输 协 议 portabl document format ransfer protocol sftp secur file tssl 安全套 接 层 secur socket layer 最小 长度 为 比特 的 可变 长度 字符 编码 t unicod transform format utf 88 8 bixml 可 扩展 标记 语言 extens markup languag 4 总体 要求 4 1 架构 4 11 部 省 间 数据交换 全国 交通运输 行政 执法 综合 管理信息系统 以下 简称 部级 执法 系统 与 各 省级 交通运输 行政 执法 综合 管理信息系统 以下 简称 省级 执法 系统 通过 交通 运输 数据 资源 交 换 共享 与 开放 应用 平台 以下 简称 交换 共享 平台 提供 的 交换 服务 接口 和 文件 服务器 现 部 省 间 数据 交交 实 换 部 省 间 数据 换 架构 应 符 合 图 1 的 规定 4 12 省际 间 数据交换",
+        "dataset_id": "54887ce6975411f0851bb6a7ca88af7c",
+        "doc_type_kwd": "",
+        "document_id": "95dd4406975411f0b3aeb6a7ca88af7c",
+        "document_keyword": "186_已解密.pdf",
+        "highlight": "jtt 697 8 2014 8 jtt 747 5 <em>交通运输</em>信息<em>资源</em>目录体系第 5部分标识符编码规则道路运政管理信息系统第 2部分<em>数据</em> <em>资源</em>采集接口jtt 1049...2 2016 <em>交通运输</em>执法管理信息数据元 jtt 1075 2016 jtt 1402 <em>交通运输</em>行政执法基础装备配备及技术要求3术语和定义缩略语31术语和定...transform format utf 88 8 bixml可扩展标记语言extens markup languag 4总体要求4 1架构4 11部省间数据交换全国<em>交通运输</em>...行政执法综合管理信息系统以下简称部级执法系统与各省级<em>交通运输</em>行政执法综合管理信息系统以下简称省级执法系统通过<em>交通</em> <em>运输</em> <em>数据</em> <em>资源</em>交换共享与开放...应用平台以下简称<em>交换</em>共享平台提供的 <em>交换</em>服务接口和文件服务器现部省间<em>数据</em>交交实换部省间 <em>数据</em>换架构应符合图1的规定4 12省际间",
+        "id": "6e74f0ed5c8f0124",
+        "image_id": "54887ce6975411f0851bb6a7ca88af7c-6e74f0ed5c8f0124",
+        "important_keywords": [],
+        "positions": [
+          [
+            4,
+            86,
+            549,
+            505,
+            517
+          ],
+          [
+            4,
+            86,
+            549,
+            521,
+            532
+          ],
+          [
+            4,
+            86,
+            548,
+            536,
+            548
+          ],
+          [
+            4,
+            86,
+            549,
+            552,
+            564
+          ],
+          [
+            4,
+            64,
+            527,
+            584,
+            595
+          ],
+          [
+            4,
+            64,
+            527,
+            611,
+            623
+          ],
+          [
+            4,
+            88,
+            551,
+            635,
+            646
+          ],
+          [
+            4,
+            64,
+            527,
+            657,
+            670
+          ],
+          [
+            4,
+            88,
+            551,
+            682,
+            694
+          ],
+          [
+            4,
+            86,
+            548,
+            712,
+            727
+          ],
+          [
+            4,
+            87,
+            550,
+            730,
+            743
+          ],
+          [
+            4,
+            88,
+            551,
+            746,
+            758
+          ],
+          [
+            5,
+            87,
+            550,
+            85,
+            97
+          ],
+          [
+            5,
+            87,
+            550,
+            101,
+            113
+          ],
+          [
+            5,
+            87,
+            550,
+            116,
+            129
+          ],
+          [
+            5,
+            87,
+            550,
+            131,
+            144
+          ],
+          [
+            5,
+            86,
+            548,
+            145,
+            160
+          ],
+          [
+            5,
+            63,
+            526,
+            204,
+            219
+          ],
+          [
+            5,
+            65,
+            528,
+            229,
+            240
+          ],
+          [
+            5,
+            88,
+            551,
+            252,
+            265
+          ],
+          [
+            5,
+            66,
+            529,
+            268,
+            280
+          ],
+          [
+            5,
+            68,
+            531,
+            284,
+            296
+          ],
+          [
+            5,
+            66,
+            529,
+            300,
+            312
+          ],
+          [
+            5,
+            64,
+            527,
+            552,
+            564
+          ]
+        ],
+        "similarity": 0.805455987310338,
+        "term_similarity": 0.9072785867891673,
+        "vector_similarity": 0.5678699218597364
+      },
+      {
+        "content": "前 言 第1部分:公路;T /T 1140《交通运J———第1 部分：公路；———第2 部分：水路。本部分为JT /T 1140 的第1 部分。本部分按照GB /T 1. 1—2009 给出的规则起草。本部分由交通运输信息通信及导航标准化技术委员会提出并本部分起草单位北京交通信中心中国交通信信息心。：市息、通中、二十一世纪空间技术应用股份限公司、北京东方正通科技有限公司、北京乾丰益信息技术有限公司。本部分主要起草人：刘建峰、康小勇、成健、蔡莹、聂盈、王海峰、JT/T1140.1—2017交通运输安全应急资源数据元运输安全应急资1 范围 范围值域代码集。JT /T 1140 的本部分规定了交通运输公路安全应急资源数据元编制的基本要求和分类、数据元及值域代码集。集、交换与共享。 规范性引用文件件。凡是不注日期的引用文件,其最新版本(包括所有的修改单)适用于本文件。下列文件对于本文件的应用是必不可少的。凡是件。凡是不引用文件，其最新版GB /T 2260—（）7 中华人民共和国行政区划代码GB 124干部职务名称代码03 GA 24. 4—20机动车登记信息代码第4 部分：车JT /T 309 汽车客运站（点）代码JT /T 41JT /T 69 术语和定义JT /T 697. 1 界定的术语和",
+        "content_ltks": "前 言 第1 部分 公路 tt 1140 交通 运 j 第1 部分 公路 第 2 部分 水路 本部 分为 jtt 1140 的 第1 部分 本 部分 按照 gbt 11 2009 给出 的 规则 起草 本部 分由 交通运输 信息 通信 及 导航 标准化 技术 委员会 提出 并 本 部分 起草 单位 北京 交通 信 中心 中国 交通 信 信息 心 市 息 通 中 二十一 世纪 空间 技术 应用 股份 限 公司 北京 东方 正 通 科技 有限公司 北京 干 丰益 信息技术 有限公司 本 部分 主要 起草人 刘 建 峰 康 小 勇 成 健 蔡 莹 聂 盈 王 海峰 jt t1140 1 2017 交通运输 安全 应急 资源 数据 元 运输 安全 应急 资 1 范围 范围 值域 代码 集 jtt 1140 的 本 部分 规定 了 交通运输 公路 安全 应急 资源 数据 元 编制 的 基本 要求 和 分类 数据 元 及 值域 代码 集 集 交换 与 共享 规范性 引用 文件 件 凡是 不 注 日期 的 引用 文件 其 最新 版本 包括 所有 的 修改 单 适用 于 本 文件 下列 文件 对于 本 文件 的 应用 是 必不可少 的 凡是 件 凡是 不 引用 文件 其 最新版 gbt 2260 7 中华人民共和国 行政区划 代码 gb 124 干部 职务 名称 代码 03 ga 24 4 20 机动车 登记 信息 代码 第 4 部分 车 jtt 309 汽车客运 站 点 代码 jtt 41jt t 69 术语 和 定义 jtt 697 1 界定 的 术语 和",
+        "dataset_id": "7ebd0a808e2711f0a685620ff33f7526",
+        "doc_type_kwd": "",
+        "document_id": "d2b9e6a88e2711f0bdfa620ff33f7526",
+        "document_keyword": "043_已解密.pdf",
+        "highlight": "部分公路tt 1140交通运 j第1部分公路第 2部分水路本部分为jtt 1140的第1部分本部分按照gbt 11 2009给出的规则起草本部分由<em>交通运输</em>...限公司北京东方正通科技有限公司北京干丰益信息技术有限公司本部分主要起草人刘建峰康小勇成健蔡莹聂盈王海峰jt t1140 1 2017 <em>交通运输</em>...安全应急<em>资源</em> <em>数据</em>元运输安全应急资 1范围范围值域代码集 jtt 1140的本部分规定了 <em>交通运输</em>公路安全应急<em>资源</em> <em>数据</em>元编制的基本要求和分类...<em>数据</em>元及值域代码集集<em>交换</em>与共享规范性引用文件件凡是不注日期的引用文件其最新版本包括所有的修改单适用于本文件下列文件对于本文件的",
+        "id": "33ace11aef19e097",
+        "image_id": "7ebd0a808e2711f0a685620ff33f7526-33ace11aef19e097",
+        "important_keywords": [],
+        "positions": [
+          [
+            4,
+            107,
+            569,
+            174,
+            189
+          ],
+          [
+            4,
+            107,
+            569,
+            193,
+            205
+          ],
+          [
+            4,
+            87,
+            549,
+            207,
+            220
+          ],
+          [
+            4,
+            87,
+            549,
+            224,
+            236
+          ],
+          [
+            4,
+            87,
+            549,
+            240,
+            252
+          ],
+          [
+            4,
+            87,
+            549,
+            256,
+            268
+          ],
+          [
+            4,
+            67,
+            529,
+            271,
+            283
+          ],
+          [
+            4,
+            88,
+            550,
+            286,
+            299
+          ],
+          [
+            4,
+            67,
+            529,
+            303,
+            314
+          ],
+          [
+            4,
+            67,
+            529,
+            317,
+            329
+          ],
+          [
+            5,
+            430,
+            892,
+            64,
+            75
+          ],
+          [
+            5,
+            196,
+            658,
+            114,
+            129
+          ],
+          [
+            5,
+            247,
+            709,
+            136,
+            150
+          ],
+          [
+            5,
+            88,
+            550,
+            243,
+            255
+          ],
+          [
+            5,
+            64,
+            526,
+            292,
+            303
+          ],
+          [
+            5,
+            88,
+            550,
+            321,
+            334
+          ],
+          [
+            5,
+            67,
+            529,
+            339,
+            350
+          ],
+          [
+            5,
+            87,
+            549,
+            355,
+            366
+          ],
+          [
+            5,
+            86,
+            548,
+            370,
+            382
+          ],
+          [
+            5,
+            86,
+            548,
+            385,
+            398
+          ],
+          [
+            5,
+            86,
+            548,
+            401,
+            413
+          ],
+          [
+            5,
+            86,
+            548,
+            417,
+            429
+          ],
+          [
+            5,
+            86,
+            548,
+            433,
+            445
+          ],
+          [
+            5,
+            64,
+            526,
+            464,
+            476
+          ],
+          [
+            5,
+            64,
+            526,
+            527,
+            539
+          ]
+        ],
+        "similarity": 0.7943013600958818,
+        "term_similarity": 0.9072785867891673,
+        "vector_similarity": 0.5306878311448826
+      },
+      {
+        "content": "前 言 第1部分:公路;T /T 1140《交通运J———第1 部分：公路；———第2 部分：水路。本部分为JT /T 1140 的第1 部分。本部分按照GB /T 1. 1—2009 给出的规则起草。本部分由交通运输信息通信及导航标准化技术委员会提出并本部分起草单位北京交通信中心中国交通信信息心。：市息、通中、二十一世纪空间技术应用股份限公司、北京东方正通科技有限公司、北京乾丰益信息技术有限公司。本部分主要起草人：刘建峰、康小勇、成健、蔡莹、聂盈、王海峰、JT/T1140.1—2017交通运输安全应急资源数据元运输安全应急资1 范围 范围值域代码集。JT /T 1140 的本部分规定了交通运输公路安全应急资源数据元编制的基本要求和分类、数据元及值域代码集。集、交换与共享。 规范性引用文件件。凡是不注日期的引用文件,其最新版本(包括所有的修改单)适用于本文件。下列文件对于本文件的应用是必不可少的。凡是件。凡是不引用文件，其最新版GB /T 2260—（）7 中华人民共和国行政区划代码GB 124干部职务名称代码03 GA 24. 4—20机动车登记信息代码第4 部分：车JT /T 309 汽车客运站（点）代码JT /T 41JT /T 69 术语和定义JT /T 697. 1 界定的术语和",
+        "content_ltks": "前 言 第1 部分 公路 tt 1140 交通 运 j 第1 部分 公路 第 2 部分 水路 本部 分为 jtt 1140 的 第1 部分 本 部分 按照 gbt 11 2009 给出 的 规则 起草 本部 分由 交通运输 信息 通信 及 导航 标准化 技术 委员会 提出 并 本 部分 起草 单位 北京 交通 信 中心 中国 交通 信 信息 心 市 息 通 中 二十一 世纪 空间 技术 应用 股份 限 公司 北京 东方 正 通 科技 有限公司 北京 干 丰益 信息技术 有限公司 本 部分 主要 起草人 刘 建 峰 康 小 勇 成 健 蔡 莹 聂 盈 王 海峰 jt t1140 1 2017 交通运输 安全 应急 资源 数据 元 运输 安全 应急 资 1 范围 范围 值域 代码 集 jtt 1140 的 本 部分 规定 了 交通运输 公路 安全 应急 资源 数据 元 编制 的 基本 要求 和 分类 数据 元 及 值域 代码 集 集 交换 与 共享 规范性 引用 文件 件 凡是 不 注 日期 的 引用 文件 其 最新 版本 包括 所有 的 修改 单 适用 于 本 文件 下列 文件 对于 本 文件 的 应用 是 必不可少 的 凡是 件 凡是 不 引用 文件 其 最新版 gbt 2260 7 中华人民共和国 行政区划 代码 gb 124 干部 职务 名称 代码 03 ga 24 4 20 机动车 登记 信息 代码 第 4 部分 车 jtt 309 汽车客运 站 点 代码 jtt 41jt t 69 术语 和 定义 jtt 697 1 界定 的 术语 和",
+        "dataset_id": "54887ce6975411f0851bb6a7ca88af7c",
+        "doc_type_kwd": "",
+        "document_id": "96dfbb22975411f0b3aeb6a7ca88af7c",
+        "document_keyword": "031_已解密.pdf",
+        "highlight": "部分公路tt 1140交通运 j第1部分公路第 2部分水路本部分为jtt 1140的第1部分本部分按照gbt 11 2009给出的规则起草本部分由<em>交通运输</em>...限公司北京东方正通科技有限公司北京干丰益信息技术有限公司本部分主要起草人刘建峰康小勇成健蔡莹聂盈王海峰jt t1140 1 2017 <em>交通运输</em>...安全应急<em>资源</em> <em>数据</em>元运输安全应急资 1范围范围值域代码集 jtt 1140的本部分规定了 <em>交通运输</em>公路安全应急<em>资源</em> <em>数据</em>元编制的基本要求和分类...<em>数据</em>元及值域代码集集<em>交换</em>与共享规范性引用文件件凡是不注日期的引用文件其最新版本包括所有的修改单适用于本文件下列文件对于本文件的",
+        "id": "13075cfd3ac8d8de",
+        "image_id": "54887ce6975411f0851bb6a7ca88af7c-13075cfd3ac8d8de",
+        "important_keywords": [],
+        "positions": [
+          [
+            4,
+            107,
+            569,
+            174,
+            189
+          ],
+          [
+            4,
+            107,
+            569,
+            193,
+            205
+          ],
+          [
+            4,
+            87,
+            549,
+            207,
+            220
+          ],
+          [
+            4,
+            87,
+            549,
+            224,
+            236
+          ],
+          [
+            4,
+            87,
+            549,
+            240,
+            252
+          ],
+          [
+            4,
+            87,
+            549,
+            256,
+            268
+          ],
+          [
+            4,
+            67,
+            529,
+            271,
+            283
+          ],
+          [
+            4,
+            88,
+            550,
+            286,
+            299
+          ],
+          [
+            4,
+            67,
+            529,
+            303,
+            314
+          ],
+          [
+            4,
+            67,
+            529,
+            317,
+            329
+          ],
+          [
+            5,
+            430,
+            892,
+            64,
+            75
+          ],
+          [
+            5,
+            196,
+            658,
+            114,
+            129
+          ],
+          [
+            5,
+            247,
+            709,
+            136,
+            150
+          ],
+          [
+            5,
+            88,
+            550,
+            243,
+            255
+          ],
+          [
+            5,
+            64,
+            526,
+            292,
+            303
+          ],
+          [
+            5,
+            88,
+            550,
+            321,
+            334
+          ],
+          [
+            5,
+            67,
+            529,
+            339,
+            350
+          ],
+          [
+            5,
+            87,
+            549,
+            355,
+            366
+          ],
+          [
+            5,
+            86,
+            548,
+            370,
+            382
+          ],
+          [
+            5,
+            86,
+            548,
+            385,
+            398
+          ],
+          [
+            5,
+            86,
+            548,
+            401,
+            413
+          ],
+          [
+            5,
+            86,
+            548,
+            417,
+            429
+          ],
+          [
+            5,
+            86,
+            548,
+            433,
+            445
+          ],
+          [
+            5,
+            64,
+            526,
+            464,
+            476
+          ],
+          [
+            5,
+            64,
+            526,
+            527,
+            539
+          ]
+        ],
+        "similarity": 0.793434224984586,
+        "term_similarity": 0.9072785867891673,
+        "vector_similarity": 0.5277973807738969
+      },
+      {
+        "content": "———第2 部分：水路。本部分为JT /T 1140 的第2 部分。本部分按照GB /T 1. 1—2009 给出的规则起草。本部分由交通运输信息通信及导航标准化技术委员会提出并本部分起草单位北京交通信中心中国交通信信息心。：市息、通中、二十一世纪空间技术应用股份限公司、北京东方正通科技有限公司、北京乾丰益信息技术有限公司。本部分主要起草人：刘建峰、康小勇、成健、蔡莹、聂盈、王海峰、常JT/T1140.2—2017交通运输安全应急资源数据元运输安全应急资1 范围 范围其值域代码集。JT /T 1140 的本部分规定了交通运输水路安全应急资源数据元编制的基本要求和分类、数据元其值域代码集集、交换与共享。 规范性引用文件件。凡是不注日期的引用文件,其最新版本(包括所有的修改单)适用于本文件。下列文件对于本件的应用是必不可少的。凡是注件。凡是不注用文件，其最新版本（包括所有的修改GB /T 2 中华人民共和国GB /T 740中国及世界主要海运贸易港口代GB 124干部职务名GB /T 16基于坐标的地理点位置标准表示法GB 50139 内河通航标准JT /T 697. 1 交通信息基础数据元第1 部分：总则JT /T 697. 3—20交通信息基础数据元第3 部分：港口信息基础数据",
+        "content_ltks": "第 2 部分 水路 本部 分为 jtt 1140 的 第 2 部分 本 部分 按照 gbt 11 2009 给出 的 规则 起草 本部 分由 交通运输 信息 通信 及 导航 标准化 技术 委员会 提出 并 本 部分 起草 单位 北京 交通 信 中心 中国 交通 信 信息 心 市 息 通 中 二十一 世纪 空间 技术 应用 股份 限 公司 北京 东方 正 通 科技 有限公司 北京 干 丰益 信息技术 有限公司 本 部分 主要 起草人 刘 建 峰 康 小 勇 成 健 蔡 莹 聂 盈 王 海峰 常 jt t1140 2 2017 交通运输 安全 应急 资源 数据 元 运输 安全 应急 资 1 范围 范围 其 值域 代码 集 jtt 1140 的 本 部分 规定 了 交通运输 水路 安全 应急 资源 数据 元 编制 的 基本 要求 和 分类 数据 元 其 值域 代码 集 集 交换 与 共享 规范性 引用 文件 件 凡是 不 注 日期 的 引用 文件 其 最新 版本 包括 所有 的 修改 单 适用 于 本 文件 下列 文件 对于 本件 的 应用 是 必不可少 的 凡是 注 件 凡是 不 注 用 文件 其 最新 版本 包括 所有 的 修改 gbt 2 中华人民共和国 gbt 740 中国 及 世界 主要 海运 贸易 港口 代 gb 124 干部 职务 名 gbt 16 基于 坐标 的 地理 点 位置 标准 表示 法 gb 50139 内河 通航 标准 jtt 697 1 交通 信息 基础 数据 元 第1 部分 总则 jtt 697 3 20 交通 信息 基础 数据 元 第 3 部分 港口 信息 基础 数据",
+        "dataset_id": "54887ce6975411f0851bb6a7ca88af7c",
+        "doc_type_kwd": "",
+        "document_id": "96e38efa975411f0b3aeb6a7ca88af7c",
+        "document_keyword": "032_已解密.pdf",
+        "highlight": "第2部分水路本部分为jtt 1140的第 2部分本部分按照gbt 11 2009给出的规则起草本部分由<em>交通运输</em>信息通信及导航标准化技术委员会提出...公司北京东方正通科技有限公司北京干丰益信息技术有限公司本部分主要起草人刘建峰康小勇成健蔡莹聂盈王海峰常 jt t1140 2 2017 <em>交通运输</em>...安全应急<em>资源</em> <em>数据</em>元运输安全应急资 1范围范围其值域代码集 jtt 1140的本部分规定了 <em>交通运输</em>水路安全应急<em>资源</em> <em>数据</em>元编制的基本要求和分类...<em>数据</em>元其值域代码集集<em>交换</em>与共享规范性引用文件件凡是不注日期的引用文件其最新版本包括所有的修改单适用于本文件下列文件对于本件的...元第1部分总则jtt 697 3 20交通信息基础<em>数据</em>元第 3部分港口信息基础<em>数据</em>",
+        "id": "b96ab10d26cdb3c4",
+        "image_id": "54887ce6975411f0851bb6a7ca88af7c-b96ab10d26cdb3c4",
+        "important_keywords": [],
+        "positions": [
+          [
+            4,
+            87,
+            546,
+            224,
+            236
+          ],
+          [
+            4,
+            87,
+            546,
+            240,
+            252
+          ],
+          [
+            4,
+            87,
+            546,
+            256,
+            268
+          ],
+          [
+            4,
+            67,
+            526,
+            271,
+            283
+          ],
+          [
+            4,
+            87,
+            546,
+            287,
+            299
+          ],
+          [
+            4,
+            68,
+            527,
+            302,
+            314
+          ],
+          [
+            4,
+            67,
+            526,
+            318,
+            330
+          ],
+          [
+            5,
+            432,
+            891,
+            64,
+            75
+          ],
+          [
+            5,
+            197,
+            656,
+            117,
+            129
+          ],
+          [
+            5,
+            247,
+            706,
+            138,
+            153
+          ],
+          [
+            5,
+            88,
+            547,
+            250,
+            262
+          ],
+          [
+            5,
+            64,
+            523,
+            299,
+            310
+          ],
+          [
+            5,
+            88,
+            547,
+            331,
+            342
+          ],
+          [
+            5,
+            66,
+            525,
+            347,
+            359
+          ],
+          [
+            5,
+            86,
+            545,
+            363,
+            375
+          ],
+          [
+            5,
+            86,
+            545,
+            379,
+            391
+          ],
+          [
+            5,
+            86,
+            545,
+            395,
+            407
+          ],
+          [
+            5,
+            86,
+            545,
+            411,
+            423
+          ],
+          [
+            5,
+            86,
+            545,
+            428,
+            439
+          ],
+          [
+            5,
+            86,
+            545,
+            443,
+            455
+          ],
+          [
+            5,
+            86,
+            545,
+            459,
+            471
+          ],
+          [
+            5,
+            86,
+            545,
+            475,
+            487
+          ],
+          [
+            5,
+            86,
+            545,
+            492,
+            503
+          ]
+        ],
+        "similarity": 0.7934154699783509,
+        "term_similarity": 0.9072785867891673,
+        "vector_similarity": 0.5277348640864463
+      },
+      {
+        "content": "———第2 部分：水路。本部分为JT /T 1140 的第2 部分。本部分按照GB /T 1. 1—2009 给出的规则起草。本部分由交通运输信息通信及导航标准化技术委员会提出并本部分起草单位北京交通信中心中国交通信信息心。：市息、通中、二十一世纪空间技术应用股份限公司、北京东方正通科技有限公司、北京乾丰益信息技术有限公司。本部分主要起草人：刘建峰、康小勇、成健、蔡莹、聂盈、王海峰、常JT/T1140.2—2017交通运输安全应急资源数据元运输安全应急资1 范围 范围其值域代码集。JT /T 1140 的本部分规定了交通运输水路安全应急资源数据元编制的基本要求和分类、数据元其值域代码集集、交换与共享。 规范性引用文件件。凡是不注日期的引用文件,其最新版本(包括所有的修改单)适用于本文件。下列文件对于本件的应用是必不可少的。凡是注件。凡是不注用文件，其最新版本（包括所有的修改GB /T 2 中华人民共和国GB /T 740中国及世界主要海运贸易港口代GB 124干部职务名GB /T 16基于坐标的地理点位置标准表示法GB 50139 内河通航标准JT /T 697. 1 交通信息基础数据元第1 部分：总则JT /T 697. 3—20交通信息基础数据元第3 部分：港口信息基础数据",
+        "content_ltks": "第 2 部分 水路 本部 分为 jtt 1140 的 第 2 部分 本 部分 按照 gbt 11 2009 给出 的 规则 起草 本部 分由 交通运输 信息 通信 及 导航 标准化 技术 委员会 提出 并 本 部分 起草 单位 北京 交通 信 中心 中国 交通 信 信息 心 市 息 通 中 二十一 世纪 空间 技术 应用 股份 限 公司 北京 东方 正 通 科技 有限公司 北京 干 丰益 信息技术 有限公司 本 部分 主要 起草人 刘 建 峰 康 小 勇 成 健 蔡 莹 聂 盈 王 海峰 常 jt t1140 2 2017 交通运输 安全 应急 资源 数据 元 运输 安全 应急 资 1 范围 范围 其 值域 代码 集 jtt 1140 的 本 部分 规定 了 交通运输 水路 安全 应急 资源 数据 元 编制 的 基本 要求 和 分类 数据 元 其 值域 代码 集 集 交换 与 共享 规范性 引用 文件 件 凡是 不 注 日期 的 引用 文件 其 最新 版本 包括 所有 的 修改 单 适用 于 本 文件 下列 文件 对于 本件 的 应用 是 必不可少 的 凡是 注 件 凡是 不 注 用 文件 其 最新 版本 包括 所有 的 修改 gbt 2 中华人民共和国 gbt 740 中国 及 世界 主要 海运 贸易 港口 代 gb 124 干部 职务 名 gbt 16 基于 坐标 的 地理 点 位置 标准 表示 法 gb 50139 内河 通航 标准 jtt 697 1 交通 信息 基础 数据 元 第1 部分 总则 jtt 697 3 20 交通 信息 基础 数据 元 第 3 部分 港口 信息 基础 数据",
+        "dataset_id": "7ebd0a808e2711f0a685620ff33f7526",
+        "doc_type_kwd": "",
+        "document_id": "d2bcdcbe8e2711f0bdfa620ff33f7526",
+        "document_keyword": "044_已解密.pdf",
+        "highlight": "第2部分水路本部分为jtt 1140的第 2部分本部分按照gbt 11 2009给出的规则起草本部分由<em>交通运输</em>信息通信及导航标准化技术委员会提出...公司北京东方正通科技有限公司北京干丰益信息技术有限公司本部分主要起草人刘建峰康小勇成健蔡莹聂盈王海峰常 jt t1140 2 2017 <em>交通运输</em>...安全应急<em>资源</em> <em>数据</em>元运输安全应急资 1范围范围其值域代码集 jtt 1140的本部分规定了 <em>交通运输</em>水路安全应急<em>资源</em> <em>数据</em>元编制的基本要求和分类...<em>数据</em>元其值域代码集集<em>交换</em>与共享规范性引用文件件凡是不注日期的引用文件其最新版本包括所有的修改单适用于本文件下列文件对于本件的...元第1部分总则jtt 697 3 20交通信息基础<em>数据</em>元第 3部分港口信息基础<em>数据</em>",
+        "id": "ef5060810f39fa19",
+        "image_id": "7ebd0a808e2711f0a685620ff33f7526-ef5060810f39fa19",
+        "important_keywords": [],
+        "positions": [
+          [
+            4,
+            87,
+            546,
+            224,
+            236
+          ],
+          [
+            4,
+            87,
+            546,
+            240,
+            252
+          ],
+          [
+            4,
+            87,
+            546,
+            256,
+            268
+          ],
+          [
+            4,
+            67,
+            526,
+            271,
+            283
+          ],
+          [
+            4,
+            87,
+            546,
+            287,
+            299
+          ],
+          [
+            4,
+            68,
+            527,
+            302,
+            314
+          ],
+          [
+            4,
+            67,
+            526,
+            318,
+            330
+          ],
+          [
+            5,
+            432,
+            891,
+            64,
+            75
+          ],
+          [
+            5,
+            197,
+            656,
+            117,
+            129
+          ],
+          [
+            5,
+            247,
+            706,
+            138,
+            153
+          ],
+          [
+            5,
+            88,
+            547,
+            250,
+            262
+          ],
+          [
+            5,
+            64,
+            523,
+            299,
+            310
+          ],
+          [
+            5,
+            88,
+            547,
+            331,
+            342
+          ],
+          [
+            5,
+            66,
+            525,
+            347,
+            359
+          ],
+          [
+            5,
+            86,
+            545,
+            363,
+            375
+          ],
+          [
+            5,
+            86,
+            545,
+            379,
+            391
+          ],
+          [
+            5,
+            86,
+            545,
+            395,
+            407
+          ],
+          [
+            5,
+            86,
+            545,
+            411,
+            423
+          ],
+          [
+            5,
+            86,
+            545,
+            428,
+            439
+          ],
+          [
+            5,
+            86,
+            545,
+            443,
+            455
+          ],
+          [
+            5,
+            86,
+            545,
+            459,
+            471
+          ],
+          [
+            5,
+            86,
+            545,
+            475,
+            487
+          ],
+          [
+            5,
+            86,
+            545,
+            492,
+            503
+          ]
+        ],
+        "similarity": 0.7932884376580329,
+        "term_similarity": 0.9072785867891673,
+        "vector_similarity": 0.5273114230187195
+      },
+      {
+        "content": "ICS 35.240.60R 07备案号：中华人民共和国交通运输行业标准道路运政管理信息系统第5部分：省级业务系统接口Road transport administration management information systemPart 5 :Provincial transaction system interface中华人民共和国交通运输部发布目次前言1 范围 2规范性引用文件3缩略语4接口要求4.1接口方式4.2個接口交换过程··.···4.3接口数据结构5业务内容及要求·5.1业务类型及业务接口代码5.2省级道路运政管理信息系统业务接口65.3道路运输行业相关业务接口··355.4道路运输行业外部关联业务接口····94附录A（规范性附录）代码表113JT/T1049.5—2017前言JT/T1049《道路运政管理信息系统》分为5个部分：第1部分：总体技术要求；第2部分：数据资源采集接口；第3部分：数据资源目录服务接口；第4部分：跨省数据交换；一第5部分：省级业务系统接口。本部分为JT/T1049的第5部分。本部分按照GB/T1.1一2009给出的规则起草。本部分由交通运输部运输服务司提出。本部分由全国道路运输标准化技术委员会(SAC/TC 521)归口。本部分起草单位：中国交通通信信息中心。本部分主要起草人:郑烨、程爱宏、吕浩涵、梁凯、李祥、牛文江、刘建、沈兵、沈刚、王淑芳、李聪、陈伟伟、李小楠、沈凯龙、王建勋、林昀、何占华、吴梦晟、张进、李会娟、杨阳。",
+        "content_ltks": "ic 35 240 60r 07 备案号 中华人民共和国 交通运输 行业标准 道路 运 政 管理信息系统 第 5 部分 省级 业务 系统 接口 road transport administr manag inform systempart 5 provinci transact system interfac 中华人民共和国 交通运输 部 发布 目次 前言 1 范围 2 规范性 引用 文件 3 缩略语 4 接口 要求 4 1 接口方式 42 个 接口 交换 过程 43 接口 数据结构 5 业务 内容 及 要求 51 业务 类型 及 业务 接口 代码 52 省级 道路 运 政 管理信息系统 业务 接口 65 3 道路 运输 行业 相关 业务 接口 355 4 道路 运输 行业 外部 关联 业务 接口 94 附录 a 规范性 附录 代码 表 113jt t1049 5 2017 前言 jt t1049 道路 运 政 管理信息系统 分为 5 个 部分 第1 部分 总体 技术 要求 第 2 部分 数据 资源 采集 接口 第 3 部分 数据 资源 目录 服务 接口 第 4 部分 跨省 数据交换 一 第 5 部分 省级 业务 系统 接口 本部 分为 jt t1049 的 第 5 部分 本 部分 按照 gb t11 一 2009 给出 的 规则 起草 本部 分由 交通运输 部 运输 服务 司 提出 本部 分由 全国 道路 运输 标准化 技术 委员会 sac tc 521 归口 本 部分 起草 单位 中国 交通 通信 信息中心 本 部分 主要 起草人 郑 烨 程 爱 宏 吕 浩 涵 梁 凯 李 祥 牛 文 江 刘 建 沈 兵 沈 刚 王 淑芳 李 聪 陈 伟伟 李 小楠 沈 凯龙 王 建勋 林 昀 何 占 华 吴 梦 晟 张 进 李 会 娟 杨 阳",
+        "dataset_id": "7ebd0a808e2711f0a685620ff33f7526",
+        "doc_type_kwd": "",
+        "document_id": "d13c6ef48e2711f0bdfa620ff33f7526",
+        "document_keyword": "274_已解密.pdf",
+        "highlight": "ic 35 240 60r 07备案号中华人民共和国<em>交通运输</em>行业标准道路运政管理信息系统第 5部分省级业务系统接口road transport administr manag...inform systempart 5 provinci transact system interfac中华人民共和国<em>交通运输</em>部发布目次前言1范围2规范性引用文件3缩略语...4接口要求4 1接口方式42个接口<em>交换</em>过程43接口数据结构5业务内容及要求51业务类型及业务接口代码52省级道路运政管理信息系统业务接口...接口94附录a规范性附录代码表 113jt t1049 5 2017前言jt t1049道路运政管理信息系统分为5个部分第1部分总体技术要求第 2部分<em>数据</em>...<em>资源</em>采集接口第 3部分<em>数据</em> <em>资源</em>目录服务接口第 4部分跨省数据交换一第5部分省级业务系统接口本部分为jt t1049的第 5部分本部分按照gb",
+        "id": "7cd00eee1ae9d499",
+        "image_id": "7ebd0a808e2711f0a685620ff33f7526-7cd00eee1ae9d499",
+        "important_keywords": [],
+        "positions": [
+          [
+            1,
+            67,
+            545,
+            139,
+            160
+          ],
+          [
+            1,
+            136,
+            614,
+            378,
+            402
+          ],
+          [
+            1,
+            161,
+            639,
+            449,
+            461
+          ],
+          [
+            1,
+            112,
+            589,
+            792,
+            811
+          ],
+          [
+            2,
+            72,
+            549,
+            205,
+            218
+          ],
+          [
+            2,
+            83,
+            561,
+            289,
+            302
+          ],
+          [
+            2,
+            82,
+            559,
+            308,
+            323
+          ],
+          [
+            2,
+            72,
+            550,
+            331,
+            344
+          ],
+          [
+            2,
+            83,
+            561,
+            352,
+            364
+          ],
+          [
+            2,
+            83,
+            561,
+            375,
+            383
+          ],
+          [
+            2,
+            83,
+            561,
+            395,
+            407
+          ],
+          [
+            2,
+            83,
+            561,
+            415,
+            428
+          ],
+          [
+            2,
+            74,
+            552,
+            437,
+            448
+          ],
+          [
+            3,
+            73,
+            551,
+            65,
+            77
+          ],
+          [
+            3,
+            95,
+            573,
+            162,
+            175
+          ],
+          [
+            3,
+            115,
+            593,
+            179,
+            192
+          ],
+          [
+            3,
+            114,
+            592,
+            195,
+            208
+          ],
+          [
+            3,
+            114,
+            592,
+            211,
+            223
+          ],
+          [
+            3,
+            114,
+            592,
+            227,
+            239
+          ],
+          [
+            3,
+            112,
+            589,
+            240,
+            255
+          ],
+          [
+            3,
+            96,
+            574,
+            258,
+            270
+          ],
+          [
+            3,
+            95,
+            573,
+            274,
+            287
+          ],
+          [
+            3,
+            95,
+            573,
+            290,
+            302
+          ],
+          [
+            3,
+            96,
+            574,
+            305,
+            318
+          ],
+          [
+            3,
+            95,
+            573,
+            321,
+            334
+          ],
+          [
+            3,
+            96,
+            574,
+            337,
+            349
+          ],
+          [
+            3,
+            74,
+            552,
+            353,
+            365
+          ]
+        ],
+        "similarity": 0.7930625911863803,
+        "term_similarity": 0.9072785867891673,
+        "vector_similarity": 0.5265586014465443
+      },
+      {
+        "content": "沈志纲、巴雪慧、秦银、生张丽、郭尚峰、周雷张、凤王松、涛党欣、媛夏庆、杨鲁迪、张润生、乐、、、、、、、、、、、、、孙。交通运输电子证照数据交换与应用要求1　范围本文件规定了交通运输电子证照的数据交换共享应用和安全要求。本文件适用于交通运输电子证照数据的交换共享、与应用。2　规范性引用文件下列文件中的内容通过文中的规范性引用而构成本文件必不可少的条款其中注日期的引用文件仅该日期对应的版本适用于本文件不注日期的引用文件其最新版本包括。所有,;,(的修改单)适用于本,文件。GB /T 36901　电子证照　总体技术架构电子证照目录信息规范GB /T 36902—2018　电子证照　元数据规范GB /T 36903—2018　　GB /T 36904　电子证照　标识规范电子证照文件技术要求GB /T 36905　道路运输电　子证照从业资格证JT /T 1290　道路运输电子证照　经营许可证JT /T 1291　道路运输电子证照　运输证JT /T 1292　所有部分水路运　输电子证照JT /T 1385()　JT /T 1386(所有部分)　海事电子证照JT /T 1403(所有部分)　交通建设工程电子证照交通运输数据资源交换与共享第部分总体架构JT /T 1415. 1—2022　交通运输数据资源交换与共享　第1 分:　3 部:数据格式与接口",
+        "content_ltks": "沈 志 纲 巴 雪 慧 秦 银 生 张 丽 郭 尚 峰 周 雷 张 凤 王 松 涛 党 欣 媛 夏 庆 杨 鲁 迪 张 润生 乐 孙 交通运输 电子 证照 数据交换 与 应用 要求 1 范围 本 文件 规定 了 交通运输 电子 证照 的 数据交换 共享 应用 和 安全 要求 本 文件 适用 于 交通运输 电子 证照 数据 的 交换 共享 与 应用 2 规范性 引用 文件 下列 文件 中的 内容 通过 文中 的 规范性 引用 而 构成 本 文件 必不可少 的 条款 其中 注 日期 的 引用 文件 仅 该 日期 对应 的 版本 适用 于 本 文件 不 注 日期 的 引用 文件 其 最新 版本 包括 所有 的 修改 单 适用 于 本 文件 gbt 36901 电子 证照 总体 技术 架构 电子 证照 目录 信息 规范 gbt 36902 2018 电子 证照 元数据 规范 gbt 36903 2018 gbt 36904 电子 证照 标识 规范 电子 证照 文件 技术 要求 gbt 36905 道路 运输 电 子 证照 从业 资格证 jtt 1290 道路 运输 电子 证照 经营 许可证 jtt 1291 道路 运输 电子 证照 运输 证 jtt 1292 所有 部分 水路 运 输电 子 证照 jtt 1385 jtt 1386 所有 部分 海事 电子 证照 jtt 1403 所有 部分 交通 建设工程 电子 证照 交通运输 数据 资源 交换 与 共享 第 部分 总体 架构 jtt 1415 1 2022 交通运输 数据 资源 交换 与 共享 第1 分 3 部 数据格式 与 接口",
+        "dataset_id": "54887ce6975411f0851bb6a7ca88af7c",
+        "doc_type_kwd": "",
+        "document_id": "959be74a975411f0b3aeb6a7ca88af7c",
+        "document_keyword": "169_已解密.pdf",
+        "highlight": "沈志纲巴雪慧秦银生张丽郭尚峰周雷张凤王松涛党欣媛夏庆杨鲁迪张润生乐孙<em>交通运输</em>电子证照数据交换与应用要求1范围本文件...规定了 <em>交通运输</em>电子证照的数据交换共享应用和安全要求本文件适用于 <em>交通运输</em>电子证照<em>数据</em>的<em>交换</em>共享与应用2规范性引用文件下列文件中的内容通过...证照运输证 jtt 1292所有部分水路运输电子证照jtt 1385 jtt 1386所有部分海事电子证照jtt 1403所有部分交通建设工程电子证照<em>交通运输</em>...<em>数据</em> <em>资源</em> <em>交换</em>与共享第部分总体架构jtt 1415 1 2022 <em>交通运输</em> <em>数据</em> <em>资源</em> <em>交换</em>与共享第1分3部数据格式与接口",
+        "id": "92ed2011ed62206e",
+        "image_id": "54887ce6975411f0851bb6a7ca88af7c-92ed2011ed62206e",
+        "important_keywords": [],
+        "positions": [
+          [
+            3,
+            66,
+            534,
+            297,
+            309
+          ],
+          [
+            4,
+            165,
+            633,
+            111,
+            123
+          ],
+          [
+            4,
+            85,
+            552,
+            188,
+            201
+          ],
+          [
+            4,
+            84,
+            552,
+            204,
+            216
+          ],
+          [
+            4,
+            60,
+            528,
+            236,
+            248
+          ],
+          [
+            4,
+            86,
+            553,
+            267,
+            279
+          ],
+          [
+            4,
+            63,
+            530,
+            284,
+            296
+          ],
+          [
+            4,
+            84,
+            551,
+            333,
+            344
+          ],
+          [
+            4,
+            83,
+            551,
+            349,
+            360
+          ],
+          [
+            4,
+            84,
+            551,
+            365,
+            376
+          ],
+          [
+            4,
+            82,
+            550,
+            380,
+            393
+          ],
+          [
+            4,
+            84,
+            551,
+            396,
+            408
+          ],
+          [
+            4,
+            83,
+            551,
+            412,
+            424
+          ],
+          [
+            4,
+            83,
+            551,
+            428,
+            440
+          ],
+          [
+            4,
+            84,
+            551,
+            443,
+            456
+          ],
+          [
+            4,
+            84,
+            551,
+            459,
+            472
+          ],
+          [
+            4,
+            84,
+            551,
+            476,
+            487
+          ],
+          [
+            4,
+            84,
+            551,
+            492,
+            503
+          ],
+          [
+            4,
+            84,
+            551,
+            507,
+            519
+          ],
+          [
+            4,
+            84,
+            551,
+            523,
+            535
+          ]
+        ],
+        "similarity": 0.7909644585108141,
+        "term_similarity": 0.9072785867891673,
+        "vector_similarity": 0.5195648258613235
+      },
+      {
+        "content": "通过部级、省级交通运输数据共享交换平台提供数据资源的部门。3. 9　资源使用方　resource user通过部级、省级交通运输数据共享交换平台使用数据资源的部门。3. 10　平台管理方　platformmanager部级、省级交通运输数据共享交换平台运行管理的部门。4　体系架构4. 1　基本要求交通运输数据资源共享交换体系以下简称共享交换体系由部级交通运输数据共享交换平台以下简称部级共享平台和省级(交通运输“数据共享交换”平)台以下简称省级交通共享平台(组成依“托交通运输行业”通)信网络建设用于开展行业非涉密数据(源共交“,,资享换。体系架构见图”)1。各级共享平台应实现上下联动纵横协管保证数据资源的统一汇聚和资源整合应对同级交通运输政务部门已存在的多个共享平台、进行整合,成整合后的数据源接入统一的共。,完资享平台。4. 2　部级共享平台部级共享平台完成部级主要行业数据资源汇聚建立并管控部省数据传输主通道部省两级交通运输政务部门向部级共享平台提供或从平台获取数,据资源现行内跨部门。,实业、跨地区的数据资源共享交换。交通运输部通过部级共享平台向国家数据共享交换平台提供交通运输行业信息资源目录及数据资源同时通过国家数据共享交换平台获取其他行业数据资源,并向部、省两级交通运输政务部门提供相关,数据资源共享服务。4. 3　省级交通共享平台",
+        "content_ltks": "通过 部级 省级 交通运输 数据共享 交换 平台 提供数据 资源 的 部门 39 资源 使用 方 resourc user 通过 部级 省级 交通运输 数据共享 交换 平台 使用 数据 资源 的 部门 3 10 平台 管理方 platformmanag 部级 省级 交通运输 数据共享 交换 平台 运行 管理 的 部门 4 体系 架构 4 1 基本 要求 交通运输 数据 资源共享 交换 体系 以下 简称 共享 交换 体系 由 部级 交通运输 数据共享 交换 平台 以下 简称 部级 共享 平台 和 省级 交通运输 数据共享 交换 平 台 以下 简称 省级 交通 共享 平台 组成 依 托 交通运输 行业 通 信 网络 建设 用于 开展 行业 非 涉密 数据 源 共 交 资 享 换 体系 架构 见 图 1 各级 共享 平台 应 实现 上下 联动 纵横 协管 保证数据 资源 的 统一 汇聚 和 资源整合 应对 同级 交通运输 政务 部门 已 存在 的 多个 共享 平台 进行 整合 成 整合 后 的 数据源 接入 统一 的 共 完 资 享 平台 42 部级 共享 平台 部级 共享 平台 完成 部级 主要 行业 数据 资源 汇聚 建立 并 管控 部 省 数据传输 主通道 部 省 两级 交通运输 政务 部门 向 部级 共享 平台 提供 或 从 平台 获取 数 据 资源 现行 内 跨部门 实业 跨地区 的 数据 资源共享 交换 交通运输 部 通过 部级 共享 平台 向 国家 数据共享 交换 平台 提供 交通运输 行业 信息 资源 目录 及 数据 资源 同时 通过 国家 数据共享 交换 平台 获取 其他 行业 数据 资源 并 向 部 省 两级 交通运输 政务 部门 提供 相关 数据 资源共享 服务 43 省级 交通 共享 平台",
+        "dataset_id": "54887ce6975411f0851bb6a7ca88af7c",
+        "doc_type_kwd": "",
+        "document_id": "94f914a2975411f0b3aeb6a7ca88af7c",
+        "document_keyword": "112_已解密.pdf",
+        "highlight": "通过部级省级<em>交通运输</em>数据共享<em>交换</em>平台提供数据<em>资源</em>的部门39 <em>资源</em>使用方 resourc user通过部级省级<em>交通运输</em>数据共享<em>交换</em>平台使用<em>数据</em> <em>资源</em>的部门...3 10平台管理方platformmanag部级省级<em>交通运输</em>数据共享<em>交换</em>平台运行管理的部门4体系架构4 1基本要求<em>交通运输</em> <em>数据</em>资源共享<em>交换</em>体系以下简称...<em>数据</em> <em>资源</em>汇聚建立并管控部省数据传输主通道部省两级<em>交通运输</em>政务部门向部级共享平台提供或从平台获取数据<em>资源</em>现行内跨部门实业跨地区的 <em>数据</em>...资源共享<em>交换</em> <em>交通运输</em>部通过部级共享平台向国家数据共享<em>交换</em>平台提供<em>交通运输</em>行业信息<em>资源</em>目录及 <em>数据</em> <em>资源</em>同时通过国家数据共享<em>交换</em>平台获取其他行业<em>数据</em>...<em>资源</em>并向部省两级<em>交通运输</em>政务部门提供相关<em>数据</em>资源共享服务43省级交通共享平台",
+        "id": "c008a43768adc80c",
+        "image_id": "54887ce6975411f0851bb6a7ca88af7c-c008a43768adc80c",
+        "important_keywords": [],
+        "positions": [
+          [
+            6,
+            87,
+            550,
+            179,
+            191
+          ],
+          [
+            6,
+            87,
+            550,
+            226,
+            238
+          ],
+          [
+            6,
+            88,
+            551,
+            273,
+            286
+          ],
+          [
+            6,
+            65,
+            528,
+            331,
+            343
+          ],
+          [
+            6,
+            87,
+            550,
+            354,
+            366
+          ],
+          [
+            6,
+            67,
+            530,
+            371,
+            383
+          ],
+          [
+            6,
+            67,
+            530,
+            386,
+            399
+          ],
+          [
+            6,
+            88,
+            551,
+            665,
+            678
+          ],
+          [
+            6,
+            67,
+            530,
+            681,
+            693
+          ],
+          [
+            6,
+            65,
+            528,
+            706,
+            717
+          ],
+          [
+            6,
+            87,
+            550,
+            728,
+            740
+          ],
+          [
+            6,
+            67,
+            530,
+            745,
+            757
+          ],
+          [
+            7,
+            88,
+            551,
+            101,
+            112
+          ],
+          [
+            7,
+            66,
+            529,
+            116,
+            128
+          ],
+          [
+            7,
+            66,
+            529,
+            131,
+            143
+          ],
+          [
+            7,
+            64,
+            527,
+            156,
+            167
+          ]
+        ],
+        "similarity": 0.7598956070748987,
+        "term_similarity": 0.826222694362197,
+        "vector_similarity": 0.6051324034045362
+      },
+      {
+        "content": "通过部级、省级交通运输数据共享交换平台提供数据资源的部门。3. 9　资源使用方　resource user通过部级、省级交通运输数据共享交换平台使用数据资源的部门。3. 10　平台管理方　platformmanager部级、省级交通运输数据共享交换平台运行管理的部门。4　体系架构4. 1　基本要求交通运输数据资源共享交换体系以下简称共享交换体系由部级交通运输数据共享交换平台以下简称部级共享平台和省级(交通运输“数据共享交换”平)台以下简称省级交通共享平台(组成依“托交通运输行业”通)信网络建设用于开展行业非涉密数据(源共交“,,资享换。体系架构见图”)1。各级共享平台应实现上下联动纵横协管保证数据资源的统一汇聚和资源整合应对同级交通运输政务部门已存在的多个共享平台、进行整合,成整合后的数据源接入统一的共。,完资享平台。4. 2　部级共享平台部级共享平台完成部级主要行业数据资源汇聚建立并管控部省数据传输主通道部省两级交通运输政务部门向部级共享平台提供或从平台获取数,据资源现行内跨部门。,实业、跨地区的数据资源共享交换。交通运输部通过部级共享平台向国家数据共享交换平台提供交通运输行业信息资源目录及数据资源同时通过国家数据共享交换平台获取其他行业数据资源,并向部、省两级交通运输政务部门提供相关,数据资源共享服务。4. 3　省级交通共享平台",
+        "content_ltks": "通过 部级 省级 交通运输 数据共享 交换 平台 提供数据 资源 的 部门 39 资源 使用 方 resourc user 通过 部级 省级 交通运输 数据共享 交换 平台 使用 数据 资源 的 部门 3 10 平台 管理方 platformmanag 部级 省级 交通运输 数据共享 交换 平台 运行 管理 的 部门 4 体系 架构 4 1 基本 要求 交通运输 数据 资源共享 交换 体系 以下 简称 共享 交换 体系 由 部级 交通运输 数据共享 交换 平台 以下 简称 部级 共享 平台 和 省级 交通运输 数据共享 交换 平 台 以下 简称 省级 交通 共享 平台 组成 依 托 交通运输 行业 通 信 网络 建设 用于 开展 行业 非 涉密 数据 源 共 交 资 享 换 体系 架构 见 图 1 各级 共享 平台 应 实现 上下 联动 纵横 协管 保证数据 资源 的 统一 汇聚 和 资源整合 应对 同级 交通运输 政务 部门 已 存在 的 多个 共享 平台 进行 整合 成 整合 后 的 数据源 接入 统一 的 共 完 资 享 平台 42 部级 共享 平台 部级 共享 平台 完成 部级 主要 行业 数据 资源 汇聚 建立 并 管控 部 省 数据传输 主通道 部 省 两级 交通运输 政务 部门 向 部级 共享 平台 提供 或 从 平台 获取 数 据 资源 现行 内 跨部门 实业 跨地区 的 数据 资源共享 交换 交通运输 部 通过 部级 共享 平台 向 国家 数据共享 交换 平台 提供 交通运输 行业 信息 资源 目录 及 数据 资源 同时 通过 国家 数据共享 交换 平台 获取 其他 行业 数据 资源 并 向 部 省 两级 交通运输 政务 部门 提供 相关 数据 资源共享 服务 43 省级 交通 共享 平台",
+        "dataset_id": "7ebd0a808e2711f0a685620ff33f7526",
+        "doc_type_kwd": "",
+        "document_id": "d350ce1a8e2711f0bdfa620ff33f7526",
+        "document_keyword": "199_已解密.pdf",
+        "highlight": "通过部级省级<em>交通运输</em>数据共享<em>交换</em>平台提供数据<em>资源</em>的部门39 <em>资源</em>使用方 resourc user通过部级省级<em>交通运输</em>数据共享<em>交换</em>平台使用<em>数据</em> <em>资源</em>的部门...3 10平台管理方platformmanag部级省级<em>交通运输</em>数据共享<em>交换</em>平台运行管理的部门4体系架构4 1基本要求<em>交通运输</em> <em>数据</em>资源共享<em>交换</em>体系以下简称...<em>数据</em> <em>资源</em>汇聚建立并管控部省数据传输主通道部省两级<em>交通运输</em>政务部门向部级共享平台提供或从平台获取数据<em>资源</em>现行内跨部门实业跨地区的 <em>数据</em>...资源共享<em>交换</em> <em>交通运输</em>部通过部级共享平台向国家数据共享<em>交换</em>平台提供<em>交通运输</em>行业信息<em>资源</em>目录及 <em>数据</em> <em>资源</em>同时通过国家数据共享<em>交换</em>平台获取其他行业<em>数据</em>...<em>资源</em>并向部省两级<em>交通运输</em>政务部门提供相关<em>数据</em>资源共享服务43省级交通共享平台",
+        "id": "2fb4f7e3c20046e9",
+        "image_id": "7ebd0a808e2711f0a685620ff33f7526-2fb4f7e3c20046e9",
+        "important_keywords": [],
+        "positions": [
+          [
+            6,
+            87,
+            550,
+            179,
+            191
+          ],
+          [
+            6,
+            87,
+            550,
+            226,
+            238
+          ],
+          [
+            6,
+            88,
+            551,
+            273,
+            286
+          ],
+          [
+            6,
+            65,
+            528,
+            331,
+            343
+          ],
+          [
+            6,
+            87,
+            550,
+            354,
+            366
+          ],
+          [
+            6,
+            67,
+            530,
+            371,
+            383
+          ],
+          [
+            6,
+            67,
+            530,
+            386,
+            399
+          ],
+          [
+            6,
+            88,
+            551,
+            665,
+            678
+          ],
+          [
+            6,
+            67,
+            530,
+            681,
+            693
+          ],
+          [
+            6,
+            65,
+            528,
+            706,
+            717
+          ],
+          [
+            6,
+            87,
+            550,
+            728,
+            740
+          ],
+          [
+            6,
+            67,
+            530,
+            745,
+            757
+          ],
+          [
+            7,
+            88,
+            551,
+            101,
+            112
+          ],
+          [
+            7,
+            66,
+            529,
+            116,
+            128
+          ],
+          [
+            7,
+            66,
+            529,
+            131,
+            143
+          ],
+          [
+            7,
+            64,
+            527,
+            156,
+            167
+          ]
+        ],
+        "similarity": 0.7593757036879194,
+        "term_similarity": 0.826222694362197,
+        "vector_similarity": 0.6033993921146055
+      },
+      {
+        "content": "省级交通共享平台完成省内主要行业数据资源汇聚建立并管控省自治区直辖市内数据传输通道省自治区直辖市内各级地方交通运输政务部门向,省级交通共享平(台提供或、从平台)获取数据资源,实。现省(自治区、直辖市)(、)内数据资源共享交换,并通过省级交通共享平台与部级共享平台对接。4. 4　与国家数据共享交换平台体系的对接共享交换体系通过部省两级共享平台与国家数据共享交换平台体系对接:a)　部级共享平台通过国家电子政务外网与国家共享平台对接,实现与国务院其他部门之间的数据资源共享交换;b)　省级交通共享平台按照各省自治区直辖市)要求与省级数据共享交换平台对接,实现各省(、(自治区、直辖市)内数据资源共享交换。5　功能架构5. 1　基本要求部级共享平台和省级交通共享平台功能架构应包含目录管理、资源管理、交换管理、资源共享和数据质量审计等五大功能,宜包含资源开放功能。功能架构见图2。5. 2　目录管理目录管理应符合JT /T 747(所有部分)相关要求。此外,目录管理应支持目录结构配置管理,并能JT /T 1415. 1—2022方便快捷地进行信息资源目录编制发布和预编目录管理应提供灵活的查询功能便于目录定位查找并、应提供已发布的目录进行维护、的功能其中。录结构管理目录编制和目录护,。目、维还应满足以下功",
+        "content_ltks": "省级 交通 共享 平台 完成 省内 主要 行业 数据 资源 汇聚 建立 并 管控 省 自治区 直辖市 内 数据传输 通道 省 自治区 直辖市 内 各级 地方 交通运输 政务 部门 向 省级 交通 共享 平 台 提供 或 从 平台 获取数据 资源 实 现 省 自治区 直辖市 内 数据 资源共享 交换 并 通过 省级 交通 共享 平台与 部级 共享 平台 对接 44 与 国家 数据共享 交换 平台 体系 的 对接 共享 交换 体系 通过 部 省 两级 共享 平台与 国家 数据共享 交换 平台 体系 对接 a 部级 共享 平台 通过 国家 电子政务 外网 与 国家 共享 平台 对接 实现 与 国务院 其他 部门 之间 的 数据 资源共享 交换 b 省级 交通 共享 平台 按照 各省 自治区 直辖市 要求 与 省级 数据共享 交换 平台 对接 实现 各省 自治区 直辖市 内 数据 资源共享 交换 5 功能 架构 51 基本 要求 部级 共享 平台 和 省级 交通 共享 平台 功能 架构 应 包含 目录 管理 资源管理 交换 管理 资源共享 和 数据 质量 审计 等 五大 功能 宜 包含 资源 开放 功能 功能 架构 见 图 25 2 目录 管理 目录 管 理应 符合 jtt 747 所有 部分 相关 要求 此外 目录 管 理应 支持 目录 结构 配置管理 并能 jtt 1415 1 2022 方便快捷 地 进行 信息 资源 目录 编制 发布 和 预编 目录 管 理应 提供 灵活 的 查询 功能 便于 目录 定位 查找 并 应 提供 已 发布 的 目录 进行 维护 的 功能 其中 录 结构 管理 目录 编制 和 目录 护 目 维 还 应 满足 以下 功",
+        "dataset_id": "54887ce6975411f0851bb6a7ca88af7c",
+        "doc_type_kwd": "",
+        "document_id": "94f914a2975411f0b3aeb6a7ca88af7c",
+        "document_keyword": "112_已解密.pdf",
+        "highlight": "省级交通共享平台完成省内主要行业<em>数据</em> <em>资源</em>汇聚建立并管控省自治区直辖市内数据传输通道省自治区直辖市内各级地方<em>交通运输</em>政务部门向省级交通共享...平台提供或从平台获取数据<em>资源</em>实现省自治区直辖市内 <em>数据</em>资源共享<em>交换</em>并通过省级交通共享平台与部级共享平台对接44与国家数据共享<em>交换</em>平台体系...部门之间的 <em>数据</em>资源共享<em>交换</em> b省级交通共享平台按照各省自治区直辖市要求与省级数据共享<em>交换</em>平台对接实现各省自治区直辖市内 <em>数据</em>资源共享<em>交换</em> 5功能...架构51基本要求部级共享平台和省级交通共享平台功能架构应包含目录管理资源管理<em>交换</em>管理资源共享和 <em>数据</em>质量审计等五大功能宜包含<em>资源</em>开放功能...25 2目录管理目录管理应符合jtt 747所有部分相关要求此外目录管理应支持目录结构配置管理并能jtt 1415 1 2022方便快捷地进行信息<em>资源</em>",
+        "id": "d54c52c2befc79d1",
+        "image_id": "54887ce6975411f0851bb6a7ca88af7c-d54c52c2befc79d1",
+        "important_keywords": [],
+        "positions": [
+          [
+            7,
+            88,
+            550,
+            179,
+            191
+          ],
+          [
+            7,
+            67,
+            529,
+            195,
+            207
+          ],
+          [
+            7,
+            67,
+            529,
+            211,
+            222
+          ],
+          [
+            7,
+            65,
+            527,
+            235,
+            246
+          ],
+          [
+            7,
+            88,
+            550,
+            258,
+            270
+          ],
+          [
+            7,
+            86,
+            548,
+            273,
+            285
+          ],
+          [
+            7,
+            86,
+            548,
+            304,
+            316
+          ],
+          [
+            7,
+            110,
+            571,
+            321,
+            332
+          ],
+          [
+            7,
+            65,
+            527,
+            379,
+            391
+          ],
+          [
+            7,
+            88,
+            550,
+            402,
+            414
+          ],
+          [
+            7,
+            67,
+            529,
+            418,
+            430
+          ],
+          [
+            7,
+            65,
+            527,
+            715,
+            727
+          ],
+          [
+            7,
+            89,
+            551,
+            739,
+            750
+          ],
+          [
+            8,
+            67,
+            529,
+            58,
+            70
+          ],
+          [
+            8,
+            66,
+            528,
+            85,
+            97
+          ],
+          [
+            8,
+            66,
+            528,
+            101,
+            113
+          ]
+        ],
+        "similarity": 0.751252003617952,
+        "term_similarity": 0.826222694362197,
+        "vector_similarity": 0.5763203918813804
+      },
+      {
+        "content": "省级交通共享平台完成省内主要行业数据资源汇聚建立并管控省自治区直辖市内数据传输通道省自治区直辖市内各级地方交通运输政务部门向,省级交通共享平(台提供或、从平台)获取数据资源,实。现省(自治区、直辖市)(、)内数据资源共享交换,并通过省级交通共享平台与部级共享平台对接。4. 4　与国家数据共享交换平台体系的对接共享交换体系通过部省两级共享平台与国家数据共享交换平台体系对接:a)　部级共享平台通过国家电子政务外网与国家共享平台对接,实现与国务院其他部门之间的数据资源共享交换;b)　省级交通共享平台按照各省自治区直辖市)要求与省级数据共享交换平台对接,实现各省(、(自治区、直辖市)内数据资源共享交换。5　功能架构5. 1　基本要求部级共享平台和省级交通共享平台功能架构应包含目录管理、资源管理、交换管理、资源共享和数据质量审计等五大功能,宜包含资源开放功能。功能架构见图2。5. 2　目录管理目录管理应符合JT /T 747(所有部分)相关要求。此外,目录管理应支持目录结构配置管理,并能JT /T 1415. 1—2022方便快捷地进行信息资源目录编制发布和预编目录管理应提供灵活的查询功能便于目录定位查找并、应提供已发布的目录进行维护、的功能其中。录结构管理目录编制和目录护,。目、维还应满足以下功",
+        "content_ltks": "省级 交通 共享 平台 完成 省内 主要 行业 数据 资源 汇聚 建立 并 管控 省 自治区 直辖市 内 数据传输 通道 省 自治区 直辖市 内 各级 地方 交通运输 政务 部门 向 省级 交通 共享 平 台 提供 或 从 平台 获取数据 资源 实 现 省 自治区 直辖市 内 数据 资源共享 交换 并 通过 省级 交通 共享 平台与 部级 共享 平台 对接 44 与 国家 数据共享 交换 平台 体系 的 对接 共享 交换 体系 通过 部 省 两级 共享 平台与 国家 数据共享 交换 平台 体系 对接 a 部级 共享 平台 通过 国家 电子政务 外网 与 国家 共享 平台 对接 实现 与 国务院 其他 部门 之间 的 数据 资源共享 交换 b 省级 交通 共享 平台 按照 各省 自治区 直辖市 要求 与 省级 数据共享 交换 平台 对接 实现 各省 自治区 直辖市 内 数据 资源共享 交换 5 功能 架构 51 基本 要求 部级 共享 平台 和 省级 交通 共享 平台 功能 架构 应 包含 目录 管理 资源管理 交换 管理 资源共享 和 数据 质量 审计 等 五大 功能 宜 包含 资源 开放 功能 功能 架构 见 图 25 2 目录 管理 目录 管 理应 符合 jtt 747 所有 部分 相关 要求 此外 目录 管 理应 支持 目录 结构 配置管理 并能 jtt 1415 1 2022 方便快捷 地 进行 信息 资源 目录 编制 发布 和 预编 目录 管 理应 提供 灵活 的 查询 功能 便于 目录 定位 查找 并 应 提供 已 发布 的 目录 进行 维护 的 功能 其中 录 结构 管理 目录 编制 和 目录 护 目 维 还 应 满足 以下 功",
+        "dataset_id": "7ebd0a808e2711f0a685620ff33f7526",
+        "doc_type_kwd": "",
+        "document_id": "d350ce1a8e2711f0bdfa620ff33f7526",
+        "document_keyword": "199_已解密.pdf",
+        "highlight": "省级交通共享平台完成省内主要行业<em>数据</em> <em>资源</em>汇聚建立并管控省自治区直辖市内数据传输通道省自治区直辖市内各级地方<em>交通运输</em>政务部门向省级交通共享...平台提供或从平台获取数据<em>资源</em>实现省自治区直辖市内 <em>数据</em>资源共享<em>交换</em>并通过省级交通共享平台与部级共享平台对接44与国家数据共享<em>交换</em>平台体系...部门之间的 <em>数据</em>资源共享<em>交换</em> b省级交通共享平台按照各省自治区直辖市要求与省级数据共享<em>交换</em>平台对接实现各省自治区直辖市内 <em>数据</em>资源共享<em>交换</em> 5功能...架构51基本要求部级共享平台和省级交通共享平台功能架构应包含目录管理资源管理<em>交换</em>管理资源共享和 <em>数据</em>质量审计等五大功能宜包含<em>资源</em>开放功能...25 2目录管理目录管理应符合jtt 747所有部分相关要求此外目录管理应支持目录结构配置管理并能jtt 1415 1 2022方便快捷地进行信息<em>资源</em>",
+        "id": "0f175a66f526ddfd",
+        "image_id": "7ebd0a808e2711f0a685620ff33f7526-0f175a66f526ddfd",
+        "important_keywords": [],
+        "positions": [
+          [
+            7,
+            88,
+            550,
+            179,
+            191
+          ],
+          [
+            7,
+            67,
+            529,
+            195,
+            207
+          ],
+          [
+            7,
+            67,
+            529,
+            211,
+            222
+          ],
+          [
+            7,
+            65,
+            527,
+            235,
+            246
+          ],
+          [
+            7,
+            88,
+            550,
+            258,
+            270
+          ],
+          [
+            7,
+            86,
+            548,
+            273,
+            285
+          ],
+          [
+            7,
+            86,
+            548,
+            304,
+            316
+          ],
+          [
+            7,
+            110,
+            571,
+            321,
+            332
+          ],
+          [
+            7,
+            65,
+            527,
+            379,
+            391
+          ],
+          [
+            7,
+            88,
+            550,
+            402,
+            414
+          ],
+          [
+            7,
+            67,
+            529,
+            418,
+            430
+          ],
+          [
+            7,
+            65,
+            527,
+            715,
+            727
+          ],
+          [
+            7,
+            89,
+            551,
+            739,
+            750
+          ],
+          [
+            8,
+            67,
+            529,
+            58,
+            70
+          ],
+          [
+            8,
+            66,
+            528,
+            85,
+            97
+          ],
+          [
+            8,
+            66,
+            528,
+            101,
+            113
+          ]
+        ],
+        "similarity": 0.7506107985440054,
+        "term_similarity": 0.826222694362197,
+        "vector_similarity": 0.5741830416348916
+      },
+      {
+        "content": "ICS33.040.40L79备案号：中华人民共和国交通运输行业标准JT/T 1224.1-2018交通运输数据中心互联技术规范第1部分：系统架构模型Technical specification for the interconnection of transportation data center-Part 1 :System architecture modelJT中华人民共和国交通运输部发布目次前言前121 范围……32 规范性引用文43 术语4 基本原则65 互联76 功能要求7 主前言JT/T 1224《交通运输数据中心互联技术规范》分为3个部分：交通运输数JT /T 1224《据中心互第部分系统架构模型———第1 部分：数据———2 ：资源目第部分数据交换本——部—分为3 ：的第。部分本部分按照JT /T 1224 1 给出。的规则起草GB /T 信1. 息1—通2信009 及导航标准化技术。委员会提出并归口本部分由交通运输本部分起草单位：中海网络科技股份有限公司、中国交通通信信息中心、交通运输部科学研究交水运规划设计院有限公司JTJT/T1224.1—2018交通运输数据中心互联技术规范交通运输数据中心互联技1范围1 能要求。JT /T 1224 的本部分规定了交通运输数据中心互联的基本能要求本部分适2 规范性引用文件下列文件对于本文件的应用是必不可少的凡是注日期的引用文件件凡是不注日期的引用文件其最新版本包。括所有的修GB /T 202713 术语和定3. 1 术语和定义",
+        "content_ltks": "ics33 040 40l79 备案号 中华人民共和国 交通运输 行业标准 jtt 1224 1 2018 交通运输 数据中心 互联 技术规范 第1 部分 系统 架构 模型 technic specif for the interconnect of transport data center part 1 system architectur modeljt 中华人民共和国 交通运输 部 发布 目次 前言 前 121 范围 32 规范性 引用 文 43 术语 4 基本 原则 65 互联 76 功能 要求 7 主 前言 jtt 1224 交通运输 数据中心 互联 技术规范 分为 3 个 部分 交通运输 数 jtt 1224 据 中心 互 第部 分系统 架构 模型 第1 部分 数据 2 资源 目 第 部分 数据 交换 本 部 分为 3 的 第 部分 本 部分 按照 jtt 1224 1 给出 的 规则 起草 gbt 信 1 息 1 通 2 信 009 及 导航 标准化 技术 委员会 提出 并 归口 本部 分由 交通运输 本 部分 起草 单位 中 海网络 科技 股份 有限公司 中国 交通 通信 信息中心 交通运输 部 科学研究 交 水运 规划 设计院 有限公司 jtjt t1224 1 2018 交通运输 数据中心 互联 技术规范 交通运输 数据中心 互联 技 1 范围 1 能 要求 jtt 1224 的 本 部分 规定 了 交通运输 数据中心 互联 的 基本 能 要求 本 部分 适 2 规范性 引用 文件 下列 文件 对于 本 文件 的 应用 是 必不可少 的 凡是 注 日期 的 引用 文件 件 凡是 不 注 日期 的 引用 文件 其 最新 版本 包 括 所有 的 修 gbt 202713 术语 和定 31 术语 和 定义",
+        "dataset_id": "54887ce6975411f0851bb6a7ca88af7c",
+        "doc_type_kwd": "",
+        "document_id": "94e4d6fe975411f0b3aeb6a7ca88af7c",
+        "document_keyword": "107_已解密.pdf",
+        "highlight": "ics33 040 40l79备案号中华人民共和国<em>交通运输</em>行业标准jtt 1224 1 2018 <em>交通运输</em>数据中心互联技术规范第1部分系统架构模型technic specif...for the interconnect of transport data center part 1 system architectur modeljt中华人民共和国<em>交通运输</em>部发布目次...前言前 121范围32规范性引用文 43术语4基本原则65互联76功能要求7主前言jtt 1224 <em>交通运输</em>数据中心互联技术规范分为3个部分<em>交通运输</em>...数jtt 1224据中心互第部分系统架构模型第1部分<em>数据</em> 2 <em>资源</em>目第部分<em>数据</em> <em>交换</em>本部分为3的第部分本部分按照jtt 1224 1给出的规则...<em>交通运输</em>部科学研究交水运规划设计院有限公司jtjt t1224 1 2018 <em>交通运输</em>数据中心互联技术规范<em>交通运输</em>数据中心互联技 1范围1能要求jtt 1224",
+        "id": "08197ff5dd83f7d5",
+        "image_id": "54887ce6975411f0851bb6a7ca88af7c-08197ff5dd83f7d5",
+        "important_keywords": [],
+        "positions": [
+          [
+            1,
+            61,
+            542,
+            131,
+            152
+          ],
+          [
+            1,
+            400,
+            881,
+            176,
+            191
+          ],
+          [
+            1,
+            110,
+            591,
+            341,
+            362
+          ],
+          [
+            1,
+            156,
+            637,
+            372,
+            396
+          ],
+          [
+            1,
+            63,
+            544,
+            421,
+            436
+          ],
+          [
+            1,
+            104,
+            585,
+            792,
+            809
+          ],
+          [
+            2,
+            46,
+            527,
+            219,
+            231
+          ],
+          [
+            3,
+            70,
+            551,
+            152,
+            164
+          ],
+          [
+            3,
+            91,
+            572,
+            186,
+            198
+          ],
+          [
+            3,
+            91,
+            572,
+            202,
+            214
+          ],
+          [
+            3,
+            71,
+            552,
+            219,
+            231
+          ],
+          [
+            3,
+            70,
+            551,
+            235,
+            247
+          ],
+          [
+            3,
+            71,
+            552,
+            252,
+            264
+          ],
+          [
+            3,
+            69,
+            550,
+            267,
+            282
+          ],
+          [
+            3,
+            46,
+            527,
+            283,
+            298
+          ],
+          [
+            3,
+            71,
+            552,
+            303,
+            315
+          ],
+          [
+            4,
+            444,
+            925,
+            48,
+            60
+          ],
+          [
+            4,
+            180,
+            661,
+            104,
+            116
+          ],
+          [
+            4,
+            210,
+            691,
+            125,
+            140
+          ],
+          [
+            4,
+            71,
+            552,
+            241,
+            252
+          ],
+          [
+            4,
+            71,
+            552,
+            307,
+            319
+          ],
+          [
+            4,
+            46,
+            527,
+            323,
+            335
+          ],
+          [
+            4,
+            71,
+            552,
+            341,
+            353
+          ],
+          [
+            4,
+            73,
+            554,
+            428,
+            440
+          ]
+        ],
+        "similarity": 0.7334044875934571,
+        "term_similarity": 0.826222694362197,
+        "vector_similarity": 0.5168286717997308
+      },
+      {
+        "content": "ICS33.040.40L79备案号：中华人民共和国交通运输行业标准JT/T 1224.1-2018交通运输数据中心互联技术规范第1部分：系统架构模型Technical specification for the interconnection of transportation data center-Part 1 :System architecture modelJT中华人民共和国交通运输部发布目次前言前121 范围……32 规范性引用文43 术语4 基本原则65 互联76 功能要求7 主前言JT/T 1224《交通运输数据中心互联技术规范》分为3个部分：交通运输数JT /T 1224《据中心互第部分系统架构模型———第1 部分：数据———2 ：资源目第部分数据交换本——部—分为3 ：的第。部分本部分按照JT /T 1224 1 给出。的规则起草GB /T 信1. 息1—通2信009 及导航标准化技术。委员会提出并归口本部分由交通运输本部分起草单位：中海网络科技股份有限公司、中国交通通信信息中心、交通运输部科学研究交水运规划设计院有限公司JTJT/T1224.1—2018交通运输数据中心互联技术规范交通运输数据中心互联技1范围1 能要求。JT /T 1224 的本部分规定了交通运输数据中心互联的基本能要求本部分适2 规范性引用文件下列文件对于本文件的应用是必不可少的凡是注日期的引用文件件凡是不注日期的引用文件其最新版本包。括所有的修GB /T 202713 术语和定3. 1 术语和定义",
+        "content_ltks": "ics33 040 40l79 备案号 中华人民共和国 交通运输 行业标准 jtt 1224 1 2018 交通运输 数据中心 互联 技术规范 第1 部分 系统 架构 模型 technic specif for the interconnect of transport data center part 1 system architectur modeljt 中华人民共和国 交通运输 部 发布 目次 前言 前 121 范围 32 规范性 引用 文 43 术语 4 基本 原则 65 互联 76 功能 要求 7 主 前言 jtt 1224 交通运输 数据中心 互联 技术规范 分为 3 个 部分 交通运输 数 jtt 1224 据 中心 互 第部 分系统 架构 模型 第1 部分 数据 2 资源 目 第 部分 数据 交换 本 部 分为 3 的 第 部分 本 部分 按照 jtt 1224 1 给出 的 规则 起草 gbt 信 1 息 1 通 2 信 009 及 导航 标准化 技术 委员会 提出 并 归口 本部 分由 交通运输 本 部分 起草 单位 中 海网络 科技 股份 有限公司 中国 交通 通信 信息中心 交通运输 部 科学研究 交 水运 规划 设计院 有限公司 jtjt t1224 1 2018 交通运输 数据中心 互联 技术规范 交通运输 数据中心 互联 技 1 范围 1 能 要求 jtt 1224 的 本 部分 规定 了 交通运输 数据中心 互联 的 基本 能 要求 本 部分 适 2 规范性 引用 文件 下列 文件 对于 本 文件 的 应用 是 必不可少 的 凡是 注 日期 的 引用 文件 件 凡是 不 注 日期 的 引用 文件 其 最新 版本 包 括 所有 的 修 gbt 202713 术语 和定 31 术语 和 定义",
+        "dataset_id": "7ebd0a808e2711f0a685620ff33f7526",
+        "doc_type_kwd": "",
+        "document_id": "d119e5f08e2711f0bdfa620ff33f7526",
+        "document_keyword": "290_已解密.pdf",
+        "highlight": "ics33 040 40l79备案号中华人民共和国<em>交通运输</em>行业标准jtt 1224 1 2018 <em>交通运输</em>数据中心互联技术规范第1部分系统架构模型technic specif...for the interconnect of transport data center part 1 system architectur modeljt中华人民共和国<em>交通运输</em>部发布目次...前言前 121范围32规范性引用文 43术语4基本原则65互联76功能要求7主前言jtt 1224 <em>交通运输</em>数据中心互联技术规范分为3个部分<em>交通运输</em>...数jtt 1224据中心互第部分系统架构模型第1部分<em>数据</em> 2 <em>资源</em>目第部分<em>数据</em> <em>交换</em>本部分为3的第部分本部分按照jtt 1224 1给出的规则...<em>交通运输</em>部科学研究交水运规划设计院有限公司jtjt t1224 1 2018 <em>交通运输</em>数据中心互联技术规范<em>交通运输</em>数据中心互联技 1范围1能要求jtt 1224",
+        "id": "496157b389ce7873",
+        "image_id": "7ebd0a808e2711f0a685620ff33f7526-496157b389ce7873",
+        "important_keywords": [],
+        "positions": [
+          [
+            1,
+            61,
+            542,
+            131,
+            152
+          ],
+          [
+            1,
+            400,
+            881,
+            176,
+            191
+          ],
+          [
+            1,
+            110,
+            591,
+            341,
+            362
+          ],
+          [
+            1,
+            156,
+            637,
+            372,
+            396
+          ],
+          [
+            1,
+            63,
+            544,
+            421,
+            436
+          ],
+          [
+            1,
+            104,
+            585,
+            792,
+            809
+          ],
+          [
+            2,
+            46,
+            527,
+            219,
+            231
+          ],
+          [
+            3,
+            70,
+            551,
+            152,
+            164
+          ],
+          [
+            3,
+            91,
+            572,
+            186,
+            198
+          ],
+          [
+            3,
+            91,
+            572,
+            202,
+            214
+          ],
+          [
+            3,
+            71,
+            552,
+            219,
+            231
+          ],
+          [
+            3,
+            70,
+            551,
+            235,
+            247
+          ],
+          [
+            3,
+            71,
+            552,
+            252,
+            264
+          ],
+          [
+            3,
+            69,
+            550,
+            267,
+            282
+          ],
+          [
+            3,
+            46,
+            527,
+            283,
+            298
+          ],
+          [
+            3,
+            71,
+            552,
+            303,
+            315
+          ],
+          [
+            4,
+            444,
+            925,
+            48,
+            60
+          ],
+          [
+            4,
+            180,
+            661,
+            104,
+            116
+          ],
+          [
+            4,
+            210,
+            691,
+            125,
+            140
+          ],
+          [
+            4,
+            71,
+            552,
+            241,
+            252
+          ],
+          [
+            4,
+            71,
+            552,
+            307,
+            319
+          ],
+          [
+            4,
+            46,
+            527,
+            323,
+            335
+          ],
+          [
+            4,
+            71,
+            552,
+            341,
+            353
+          ],
+          [
+            4,
+            73,
+            554,
+            428,
+            440
+          ]
+        ],
+        "similarity": 0.7331837170437967,
+        "term_similarity": 0.826222694362197,
+        "vector_similarity": 0.5160927699675296
+      },
+      {
+        "content": "\n- Visual Type: Flowchart\n- Title: 交通运输数据资源共享交换体系\n- Axes / Legends / Labels: \n  - No axes present.\n  - Labels include:\n    - \"部、省两级交通运输政务部门\"\n    - \"各级地方交通运输政务部门\"\n    - \"部级交通运输数据共享交换平台\"\n    - \"省级交通运输数据共享交换平台\"\n    - \"国家数据共享交换平台\"\n    - \"省级数据共享交换平台\"\n    - Arrows labeled with:\n      - \"数据提供\"\n      - \"数据使用\"\n      - \"提供交通运输行业数据\"\n      - \"提供其他行业数据\"\n      - \"提供地方交通运输行业数据\"\n      - \"提供地方其他行业数据\"\n- Data Points: \n  - The flowchart illustrates directional data exchange between entities. Key relationships:\n    - \"部、省两级交通运输政务部门\" provides and uses data with the \"部级交通运输数据共享交换平台\".\n    - \"各级地方交通运输政务部门\" provides and uses data with the \"省级交通运输数据共享交换平台\".\n    - \"部级交通运输数据共享交换平台\" exchanges data bidirectionally with \"国家数据共享交换平台\" (providing transportation industry data and receiving other industry data).\n    - \"省级交通运输数据共享交换平台\" exchanges data bidirectionally with \"省级数据共享交换平台\" (providing local transportation industry data and receiving local other industry data).\n    - \"部级交通运输数据共享交换平台\" and \"省级交通运输数据共享交换平台\" exchange data bidirectionally, each providing respective industry data.\n- Trends / Insights: \n  - The diagram depicts a hierarchical and interconnected data sharing architecture for transportation data across national, provincial, and local levels.\n  - Centralized platforms at both national and provincial levels act as intermediaries for data exchange between government departments and other platforms.\n  - Emphasis is placed on bidirectional data flow, indicating both data provision and usage across different administrative levels.\n  - The system supports integration of transportation-specific data with other industry data through cross-platform exchanges.\n- Captions / Annotations: \n  - No additional captions or footnotes are present beyond the labels and titles in the diagram.图1　交通运输数据资源共享交换体系架构\n交通运输数据资源共享交换体系\n提供交通运输(\n行业数据、\n数据提供，\n国家数据共享\n部、省两级交通\n部级交通运输数据共享\n交换平台\n运输政务部门\n交换平台\nL\n数据使用\n提供其他\n行业数据\n提供交通运输\n提供地方交通\n行业数据\n运输行业数据\n提供地方交通\n运输行业数据\n数据提供\n各级地方交通\n省级交通运输数据\n省级数据共享\n运输政务部门\nL\n共享交换平台\n交换平台\n数据使用\n提供地方其他\n行业数据",
+        "content_ltks": "visual type flowchart titl 交通运输 数据 资源共享 交换 体系 ax legend label no ax present label includ 部 省 两级 交通运输 政务 部门 各级 地方 交通运输 政务 部门 部级 交通运输 数据共享 交换 平台 省级 交通运输 数据共享 交换 平台 国家 数据共享 交换 平台 省级 数据共享 交换 平台 arrow label with 数据 提供 数据 使用 提供 交通运输 行业 数据 提供 其他 行业 数据 提供 地方 交通运输 行业 数据 提供 地方 其他 行业 数据 datapoint the flowchart illustr direct dataexchang between entiti key relationship 部 省 两级 交通运输 政务 部门 provid and us data with the 部级 交通运输 数据共享 交换 平台 各级 地方 交通运输 政务 部门 provid and us data with the 省级 交通运输 数据共享 交换 平台 部级 交通运输 数据共享 交换 平台 exchang data bidirect with 国家 数据共享 交换 平台 provid transport industri data and receiv other industri data 省级 交通运输 数据共享 交换 平台 exchang data bidirect with 省级 数据共享 交换 平台 provid local transport industri data and receiv local other industri data 部级 交通运输 数据共享 交换 平台 and 省级 交通运输 数据共享 交换 平台 exchang data bidirect each provid respect industri data trend insight the diagram depict a hierarch and interconnect data share architectur for transport data across nation provinci and local level central platform at both nation and provinci level acta intermediari for dataexchang between govern depart and other platform emphasi is place on bidirect dataflow indic both data provis and usag across differ administr level thesystem support integr of transport specif data with other industri data through crossplatform exchang caption annot no addit caption or footnot are present beyond the label and titl in the diagram 图 1 交通运输 数据 资源共享 交换 体系 架构 交通运输 数据 资源共享 交换 体系 提供 交通运输 行业 数据 数据 提供 国家 数据共享 部 省 两级 交通 部级 交通运输 数据共享 交换 平台 运输 政务 部门 交换 平台 l 数据 使用 提供 其他 行业 数据 提供 交通运输 提供 地方 交通 行业 数据 运输 行业 数据 提供 地方 交通 运输 行业 数据 数据 提供 各级 地方 交通 省级 交通运输 数据 省级 数据共享 运输 政务 部门 l 共享 交换 平台 交换 平台 数据 使用 提供 地方 其他 行业 数据",
+        "dataset_id": "7ebd0a808e2711f0a685620ff33f7526",
+        "doc_type_kwd": "image",
+        "document_id": "d350ce1a8e2711f0bdfa620ff33f7526",
+        "document_keyword": "199_已解密.pdf",
+        "highlight": "visual type flowchart titl <em>交通运输</em> <em>数据</em>资源共享<em>交换</em>体系ax legend label no ax present label includ部省两级<em>交通运输</em>...政务部门各级地方<em>交通运输</em>政务部门部级<em>交通运输</em>数据共享<em>交换</em>平台省级<em>交通运输</em>数据共享<em>交换</em>平台国家数据共享<em>交换</em>平台省级数据共享<em>交换</em>平台arrow label...<em>交通运输</em>数据共享<em>交换</em>平台各级地方<em>交通运输</em>政务部门provid and us data with the省级<em>交通运输</em>数据共享<em>交换</em>平台部级<em>交通运输</em>数据共享<em>交换</em>平台exchang...<em>数据</em>资源共享<em>交换</em>体系架构<em>交通运输</em> <em>数据</em>资源共享<em>交换</em>体系提供<em>交通运输</em>行业<em>数据</em> <em>数据</em>提供国家数据共享部省两级交通部级<em>交通运输</em>数据共享<em>交换</em>平台运输政务部门...<em>交换</em>平台l <em>数据</em>使用提供其他行业<em>数据</em>提供<em>交通运输</em>提供地方<em>交通</em>行业<em>数据</em> <em>运输</em>行业<em>数据</em>提供地方<em>交通</em> <em>运输</em>行业<em>数据</em> <em>数据</em>提供各级地方交通省级<em>交通运输</em> <em>数据</em>",
+        "id": "1131bca8bac5dd6f",
+        "image_id": "7ebd0a808e2711f0a685620ff33f7526-1131bca8bac5dd6f",
+        "important_keywords": [],
+        "positions": [
+          [
+            6,
+            98,
+            498,
+            421,
+            624
+          ]
+        ],
+        "similarity": 0.7220985293006996,
+        "term_similarity": 0.7482131786770142,
+        "vector_similarity": 0.6611643474226327
+      },
+      {
+        "content": "\n- Visual Type: Flowchart / Diagram  \n- Title: 交通运输数据资源共享交换体系  \n- Axes / Legends / Labels:  \n  - No axes or legend present.  \n  - Labels include:  \n    - “部、省两级交通运输政务部门”  \n    - “各级地方交通运输政务部门”  \n    - “部级交通运输数据共享交换平台”  \n    - “省级交通运输数据共享交换平台”  \n    - “国家数据共享交换平台”  \n    - “省级数据共享交换平台”  \n    - Arrows labeled with:  \n      - “数据提供”  \n      - “数据使用”  \n      - “提供交通运输行业数据”  \n      - “提供其他行业数据”  \n      - “提供地方交通运输行业数据”  \n      - “提供地方其他行业数据”  \n- Data Points:  \n  - No numerical data points; the diagram represents structural and directional relationships between entities.  \n  - Entities involved:  \n    1. 部、省两级交通运输政务部门  \n    2. 各级地方交通运输政务部门  \n    3. 部级交通运输数据共享交换平台  \n    4. 省级交通运输数据共享交换平台  \n    5. 国家数据共享交换平台  \n    6. 省级数据共享交换平台  \n  - Directional flows indicate data provision and usage between these entities.  \n- Trends / Insights:  \n  - The diagram illustrates a hierarchical and interconnected data sharing architecture for transportation data across different administrative levels (national, provincial, local).  \n  - Data flows bidirectionally between governmental departments and data exchange platforms.  \n  - Centralized platforms (e.g., national and provincial) serve as intermediaries for data exchange between higher-level and lower-level departments.  \n  - Transportation-specific data is shared both vertically (between national and provincial levels) and horizontally (among departments), with additional cross-sector data exchange indicated.  \n- Captions / Annotations:  \n  - No standalone captions or footnotes are visible.  \n  - The title \"交通运输数据资源共享交换体系\" serves as the primary annotation, indicating the overall purpose of the diagram: to depict the framework for sharing and exchanging transportation data resources.图1　交通运输数据资源共享交换体系架构\n交通运输数据资源共享交换体系\n提供交通运输(\n行业数据、\n数据提供，\n国家数据共享\n部、省两级交通\n部级交通运输数据共享\n交换平台\n运输政务部门\n交换平台\nL\n数据使用\n提供其他\n行业数据\n提供交通运输\n提供地方交通\n行业数据\n运输行业数据\n提供地方交通\n运输行业数据\n数据提供\n各级地方交通\n省级交通运输数据\n省级数据共享\n运输政务部门\nL\n共享交换平台\n交换平台\n数据使用\n提供地方其他\n行业数据",
+        "content_ltks": "visual type flowchart diagram titl 交通运输 数据 资源共享 交换 体系 ax legend label no axor legend present label includ 部 省 两级 交通运输 政务 部门 各级 地方 交通运输 政务 部门 部级 交通运输 数据共享 交换 平台 省级 交通运输 数据共享 交换 平台 国家 数据共享 交换 平台 省级 数据共享 交换 平台 arrow label with 数据 提供 数据 使用 提供 交通运输 行业 数据 提供 其他 行业 数据 提供 地方 交通运输 行业 数据 提供 地方 其他 行业 数据 datapoint no numer datapoint the diagram repres structur and direct relationship between entiti entiti involv 1 部 省 两级 交通运输 政务 部门 2 各级 地方 交通运输 政务 部门 3 部级 交通运输 数据共享 交换 平台 4 省级 交通运输 数据共享 交换 平台 5 国家 数据共享 交换 平台 6 省级 数据共享 交换 平台 direct flow indic data provis and usag between these entiti trend insight the diagram illustra hierarch and interconnect data share architectur for transport data across differ administr level nation provinci local dataflow bidirect between government depart and dataexchang platform central platform eg nation and provinci serva intermediari for dataexchang between higher level and lower level depart transport specif data is share both vertic between nation and provinci level and horizont among depart with addit cross sector dataexchang indic caption annot no standalon caption or footnot are visibl the titl 交通运输 数据 资源共享 交换 体系 serfa the primari annot indic the overal purpos of the diagram to depict the framework for share and exchang transport dataresourc 图 1 交通运输 数据 资源共享 交换 体系 架构 交通运输 数据 资源共享 交换 体系 提供 交通运输 行业 数据 数据 提供 国家 数据共享 部 省 两级 交通 部级 交通运输 数据共享 交换 平台 运输 政务 部门 交换 平台 l 数据 使用 提供 其他 行业 数据 提供 交通运输 提供 地方 交通 行业 数据 运输 行业 数据 提供 地方 交通 运输 行业 数据 数据 提供 各级 地方 交通 省级 交通运输 数据 省级 数据共享 运输 政务 部门 l 共享 交换 平台 交换 平台 数据 使用 提供 地方 其他 行业 数据",
+        "dataset_id": "54887ce6975411f0851bb6a7ca88af7c",
+        "doc_type_kwd": "image",
+        "document_id": "94f914a2975411f0b3aeb6a7ca88af7c",
+        "document_keyword": "112_已解密.pdf",
+        "highlight": "部省两级<em>交通运输</em>政务部门各级地方<em>交通运输</em>政务部门部级<em>交通运输</em>数据共享<em>交换</em>平台省级<em>交通运输</em>数据共享<em>交换</em>平台国家数据共享<em>交换</em>平台省级数据共享<em>交换</em>平台...政务部门2各级地方<em>交通运输</em>政务部门3部级<em>交通运输</em>数据共享<em>交换</em>平台4省级<em>交通运输</em>数据共享<em>交换</em>平台5国家数据共享<em>交换</em>平台6省级数据共享<em>交换</em>平台direct...for share and exchang transport dataresourc图1 <em>交通运输</em> <em>数据</em>资源共享<em>交换</em>体系架构<em>交通运输</em> <em>数据</em>资源共享<em>交换</em>体系提供<em>交通运输</em>行业...<em>数据</em> <em>数据</em>提供国家数据共享部省两级交通部级<em>交通运输</em>数据共享<em>交换</em>平台运输政务部门<em>交换</em>平台l <em>数据</em>使用提供其他行业<em>数据</em>提供<em>交通运输</em>提供地方<em>交通</em>行业...<em>数据</em> <em>运输</em>行业<em>数据</em>提供地方<em>交通</em> <em>运输</em>行业<em>数据</em> <em>数据</em>提供各级地方交通省级<em>交通运输</em> <em>数据</em>省级数据共享运输政务部门l共享<em>交换</em>平台<em>交换</em>平台<em>数据</em>使用提供地方",
+        "id": "cb35f2aa1f88b3de",
+        "image_id": "54887ce6975411f0851bb6a7ca88af7c-cb35f2aa1f88b3de",
+        "important_keywords": [],
+        "positions": [
+          [
+            6,
+            98,
+            498,
+            421,
+            624
+          ]
+        ],
+        "similarity": 0.721015025097874,
+        "term_similarity": 0.7482131786770142,
+        "vector_similarity": 0.657552666746547
+      },
+      {
+        "content": "更改了交通运输统计报表数据交换内容(见第5 章,2015 年版的第5 章);——将高速公路承载量监测数据交换内容及其要求更改为“高速公路运输量监测数据交换内容“及要见第章””其求(6 ,2015 年版的第6 章);删除了客运站监测数据交换内容的要求见年版的第章—更改了公路水运支持系统建设项目的数(据2交01换5 要求见第7 章);年版的—删除了车辆、购置税、投资补助农村公路建设项目的数据(交换要7 求,见2015 年版的8. 1);(2015 8. 2);——更改了项目规划编码规则见附录年版的删除了填报单位代码编码(规则见B,201年5 版的附录A. 1);(2015 B)。—请——注意本文件的某些内容可能涉及专利。本文件的发布机构不承担识别专利的责任。本文件由交通运输部综合规划司提出。本文件由交通运输信息通信及导航标准化技术委员会归口本文件起草单位交通运输部科学研究院交通运输部规划。研究院本文件主要起草:人刘娜郭亚茹叶劲松、张晓征宇。、张、韩红云、党欣媛、尚春璐、马景宇、王娜、张平黄莉莉卢子璘黄:海涛、王涛郭、明多徐、志远、本文件及、其所代、替文件的、历次、版本发布、情况为。:",
+        "content_ltks": "更改 了 交通 运输统计 报表 数据交换 内容 见 第 5 章 2015 年 版 的 第 5 章 将 高速公路 承载量 监测数据 交换 内容 及其 要求 更 改为 高速公路 运输量 监测数据 交换 内容 及 要 见 第 章 其 求 6 2015 年 版 的 第 6 章 删除 了 客运站 监测数据 交换 内容 的 要求 见 年 版 的 第 章 更改 了 公路 水运 支持系统 建设项目 的 数 据 2 交 01 换 5 要求 见 第 7 章 年 版 的 删除 了 车辆 购置税 投资 补助 农村公路 建设项目 的 数据 交换 要 7 求 见 2015 年 版 的 81 2015 8 2 更改 了 项目 规划 编码 规则 见 附录 年 版 的 删除 了 填报 单位 代码 编码 规则 见 b 201 年 5 版 的 附录 a1 2015 b 请 注意 本 文件 的 某些 内容 可能 涉及 专利 本 文件 的 发布 机构 不 承担 识别 专利 的 责任 本 文件 由 交通运输 部 综合 规划司 提出 本 文件 由 交通运输 信息 通信 及 导航 标准化 技术 委员会 归口 本 文件 起草 单位 交通 运输 部 科学 研究院 交通 运输 部 规划 研究院 本 文件 主要 起草 人 刘 娜 郭 亚 茹 叶 劲松 张 晓 征 宇 张 韩 红云 党 欣 媛 尚 春 璐 马 景 宇 王 娜 张 平 黄 莉莉 卢 子 璘 黄 海涛 王 涛 郭 明 多 徐 志远 本 文件 及 其 所 代 替 文件 的 历次 版本 发布 情况 为",
+        "dataset_id": "54887ce6975411f0851bb6a7ca88af7c",
+        "doc_type_kwd": "",
+        "document_id": "94a76fee975411f0b3aeb6a7ca88af7c",
+        "document_keyword": "091_已解密.pdf",
+        "highlight": "更改了交通运输统计报表数据交换内容见第5章2015年版的第 5章将高速公路承载量监测数据<em>交换</em>内容及其要求更改为高速公路运输量监测数据<em>交换</em>内容...及要见第章其求6 2015年版的第 6章删除了客运站监测数据<em>交换</em>内容的要求见年版的第章更改了公路水运支持系统建设项目的数据 2交...01换5要求见第7章年版的删除了车辆购置税投资补助农村公路建设项目的 <em>数据</em> <em>交换</em>要7求见 2015年版的81 2015 8 2更改了项目规划...编码规则见 b 201年5版的附录a1 2015 b请注意本文件的某些内容可能涉及专利本文件的发布机构不承担识别专利的责任本文件由 <em>交通运输</em>...部综合规划司提出本文件由 <em>交通运输</em>信息通信及导航标准化技术委员会归口本文件起草单位<em>交通</em> <em>运输</em>部科学研究院<em>交通</em> <em>运输</em>部规划研究院本文件主要起草",
+        "id": "6ea1b7649676c84e",
+        "image_id": "54887ce6975411f0851bb6a7ca88af7c-6ea1b7649676c84e",
+        "important_keywords": [],
+        "positions": [
+          [
+            3,
+            108,
+            547,
+            314,
+            325
+          ],
+          [
+            3,
+            107,
+            546,
+            329,
+            340
+          ],
+          [
+            3,
+            109,
+            548,
+            345,
+            357
+          ],
+          [
+            3,
+            108,
+            547,
+            361,
+            372
+          ],
+          [
+            3,
+            107,
+            546,
+            375,
+            387
+          ],
+          [
+            3,
+            106,
+            545,
+            391,
+            403
+          ],
+          [
+            3,
+            107,
+            546,
+            407,
+            419
+          ],
+          [
+            3,
+            108,
+            547,
+            423,
+            435
+          ],
+          [
+            3,
+            88,
+            528,
+            439,
+            450
+          ],
+          [
+            3,
+            88,
+            528,
+            455,
+            466
+          ],
+          [
+            3,
+            88,
+            528,
+            471,
+            482
+          ],
+          [
+            3,
+            87,
+            527,
+            485,
+            497
+          ],
+          [
+            3,
+            87,
+            527,
+            500,
+            513
+          ],
+          [
+            3,
+            67,
+            506,
+            517,
+            529
+          ],
+          [
+            3,
+            87,
+            527,
+            534,
+            545
+          ]
+        ],
+        "similarity": 0.6964148338478896,
+        "term_similarity": 0.7482131786770142,
+        "vector_similarity": 0.5755520292465991
+      },
+      {
+        "content": "中华人民共和国交通运输行业标准JT/T1049.3-2022代替JT/T1049.3—2016道路运政管理信息系统第3部分：数据资源目录服务接口Road transport administration management information system-Part 3:Data resource directory service interface中华人民共和国交通运输部发布目　次前言……引言IV1　范围………2　规范性引用文件3　术语和定义、缩略语…3. 1　术语和定义3. 2　缩略语……4　接口要求4. 1　接口方式4. 2　接口交换过程2接口数据结构25　业务功能………35. 1　业务类型及业务接口代码5. 2　经营业户信息查询5. 3　营运车辆信息查询……115. 4　从业人员信息查询……225. 5　营运线路信息查询…285. 6　执法信息查询…335. 7　交通运输主管部门信息查询…365. 8　道路运输业务数据代码查询…375. 9　部委协同信息查询……39　附录A(规范性)　代码表51前　　言本文件按照GB /T 1. 1—2020《标准化工作导则　第1 部分:标准化文件的结构和起草规则》的规定起草。本文件是的第部分。JT /T 1049 已经发布了以下部分:第部JT 分/T 总10体49 术要3 1 :技求—;—第2 部分:数据资源采集接口;第部分数据资源目录服务接口;—第3 分:4 部:跨省数据交换———;———第5 部分:省级业务系统接口。本文件代替道路运政管理信息系统第部分数据资源目录服务接口》,与",
+        "content_ltks": "中华人民共和国 交通运输 行业标准 jt t1049 3 2022 代替 jt t1049 3 2016 道路 运 政 管理信息系统 第 3 部分 数据 资源 目录 服务 接口 road transport administr manag inform system part 3 dataresourc directori servic interfac 中华人民共和国 交通运输 部 发布 目 次 前言 引言 iv1 范围 2 规范性 引用 文件 3 术语 和 定义 缩略语 31 术语 和 定义 32 缩略语 4 接口 要求 4 1 接口方式 42 接口 交换 过程 2 接口 数据结构 25 业务 功能 35 1 业务 类型 及 业务 接口 代码 52 经营 业户 信息 查询 53 营运 车辆 信息 查询 115 4 从业人员 信息 查询 225 5 营运 线路 信息 查询 285 6 执法 信息 查询 335 7 交通运输 主管部门 信息 查询 3658 道路 运输 业务 数据 代码 查询 375 9 部委 协同 信息 查询 39 附录 a 规范性 代码 表 51 前 言 本 文件 按照 gbt 11 2020 标准化 工作 导 则 第1 部分 标准化 文件 的 结构 和 起草 规则 的 规定 起草 本 文件 是 的 第 部分 jtt 1049 已经 发布 了 以下 部分 第部 jt 分 t 总 10 体 49 术 要 31 技 求 第 2 部分 数据 资源 采集 接口 第 部分 数据 资源 目录 服务 接口 第 3 分 4 部 跨省 数据交换 第 5 部分 省级 业务 系统 接口 本 文件 代替 道路 运 政 管理信息系统 第 部分 数据 资源 目录 服务 接口 与",
+        "dataset_id": "7ebd0a808e2711f0a685620ff33f7526",
+        "doc_type_kwd": "",
+        "document_id": "cff7b33c8e2711f0bdfa620ff33f7526",
+        "document_keyword": "272_已解密.pdf",
+        "highlight": "中华人民共和国<em>交通运输</em>行业标准jt t1049 3 2022代替jt t1049 3 2016道路运政管理信息系统第 3部分<em>数据</em> <em>资源</em>目录服务接口road transport...administr manag inform system part 3 dataresourc directori servic interfac中华人民共和国<em>交通运输</em>部发布目次前言...引言iv1范围2规范性引用文件3术语和定义缩略语31术语和定义32缩略语4接口要求4 1接口方式42接口<em>交换</em>过程2接口数据结构25业务功能...类型及业务接口代码52经营业户信息查询53营运车辆信息查询115 4从业人员信息查询225 5营运线路信息查询285 6执法信息查询335 7 <em>交通运输</em>...<em>资源</em>采集接口第部分<em>数据</em> <em>资源</em>目录服务接口第 3分4部跨省数据交换第 5部分省级业务系统接口本文件代替道路运政管理信息系统第部分<em>数据</em> <em>资源</em>目录",
+        "id": "9c7af4ce557a814b",
+        "image_id": "7ebd0a808e2711f0a685620ff33f7526-9c7af4ce557a814b",
+        "important_keywords": [],
+        "positions": [
+          [
+            1,
+            60,
+            535,
+            131,
+            152
+          ],
+          [
+            1,
+            401,
+            876,
+            178,
+            191
+          ],
+          [
+            1,
+            414,
+            889,
+            196,
+            208
+          ],
+          [
+            1,
+            102,
+            578,
+            370,
+            391
+          ],
+          [
+            1,
+            153,
+            628,
+            440,
+            453
+          ],
+          [
+            1,
+            103,
+            579,
+            783,
+            801
+          ],
+          [
+            2,
+            63,
+            538,
+            195,
+            210
+          ],
+          [
+            2,
+            62,
+            537,
+            216,
+            231
+          ],
+          [
+            2,
+            64,
+            540,
+            239,
+            251
+          ],
+          [
+            2,
+            75,
+            550,
+            260,
+            272
+          ],
+          [
+            2,
+            74,
+            549,
+            281,
+            293
+          ],
+          [
+            2,
+            73,
+            548,
+            323,
+            336
+          ],
+          [
+            2,
+            74,
+            549,
+            346,
+            355
+          ],
+          [
+            2,
+            64,
+            540,
+            388,
+            396
+          ],
+          [
+            2,
+            74,
+            549,
+            407,
+            419
+          ],
+          [
+            2,
+            75,
+            550,
+            428,
+            440
+          ],
+          [
+            2,
+            74,
+            549,
+            449,
+            460
+          ],
+          [
+            2,
+            75,
+            550,
+            470,
+            481
+          ],
+          [
+            2,
+            75,
+            550,
+            491,
+            502
+          ],
+          [
+            2,
+            76,
+            551,
+            512,
+            523
+          ],
+          [
+            2,
+            75,
+            550,
+            534,
+            544
+          ],
+          [
+            2,
+            76,
+            551,
+            555,
+            565
+          ],
+          [
+            2,
+            76,
+            551,
+            576,
+            586
+          ],
+          [
+            2,
+            66,
+            541,
+            596,
+            606
+          ],
+          [
+            3,
+            87,
+            562,
+            158,
+            170
+          ],
+          [
+            3,
+            87,
+            563,
+            191,
+            202
+          ],
+          [
+            3,
+            108,
+            583,
+            206,
+            218
+          ],
+          [
+            3,
+            107,
+            582,
+            222,
+            234
+          ],
+          [
+            3,
+            107,
+            582,
+            238,
+            250
+          ],
+          [
+            3,
+            107,
+            582,
+            254,
+            265
+          ],
+          [
+            3,
+            94,
+            569,
+            270,
+            281
+          ],
+          [
+            3,
+            87,
+            563,
+            286,
+            297
+          ]
+        ],
+        "similarity": 0.690179595442614,
+        "term_similarity": 0.7451668019352267,
+        "vector_similarity": 0.5618761136265178
+      },
+      {
+        "content": "ICS 35.240.60R07ICS 3中华人民共和国交通运输行业标准输行业标准交通运输安全应急资源数据元运输安全应急资源第1 部分：公路nsportation securi中华人民共和国交通运输部发布目次前言 前言范围…………1 规范性引用文2 术语和定义………………3 数据元编制4 基本 4. 1 分类………… 4. 2 版本………………………… 4. 3 公路安全应急资源数据元……………………5 应急机…… 5. 1 、基础设施……… 5. 2 应急装备……… 5. 3 应急物资……………………………… 5. 4 应急预案知识案例培训及演练…… 5. 5 、、、公路安全应急资源数据元值域代码集……6 公路安全应急管理机构…… 6. 1 行政区划名称与代码………… 干部职务名……6. 26. 3 客运站代码………46. 4 客运站分类与代码……………………6. 5 综合客运枢纽对外交通方式与代码……………6. 6 综合客运枢纽衔接城市客运…6. 7 综合客运枢纽分类与代码……………6. 8 ·……6. 9 货运站代码…………6. 10 货运站级别与……6. 11 物资储备点代…6. 12 车辆类型与……JT/T 1140.1—2017JT /T 1140. 1—2017应急物资分类代6. 15 应急预案类型代码…6. 16 应急预案级别类型代码……166. 17 16JTJT/T 1140.1—2017",
+        "content_ltks": "ic 35 240 60r07ic 3 中华人民共和国 交通运输 行业标准 输 行业标准 交通运输 安全 应急 资源 数据 元 运输 安全 应急 资源 第1 部分 公路 nsportat securi 中华人民共和国 交通运输 部 发布 目次 前言 前言 范围 1 规范性 引用 文 2 术语 和 定义 3 数据 元 编制 4 基本 4 1 分类 42 版本 43 公路 安全 应急 资源 数据 元 5 应急 机 51 基础设施 52 应急 装备 53 应急 物资 54 应急 预案 知识 案例 培训 及 演练 55 公路 安全 应急 资源 数据 元 值域 代码 集 6 公路 安全 应急 管理机构 61 行政区划 名称 与 代码 干部 职务 名 6 263 客运站 代码 46 4 客运站 分类 与 代码 65 综合 客运 枢纽 对外 交通 方式 与 代码 66 综合 客运 枢纽 衔接 城市 客运 67 综合 客运 枢纽 分类 与 代码 68 69 货运站 代码 6 10 货运站 级别 与 611 物资 储备 点 代 6 12 车辆 类型 与 jtt 1140 1 2017jt t 1140 1 2017 应急 物资 分类 代 6 15 应急 预案 类型 代码 6 16 应急 预案 级别 类型 代码 166 17 16jtjt t 1140 1 2017",
+        "dataset_id": "7ebd0a808e2711f0a685620ff33f7526",
+        "doc_type_kwd": "",
+        "document_id": "d2b9e6a88e2711f0bdfa620ff33f7526",
+        "document_keyword": "043_已解密.pdf",
+        "highlight": "ic 35 240 60r07ic 3中华人民共和国<em>交通运输</em>行业标准输行业标准<em>交通运输</em>安全应急<em>资源</em> <em>数据</em>元运输安全应急<em>资源</em>第1部分公路nsportat securi...中华人民共和国<em>交通运输</em>部发布目次前言前言范围1规范性引用文 2术语和定义3 <em>数据</em>元编制4基本4 1分类42版本43公路安全应急<em>资源</em> <em>数据</em>元5...应急机 51基础设施52应急装备53应急物资54应急预案知识案例培训及演练55公路安全应急<em>资源</em> <em>数据</em>元值域代码集 6公路安全应急管理机构61",
+        "id": "c1355ec94dabab40",
+        "image_id": "7ebd0a808e2711f0a685620ff33f7526-c1355ec94dabab40",
+        "important_keywords": [],
+        "positions": [
+          [
+            1,
+            60,
+            537,
+            130,
+            151
+          ],
+          [
+            1,
+            121,
+            598,
+            336,
+            357
+          ],
+          [
+            1,
+            211,
+            687,
+            368,
+            392
+          ],
+          [
+            1,
+            110,
+            586,
+            419,
+            434
+          ],
+          [
+            1,
+            103,
+            580,
+            783,
+            800
+          ],
+          [
+            2,
+            63,
+            539,
+            222,
+            237
+          ],
+          [
+            2,
+            63,
+            540,
+            245,
+            257
+          ],
+          [
+            2,
+            74,
+            551,
+            310,
+            320
+          ],
+          [
+            2,
+            64,
+            541,
+            331,
+            341
+          ],
+          [
+            2,
+            75,
+            552,
+            352,
+            362
+          ],
+          [
+            2,
+            74,
+            551,
+            393,
+            405
+          ],
+          [
+            2,
+            74,
+            551,
+            414,
+            426
+          ],
+          [
+            2,
+            74,
+            551,
+            435,
+            448
+          ],
+          [
+            2,
+            64,
+            541,
+            456,
+            467
+          ],
+          [
+            2,
+            74,
+            551,
+            477,
+            489
+          ],
+          [
+            2,
+            75,
+            552,
+            498,
+            509
+          ],
+          [
+            2,
+            74,
+            551,
+            520,
+            530
+          ],
+          [
+            2,
+            100,
+            576,
+            540,
+            551
+          ],
+          [
+            2,
+            100,
+            576,
+            563,
+            572
+          ],
+          [
+            2,
+            75,
+            552,
+            583,
+            594
+          ],
+          [
+            2,
+            76,
+            553,
+            604,
+            614
+          ],
+          [
+            2,
+            76,
+            553,
+            626,
+            635
+          ],
+          [
+            2,
+            72,
+            549,
+            644,
+            659
+          ],
+          [
+            2,
+            75,
+            552,
+            687,
+            699
+          ],
+          [
+            2,
+            75,
+            552,
+            708,
+            720
+          ],
+          [
+            2,
+            75,
+            552,
+            731,
+            741
+          ],
+          [
+            2,
+            75,
+            552,
+            750,
+            762
+          ],
+          [
+            3,
+            66,
+            543,
+            63,
+            75
+          ],
+          [
+            3,
+            73,
+            550,
+            89,
+            104
+          ],
+          [
+            3,
+            75,
+            552,
+            133,
+            144
+          ],
+          [
+            3,
+            74,
+            551,
+            155,
+            163
+          ],
+          [
+            4,
+            430,
+            907,
+            63,
+            75
+          ]
+        ],
+        "similarity": 0.6804964057168722,
+        "term_similarity": 0.7420665992081691,
+        "vector_similarity": 0.5368326209038463
+      },
+      {
+        "content": "ICS 35.240.60R07ICS 3中华人民共和国交通运输行业标准输行业标准交通运输安全应急资源数据元运输安全应急资源第1 部分：公路nsportation securi中华人民共和国交通运输部发布目次前言 前言范围…………1 规范性引用文2 术语和定义………………3 数据元编制4 基本 4. 1 分类………… 4. 2 版本………………………… 4. 3 公路安全应急资源数据元……………………5 应急机…… 5. 1 、基础设施……… 5. 2 应急装备……… 5. 3 应急物资……………………………… 5. 4 应急预案知识案例培训及演练…… 5. 5 、、、公路安全应急资源数据元值域代码集……6 公路安全应急管理机构…… 6. 1 行政区划名称与代码………… 干部职务名……6. 26. 3 客运站代码………46. 4 客运站分类与代码……………………6. 5 综合客运枢纽对外交通方式与代码……………6. 6 综合客运枢纽衔接城市客运…6. 7 综合客运枢纽分类与代码……………6. 8 ·……6. 9 货运站代码…………6. 10 货运站级别与……6. 11 物资储备点代…6. 12 车辆类型与……JT/T 1140.1—2017JT /T 1140. 1—2017应急物资分类代6. 15 应急预案类型代码…6. 16 应急预案级别类型代码……166. 17 16JTJT/T 1140.1—2017",
+        "content_ltks": "ic 35 240 60r07ic 3 中华人民共和国 交通运输 行业标准 输 行业标准 交通运输 安全 应急 资源 数据 元 运输 安全 应急 资源 第1 部分 公路 nsportat securi 中华人民共和国 交通运输 部 发布 目次 前言 前言 范围 1 规范性 引用 文 2 术语 和 定义 3 数据 元 编制 4 基本 4 1 分类 42 版本 43 公路 安全 应急 资源 数据 元 5 应急 机 51 基础设施 52 应急 装备 53 应急 物资 54 应急 预案 知识 案例 培训 及 演练 55 公路 安全 应急 资源 数据 元 值域 代码 集 6 公路 安全 应急 管理机构 61 行政区划 名称 与 代码 干部 职务 名 6 263 客运站 代码 46 4 客运站 分类 与 代码 65 综合 客运 枢纽 对外 交通 方式 与 代码 66 综合 客运 枢纽 衔接 城市 客运 67 综合 客运 枢纽 分类 与 代码 68 69 货运站 代码 6 10 货运站 级别 与 611 物资 储备 点 代 6 12 车辆 类型 与 jtt 1140 1 2017jt t 1140 1 2017 应急 物资 分类 代 6 15 应急 预案 类型 代码 6 16 应急 预案 级别 类型 代码 166 17 16jtjt t 1140 1 2017",
+        "dataset_id": "54887ce6975411f0851bb6a7ca88af7c",
+        "doc_type_kwd": "",
+        "document_id": "96dfbb22975411f0b3aeb6a7ca88af7c",
+        "document_keyword": "031_已解密.pdf",
+        "highlight": "ic 35 240 60r07ic 3中华人民共和国<em>交通运输</em>行业标准输行业标准<em>交通运输</em>安全应急<em>资源</em> <em>数据</em>元运输安全应急<em>资源</em>第1部分公路nsportat securi...中华人民共和国<em>交通运输</em>部发布目次前言前言范围1规范性引用文 2术语和定义3 <em>数据</em>元编制4基本4 1分类42版本43公路安全应急<em>资源</em> <em>数据</em>元5...应急机 51基础设施52应急装备53应急物资54应急预案知识案例培训及演练55公路安全应急<em>资源</em> <em>数据</em>元值域代码集 6公路安全应急管理机构61",
+        "id": "341cdafc46b2d05f",
+        "image_id": "54887ce6975411f0851bb6a7ca88af7c-341cdafc46b2d05f",
+        "important_keywords": [],
+        "positions": [
+          [
+            1,
+            60,
+            537,
+            130,
+            151
+          ],
+          [
+            1,
+            121,
+            598,
+            336,
+            357
+          ],
+          [
+            1,
+            211,
+            687,
+            368,
+            392
+          ],
+          [
+            1,
+            110,
+            586,
+            419,
+            434
+          ],
+          [
+            1,
+            103,
+            580,
+            783,
+            800
+          ],
+          [
+            2,
+            63,
+            539,
+            222,
+            237
+          ],
+          [
+            2,
+            63,
+            540,
+            245,
+            257
+          ],
+          [
+            2,
+            74,
+            551,
+            310,
+            320
+          ],
+          [
+            2,
+            64,
+            541,
+            331,
+            341
+          ],
+          [
+            2,
+            75,
+            552,
+            352,
+            362
+          ],
+          [
+            2,
+            74,
+            551,
+            393,
+            405
+          ],
+          [
+            2,
+            74,
+            551,
+            414,
+            426
+          ],
+          [
+            2,
+            74,
+            551,
+            435,
+            448
+          ],
+          [
+            2,
+            64,
+            541,
+            456,
+            467
+          ],
+          [
+            2,
+            74,
+            551,
+            477,
+            489
+          ],
+          [
+            2,
+            75,
+            552,
+            498,
+            509
+          ],
+          [
+            2,
+            74,
+            551,
+            520,
+            530
+          ],
+          [
+            2,
+            100,
+            576,
+            540,
+            551
+          ],
+          [
+            2,
+            100,
+            576,
+            563,
+            572
+          ],
+          [
+            2,
+            75,
+            552,
+            583,
+            594
+          ],
+          [
+            2,
+            76,
+            553,
+            604,
+            614
+          ],
+          [
+            2,
+            76,
+            553,
+            626,
+            635
+          ],
+          [
+            2,
+            72,
+            549,
+            644,
+            659
+          ],
+          [
+            2,
+            75,
+            552,
+            687,
+            699
+          ],
+          [
+            2,
+            75,
+            552,
+            708,
+            720
+          ],
+          [
+            2,
+            75,
+            552,
+            731,
+            741
+          ],
+          [
+            2,
+            75,
+            552,
+            750,
+            762
+          ],
+          [
+            3,
+            66,
+            543,
+            63,
+            75
+          ],
+          [
+            3,
+            73,
+            550,
+            89,
+            104
+          ],
+          [
+            3,
+            75,
+            552,
+            133,
+            144
+          ],
+          [
+            3,
+            74,
+            551,
+            155,
+            163
+          ],
+          [
+            4,
+            430,
+            907,
+            63,
+            75
+          ]
+        ],
+        "similarity": 0.6798165655017332,
+        "term_similarity": 0.7420665992081691,
+        "vector_similarity": 0.5345664868533828
+      },
+      {
+        "content": "JT /T 1415. 2—2022　　2 :JT /T 1415. 3—2022　交通运输数据资源交换与共享　第3 部分:数据格式与接口3　术语和定义下列术语和定义适用于本文件。3. 1国家数据共享交换平台　national data sharing and exchange platform依托电子政务外网建设,满足跨部门、跨层级、跨地域数据共享需求的信息系统。3. 2　省级数据共享交换平台　provincial data sharing and exchange platform支撑省级行政区内数据资源共享交换的信息系统。3. 3　国家数据共享交换平台体系　national data sharing exchange platform system由国家数据共享交换平台省级数据共享交换平台地市级数据共享交换平台等多级平台组成的体系。注:地市级数据共享交换平台、通过省级数据共享交换平台、与国家数据共享交换平台对接。3. 4　部级交通运输数据共享交换平台　ministerial transport data sharing and exchange platform支撑交通运输行业部内、部省、省省政务部门之间数据共享交换的信息系统。3. 5　省级交通运输数据共享交换平台　provincial transport data sharing and exchange platform支撑本省(自治区、直辖市)交通运输政务部门间数据共享交换的信息系统。3. 6　交换通道　exchange channel构建在物理通信链路之上、连接发送节点和接收节点,可按照特定协议实现文件、报文等消息内容JT /T 1415. 1—2022的高效、可靠、安全传输的数据传输通道。3. 7　交换使用方　exchange user使用交换通道传输数据的部门。3. 8　资源提供方　resource supplier",
+        "content_ltks": "jtt 1415 2 2022 2 jtt 1415 3 2022 交通运输 数据 资源 交换 与 共享 第 3 部分 数据格式 与 接口 3 术语 和 定义 下列 术语 和 定义 适用 于 本 文件 31 国家 数据共享 交换 平台 nation data share and exchang platform 依托 电子政务 外网 建设 满足 跨部门 跨 层级 跨 地域 数据共享 需求 的 信息系统 32 省级 数据共享 交换 平台 provinci data share and exchang platform 支撑 省级 行政区 内 数据 资源共享 交换 的 信息系统 33 国家 数据共享 交换 平台 体系 nation data share exchang platform system 由 国家 数据共享 交换 平台 省级 数据共享 交换 平台 地市级 数据共享 交换 平台 等 多级 平台 组成 的 体系 注 地市级 数据共享 交换 平台 通过 省级 数据共享 交换 平台 与 国家 数据共享 交换 平台 对接 34 部级 交通运输 数据共享 交换 平台 ministeri transport data share and exchang platform 支撑 交通运输 行业 部 内 部 省 省省 政务 部门 之间 数据共享 交换 的 信息系统 35 省级 交通运输 数据共享 交换 平台 provinci transport data share and exchang platform 支撑 本省 自治区 直辖市 交通运输 政务 部门 间 数据共享 交换 的 信息系统 36 交换 通道 exchang channel 构建 在 物理 通信 链路 之上 连接 发送 节点 和 接收 节点 可 按照 特定 协议 实现 文件 报文 等 消息 内容 jtt 1415 1 2022 的 高效 可靠 安全 传输 的 数据传输 通道 37 交换 使用 方 exchang user 使用 交换 通道 传输数据 的 部门 38 资源 提供 方 resourc supplier",
+        "dataset_id": "54887ce6975411f0851bb6a7ca88af7c",
+        "doc_type_kwd": "",
+        "document_id": "94f914a2975411f0b3aeb6a7ca88af7c",
+        "document_keyword": "112_已解密.pdf",
+        "highlight": "jtt 1415 2 2022 2 jtt 1415 3 2022 <em>交通运输</em> <em>数据</em> <em>资源</em> <em>交换</em>与共享第 3部分数据格式与接口3术语和定义下列术语和定义适用于本文件...32省级数据共享<em>交换</em>平台provinci data share and exchang platform支撑省级行政区内 <em>数据</em>资源共享<em>交换</em>的信息系统33国家数据共享<em>交换</em>...组成的体系注地市级数据共享<em>交换</em>平台通过省级数据共享<em>交换</em>平台与国家数据共享<em>交换</em>平台对接34部级<em>交通运输</em>数据共享<em>交换</em>平台ministeri transport...data share and exchang platform支撑<em>交通运输</em>行业部内部省省省政务部门之间数据共享<em>交换</em>的信息系统35省级<em>交通运输</em>数据共享<em>交换</em>平台...使用方 exchang user使用<em>交换</em>通道传输数据的部门38 <em>资源</em>提供方 resourc supplier",
+        "id": "70f6b505fc614e0d",
+        "image_id": "54887ce6975411f0851bb6a7ca88af7c-70f6b505fc614e0d",
+        "important_keywords": [],
+        "positions": [
+          [
+            5,
+            87,
+            526,
+            383,
+            394
+          ],
+          [
+            5,
+            88,
+            527,
+            446,
+            458
+          ],
+          [
+            5,
+            87,
+            525,
+            478,
+            490
+          ],
+          [
+            5,
+            87,
+            526,
+            493,
+            505
+          ],
+          [
+            5,
+            87,
+            526,
+            525,
+            537
+          ],
+          [
+            5,
+            89,
+            527,
+            541,
+            552
+          ],
+          [
+            5,
+            87,
+            525,
+            572,
+            585
+          ],
+          [
+            5,
+            88,
+            527,
+            589,
+            600
+          ],
+          [
+            5,
+            84,
+            522,
+            603,
+            615
+          ],
+          [
+            5,
+            88,
+            527,
+            636,
+            648
+          ],
+          [
+            5,
+            89,
+            527,
+            650,
+            663
+          ],
+          [
+            5,
+            88,
+            527,
+            683,
+            695
+          ],
+          [
+            5,
+            88,
+            527,
+            699,
+            710
+          ],
+          [
+            5,
+            88,
+            527,
+            746,
+            757
+          ],
+          [
+            6,
+            66,
+            504,
+            57,
+            68
+          ],
+          [
+            6,
+            66,
+            504,
+            85,
+            96
+          ],
+          [
+            6,
+            87,
+            526,
+            131,
+            144
+          ]
+        ],
+        "similarity": 0.651186827162157,
+        "term_similarity": 0.6641109095082562,
+        "vector_similarity": 0.6210306350212589
+      }
+    ],
+    "doc_aggs": [
+      {
+        "count": 5,
+        "doc_id": "94f914a2975411f0b3aeb6a7ca88af7c",
+        "doc_name": "112_已解密.pdf"
+      },
+      {
+        "count": 4,
+        "doc_id": "d350ce1a8e2711f0bdfa620ff33f7526",
+        "doc_name": "199_已解密.pdf"
+      },
+      {
+        "count": 2,
+        "doc_id": "d02d95e28e2711f0bdfa620ff33f7526",
+        "doc_name": "197_已解密.pdf"
+      },
+      {
+        "count": 2,
+        "doc_id": "95dd4406975411f0b3aeb6a7ca88af7c",
+        "doc_name": "186_已解密.pdf"
+      },
+      {
+        "count": 2,
+        "doc_id": "d2b9e6a88e2711f0bdfa620ff33f7526",
+        "doc_name": "043_已解密.pdf"
+      },
+      {
+        "count": 2,
+        "doc_id": "96dfbb22975411f0b3aeb6a7ca88af7c",
+        "doc_name": "031_已解密.pdf"
+      },
+      {
+        "count": 1,
+        "doc_id": "94fccca0975411f0b3aeb6a7ca88af7c",
+        "doc_name": "113_已解密.pdf"
+      },
+      {
+        "count": 1,
+        "doc_id": "d353a7de8e2711f0bdfa620ff33f7526",
+        "doc_name": "200_已解密.pdf"
+      },
+      {
+        "count": 1,
+        "doc_id": "cffa9b068e2711f0bdfa620ff33f7526",
+        "doc_name": "273_已解密.pdf"
+      },
+      {
+        "count": 1,
+        "doc_id": "d356b2808e2711f0bdfa620ff33f7526",
+        "doc_name": "201_已解密.pdf"
+      },
+      {
+        "count": 1,
+        "doc_id": "95008d68975411f0b3aeb6a7ca88af7c",
+        "doc_name": "114_已解密.pdf"
+      },
+      {
+        "count": 1,
+        "doc_id": "96e38efa975411f0b3aeb6a7ca88af7c",
+        "doc_name": "032_已解密.pdf"
+      },
+      {
+        "count": 1,
+        "doc_id": "d2bcdcbe8e2711f0bdfa620ff33f7526",
+        "doc_name": "044_已解密.pdf"
+      },
+      {
+        "count": 1,
+        "doc_id": "d13c6ef48e2711f0bdfa620ff33f7526",
+        "doc_name": "274_已解密.pdf"
+      },
+      {
+        "count": 1,
+        "doc_id": "959be74a975411f0b3aeb6a7ca88af7c",
+        "doc_name": "169_已解密.pdf"
+      },
+      {
+        "count": 1,
+        "doc_id": "94e4d6fe975411f0b3aeb6a7ca88af7c",
+        "doc_name": "107_已解密.pdf"
+      },
+      {
+        "count": 1,
+        "doc_id": "d119e5f08e2711f0bdfa620ff33f7526",
+        "doc_name": "290_已解密.pdf"
+      },
+      {
+        "count": 1,
+        "doc_id": "94a76fee975411f0b3aeb6a7ca88af7c",
+        "doc_name": "091_已解密.pdf"
+      },
+      {
+        "count": 1,
+        "doc_id": "cff7b33c8e2711f0bdfa620ff33f7526",
+        "doc_name": "272_已解密.pdf"
+      }
+    ],
+    "total": 60
+  }
+}
